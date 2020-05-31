@@ -1,0 +1,391 @@
+{
+  "page": 1,
+  "total_results": 2892,
+  "total_pages": 145,
+  "results": [
+    {
+      "popularity": 17.913,
+      "vote_count": 2641,
+      "video": false,
+      "poster_path": "\/8zObFCn79YqWP4ssCliPpEjAgPF.jpg",
+      "id": 321258,
+      "adult": false,
+      "backdrop_path": "\/2fGoERHAkHkXVmAs7316aGNEybA.jpg",
+      "original_language": "en",
+      "original_title": "The Boy",
+      "genre_ids": [
+        27,
+        9648,
+        53
+      ],
+      "title": "The Boy",
+      "vote_average": 5.9,
+      "overview": "An American nanny is shocked that her new English family's boy is actually a life-sized doll. After she violates a list of strict rules, disturbing events make her believe that the doll is really alive.",
+      "release_date": "2016-01-22"
+    },
+    {
+      "popularity": 11.509,
+      "vote_count": 398,
+      "video": false,
+      "poster_path": "\/fSRdHBtisU0zhks4OjKezI3jnt7.jpg",
+      "id": 9900,
+      "adult": false,
+      "backdrop_path": "\/dhoyAlBnKkvDYVNgBEctJjy7U5k.jpg",
+      "original_language": "en",
+      "original_title": "Grandma's Boy",
+      "genre_ids": [
+        35
+      ],
+      "title": "Grandma's Boy",
+      "vote_average": 6.7,
+      "overview": "Even though he's 35, Alex acts more like he's 13, spending his days as the world's oldest video game tester and his evenings developing the next big Xbox game. But he gets kicked out of his apartment and is forced to move in with his grandmother.",
+      "release_date": "2006-01-06"
+    },
+    {
+      "popularity": 15.385,
+      "vote_count": 882,
+      "video": false,
+      "poster_path": "\/tzPx5epqEYC8krWv59bBCwlIbBT.jpg",
+      "id": 16577,
+      "adult": false,
+      "backdrop_path": "\/qXD5vfFe1blOXJbOHXlU5CYJMQB.jpg",
+      "original_language": "en",
+      "original_title": "Astro Boy",
+      "genre_ids": [
+        28,
+        16,
+        878,
+        10751
+      ],
+      "title": "Astro Boy",
+      "vote_average": 6.1,
+      "overview": "Set in the futuristic Metro City, Astro Boy (Atom) is a young robot with incredible powers created by a brilliant scientist in the image of the son he had lost. Unable to fulfill his creator's expectations, Astro embarks on a journey in search of acceptance, experiencing betrayal and a netherworld of robot gladiators, before returning to save Metro City and reconcile with the father who rejected him.",
+      "release_date": "2009-10-15"
+    },
+    {
+      "popularity": 14.863,
+      "vote_count": 1078,
+      "video": false,
+      "poster_path": "\/i7gsLrNxpSf8NF5IZIrcOEfMyA3.jpg",
+      "id": 451915,
+      "adult": false,
+      "backdrop_path": "\/sOhtC4cmaYPOlcjXCWxxrx2NKKn.jpg",
+      "original_language": "en",
+      "original_title": "Beautiful Boy",
+      "genre_ids": [
+        18
+      ],
+      "title": "Beautiful Boy",
+      "vote_average": 7.5,
+      "overview": "After he and his first wife separate, journalist David Sheff struggles to help their teenage son, who goes from experimenting with drugs to becoming devastatingly addicted to methamphetamine.",
+      "release_date": "2018-10-12"
+    },
+    {
+      "popularity": 9.37,
+      "vote_count": 192,
+      "video": false,
+      "poster_path": "\/jOcwOnCwTbCvJm7jAbeSo4Jgv0H.jpg",
+      "id": 39356,
+      "adult": false,
+      "backdrop_path": "\/vFrXVHe9Wjwn60zWeL2uYvwZUgn.jpg",
+      "original_language": "en",
+      "original_title": "Boy",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "title": "Boy",
+      "vote_average": 7.5,
+      "overview": "It's 1984, and Michael Jackson is king - even in Waihau Bay, New Zealand. Here we meet Boy, an 11-year-old who lives on a farm with his gran, a goat, and his younger brother, Rocky (who thinks he has magic powers). Shortly after Gran leaves for a week, Boy's father, Alamein, appears out of the blue. Having imagined a heroic version of his father during his absence, Boy comes face to face with the real version-an incompetent hoodlum who has returned to find a bag of money he buried years before. This is where the goat enters.",
+      "release_date": "2010-02-14"
+    },
+    {
+      "popularity": 24.784,
+      "vote_count": 409,
+      "video": false,
+      "poster_path": "\/tIpGQ9uuII7QVFF0GHCFTJFfXve.jpg",
+      "id": 555974,
+      "adult": false,
+      "backdrop_path": "\/rpGYHowXtjw37UxdwO1ZcK5E8IN.jpg",
+      "original_language": "en",
+      "original_title": "Brahms: The Boy II",
+      "genre_ids": [
+        27,
+        9648,
+        53
+      ],
+      "title": "Brahms: The Boy II",
+      "vote_average": 6.4,
+      "overview": "After a family moves into the Heelshire Mansion, their young son soon makes friends with a life-like doll called Brahms.",
+      "release_date": "2020-02-20"
+    },
+    {
+      "popularity": 12.838,
+      "id": 87428,
+      "video": false,
+      "vote_count": 1060,
+      "vote_average": 5.6,
+      "title": "That's My Boy",
+      "release_date": "2012-06-14",
+      "original_language": "en",
+      "original_title": "That's My Boy",
+      "genre_ids": [
+        35
+      ],
+      "backdrop_path": "\/8tZ90NxuoXjkHXELFOcnZDRr63G.jpg",
+      "adult": false,
+      "overview": "While in his teens, Donny fathered a son, Todd, and raised him as a single parent up until Todd's 18th birthday. Now, after not seeing each other for years, Todd's world comes crashing down when Donny resurfaces just before Todd's wedding.",
+      "poster_path": "\/oVCsANNQyw1AjRhQ9edFBM8HVCq.jpg"
+    },
+    {
+      "popularity": 11.653,
+      "id": 472451,
+      "video": false,
+      "vote_count": 775,
+      "vote_average": 7.1,
+      "title": "Boy Erased",
+      "release_date": "2018-09-24",
+      "original_language": "en",
+      "original_title": "Boy Erased",
+      "genre_ids": [
+        18
+      ],
+      "backdrop_path": "\/3Z0GbJ3NKBEbotdHxsllRBKRMmj.jpg",
+      "adult": false,
+      "overview": "Jared, the son of a Baptist pastor in a small American town, is outed to his parents at age 19. Jared is faced with an ultimatum: attend a gay conversion therapy program – or be permanently exiled and shunned by his family, friends, and faith.",
+      "poster_path": "\/oZbhTdi0ZQY7iiSQ0L7h3ya6NDF.jpg"
+    },
+    {
+      "popularity": 12.311,
+      "vote_count": 171,
+      "video": false,
+      "poster_path": "\/3BZ2rBn31kWER45ZMj7OTe9keMm.jpg",
+      "id": 512263,
+      "adult": false,
+      "backdrop_path": "\/5n2jz145P1CRdPfA296MmEZF1sQ.jpg",
+      "original_language": "en",
+      "original_title": "Honey Boy",
+      "genre_ids": [
+        18
+      ],
+      "title": "Honey Boy",
+      "vote_average": 7.3,
+      "overview": "The story of a child star attempting to mend his relationship with his law-breaking, alcohol-abusing father over the course of a decade, loosely based on Shia LaBeouf’s life.",
+      "release_date": "2019-11-08"
+    },
+    {
+      "popularity": 10.013,
+      "vote_count": 583,
+      "video": false,
+      "poster_path": "\/cUvdzCbhLyYUAwbIkBjT3tC28cK.jpg",
+      "id": 11381,
+      "adult": false,
+      "backdrop_path": "\/mgNjcZpZmUG3KEWLJflSylVY7MW.jpg",
+      "original_language": "en",
+      "original_title": "Tommy Boy",
+      "genre_ids": [
+        35
+      ],
+      "title": "Tommy Boy",
+      "vote_average": 6.8,
+      "overview": "Party animal Tommy Callahan is a few cans short of a six-pack. But when the family business starts tanking, it's up to Tommy and number-cruncher Richard Hayden to save the day.",
+      "release_date": "1995-03-31"
+    },
+    {
+      "popularity": 13.728,
+      "vote_count": 496,
+      "video": false,
+      "poster_path": "\/l15r2aLqdifXM9GFsJLkOq5Y8SI.jpg",
+      "id": 438808,
+      "adult": false,
+      "backdrop_path": "\/4Y0eLVkUwThX9pt1uqVoWoCtvcl.jpg",
+      "original_language": "en",
+      "original_title": "White Boy Rick",
+      "genre_ids": [
+        80,
+        18
+      ],
+      "title": "White Boy Rick",
+      "vote_average": 6.2,
+      "overview": "The story of a teenager, Richard Wershe Jr., who became an undercover informant for the police during the 1980s and was ultimately arrested for drug-trafficking and sentenced to life in prison.",
+      "release_date": "2018-09-14"
+    },
+    {
+      "popularity": 9.481,
+      "vote_count": 554,
+      "video": false,
+      "poster_path": "\/5xVMvxeHl3sZQd1ejFVuit9kbdZ.jpg",
+      "id": 33511,
+      "adult": false,
+      "backdrop_path": "\/t8XNWgsMWdFkRSrPxCZgdEcAKQu.jpg",
+      "original_language": "en",
+      "original_title": "Nowhere Boy",
+      "genre_ids": [
+        18
+      ],
+      "title": "Nowhere Boy",
+      "vote_average": 7.2,
+      "overview": "The drama tells the story of Lennon's teenage years and the start of his journey to becoming a successful musician. The story also examines the impact on his early life and personality of the two dominant females in his childhood",
+      "release_date": "2009-12-25"
+    },
+    {
+      "popularity": 8.555,
+      "vote_count": 170,
+      "video": false,
+      "poster_path": "\/d9b5sDAY2q2u2fWFYZPmt0Cl2p7.jpg",
+      "id": 16161,
+      "adult": false,
+      "backdrop_path": "\/nG99FELxtoucPiawWJ3vDWZCSng.jpg",
+      "original_language": "en",
+      "original_title": "Baby Boy",
+      "genre_ids": [
+        80,
+        18,
+        53,
+        10749
+      ],
+      "title": "Baby Boy",
+      "vote_average": 7.2,
+      "overview": "The story of Jody, a misguided, 20-year-old African-American who is really just a baby boy finally forced-kicking and screaming to face the commitments of real life. Streetwise and jobless, he has not only fathered two children by two different women-Yvette and Peanut but still lives with his own mother. He can't seem to strike a balance or find direction in his chaotic life.",
+      "release_date": "2001-06-27"
+    },
+    {
+      "popularity": 8.742,
+      "vote_count": 56,
+      "video": false,
+      "poster_path": "\/8oMRDfuIjHmPbAjVQNJyaZaqPhK.jpg",
+      "id": 15728,
+      "adult": false,
+      "backdrop_path": "\/vfOymGZC6HW1cdGe3tRTWaaQSpX.jpg",
+      "original_language": "en",
+      "original_title": "Boy Culture",
+      "genre_ids": [
+        18,
+        10749
+      ],
+      "title": "Boy Culture",
+      "vote_average": 6.7,
+      "overview": "A successful gay male escort describes in a series of confessions his tangled romantic relationships with his two roommates and an older, enigmatic male client.",
+      "release_date": "2007-01-31"
+    },
+    {
+      "popularity": 15.115,
+      "vote_count": 1005,
+      "video": false,
+      "poster_path": "\/hAejapki8nDEHsdsoffsxETQpjZ.jpg",
+      "id": 9319,
+      "adult": false,
+      "backdrop_path": "\/7crRVZFSGSrDk0wR3Lahxr1Fb7P.jpg",
+      "original_language": "en",
+      "original_title": "The Last Boy Scout",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "title": "The Last Boy Scout",
+      "vote_average": 6.6,
+      "overview": "When the girl that detective Joe Hallenback is protecting gets murdered, the boyfriend of the murdered girl attempts to investigate and solve the case. What they discover is that there is deep seated corruption going on between a crooked politician and the owner of a pro football team.",
+      "release_date": "1991-12-11"
+    },
+    {
+      "popularity": 9.108,
+      "vote_count": 38,
+      "video": false,
+      "poster_path": "\/rM7EZkR61k1KnCEptF8Z4L9vWQC.jpg",
+      "id": 505953,
+      "adult": false,
+      "backdrop_path": "\/2XPCsiRp60tycZW0p9y4RCqrAYB.jpg",
+      "original_language": "en",
+      "original_title": "Storm Boy",
+      "genre_ids": [
+        12,
+        18
+      ],
+      "title": "Storm Boy",
+      "vote_average": 7.2,
+      "overview": "Storm Boy lives a lonely life with his reclusive father on a desolate coastline, but when he forms a close bond with a pelican, Mr. Percival, his life takes a new and unexpected turn.",
+      "release_date": "2019-01-17"
+    },
+    {
+      "popularity": 8.53,
+      "vote_count": 343,
+      "video": false,
+      "poster_path": "\/gcc4Le4DtmnxYObH0zUcJ5jyP9l.jpg",
+      "id": 9683,
+      "adult": false,
+      "backdrop_path": "\/tFw6sg7nUgP3mmLxcZGZTiLmURB.jpg",
+      "original_language": "en",
+      "original_title": "Bubble Boy",
+      "genre_ids": [
+        12,
+        35,
+        18,
+        10749
+      ],
+      "title": "Bubble Boy",
+      "vote_average": 5.4,
+      "overview": "Jimmy is young man who was born without an immune system and has lived his life within a plastic bubble in his bedroom... who pines for the sweet caresses of girl-next-door Chloe. But when Chloe decides to marry her high school boyfriend, Jimmy -- bubble suit and all -- treks cross-country to stop her. Swoosie Kurtz, as Jimmy's overprotective mom, co-stars along with Fabio, who portrays the leader of a religious cult.",
+      "release_date": "2001-08-24"
+    },
+    {
+      "popularity": 8.361,
+      "vote_count": 340,
+      "video": false,
+      "poster_path": "\/a4rKjKXAvwDDZcd4tuhZWU3bl6R.jpg",
+      "id": 256962,
+      "adult": false,
+      "backdrop_path": "\/nAX8iQnDzI5Hxo2UkrqTweKo3XY.jpg",
+      "original_language": "en",
+      "original_title": "Little Boy",
+      "genre_ids": [
+        35,
+        18,
+        10752
+      ],
+      "title": "Little Boy",
+      "vote_average": 7,
+      "overview": "An eight-year-old boy is willing to do whatever it takes to end World War II so he can bring his father home. The story reveals the indescribable love a father has for his little boy and the love a son has for his father.",
+      "release_date": "2015-04-23"
+    },
+    {
+      "popularity": 11.199,
+      "vote_count": 1478,
+      "video": false,
+      "poster_path": "\/qoZ1bD0q9EFqcNiEYbEigsRcNCt.jpg",
+      "id": 245,
+      "adult": false,
+      "backdrop_path": "\/xxiPjhXigJ4zPiqqrA77FK10ULo.jpg",
+      "original_language": "en",
+      "original_title": "About a Boy",
+      "genre_ids": [
+        35,
+        18,
+        10749
+      ],
+      "title": "About a Boy",
+      "vote_average": 6.7,
+      "overview": "Will Freeman is a hip Londoner who one day realizes that his friends are all involved with the responsibilities of married life, which leaves him alone in the cold. Passing himself off as a single father, he starts to meet a string of single mums, confident in his ability to leave them behind when they start to ask for a commitment. But Will's hope of continued bachelorhood is interrupted when he meets 12-year old Marcus, in many ways his complete opposite.",
+      "release_date": "2002-04-26"
+    },
+    {
+      "popularity": 7.804,
+      "vote_count": 89,
+      "video": false,
+      "poster_path": "\/u5jCoE3Lf8Cfwaru5yRvQ8A6BRT.jpg",
+      "id": 257444,
+      "adult": false,
+      "backdrop_path": "\/seSEfSOzDSMC3FPivmiD7sVV8To.jpg",
+      "original_language": "en",
+      "original_title": "The Boy",
+      "genre_ids": [
+        18,
+        27,
+        53
+      ],
+      "title": "The Boy",
+      "vote_average": 5.7,
+      "overview": "An intimate portrait of a 9 year old sociopath as he discovers his taste for killing.",
+      "release_date": "2015-08-14"
+    }
+  ]
+}

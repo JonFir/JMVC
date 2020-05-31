@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MovieScreenViewImpl" customModule="ThemoviedbOne" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObY-fe-dbP">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3GM-id-oiV">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="536.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gfh-og-LMU">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
+                                    <color key="backgroundColor" red="0.086208842689999995" green="0.073763541880000005" blue="0.121574007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Gfh-og-LMU" secondAttribute="height" multiplier="1:1" id="Dqk-TY-7Dl"/>
+                                    </constraints>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Loh-tp-mM7">
+                                    <rect key="frame" x="0.0" y="434" width="414" height="102.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wI6-6v-osf">
+                                            <rect key="frame" x="16" y="0.0" width="382" height="18"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                            <color key="textColor" systemColor="systemGray2Color" red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QLi-m1-60k">
+                                            <rect key="frame" x="16" y="48" width="382" height="20.5"/>
+                                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <edgeInsets key="layoutMargins" top="0.0" left="16" bottom="34" right="16"/>
+                                </stackView>
+                            </subviews>
+                            <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="3GM-id-oiV" firstAttribute="top" secondItem="ObY-fe-dbP" secondAttribute="top" id="5KK-Gi-deb"/>
+                        <constraint firstItem="3GM-id-oiV" firstAttribute="trailing" secondItem="ObY-fe-dbP" secondAttribute="trailing" id="Cn3-e2-ewB"/>
+                        <constraint firstItem="3GM-id-oiV" firstAttribute="width" secondItem="ObY-fe-dbP" secondAttribute="width" id="Cvg-mH-Q6x"/>
+                        <constraint firstItem="3GM-id-oiV" firstAttribute="height" secondItem="ObY-fe-dbP" secondAttribute="height" priority="1" id="Zc5-w9-zP0"/>
+                        <constraint firstItem="3GM-id-oiV" firstAttribute="bottom" secondItem="ObY-fe-dbP" secondAttribute="bottom" id="ikZ-0o-v16"/>
+                        <constraint firstItem="3GM-id-oiV" firstAttribute="leading" secondItem="ObY-fe-dbP" secondAttribute="leading" id="tK0-dW-7Zk"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="ObY-fe-dbP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="IcM-1L-JUX"/>
+                <constraint firstAttribute="bottom" secondItem="ObY-fe-dbP" secondAttribute="bottom" id="MPw-pE-rRI"/>
+                <constraint firstItem="ObY-fe-dbP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="NM5-9y-arL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ObY-fe-dbP" secondAttribute="trailing" id="NWr-mz-pxv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="dateView" destination="wI6-6v-osf" id="czc-9t-SDb"/>
+                <outlet property="descriptionView" destination="QLi-m1-60k" id="xYU-f6-pRm"/>
+                <outlet property="posterView" destination="Gfh-og-LMU" id="YDa-cy-GNB"/>
+            </connections>
+            <point key="canvasLocation" x="-822" y="43"/>
+        </view>
+    </objects>
+</document>
