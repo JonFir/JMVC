@@ -2,10 +2,14 @@ import Foundation
 import Combine
 
 protocol AuthenticatorService {
+    var isLogin: Bool { get }
+    
     func login(with credentials: LoginCredentials) -> AnyPublisher<Void, Error>
 }
 
 class AuthenticatorServiceImpl: AuthenticatorService {
+    
+    var isLogin: Bool { sessionRepository.sessionID != nil }
     
     private let sessionRepository: SessionRepository
     private let accountApiClient: AccountApiClient

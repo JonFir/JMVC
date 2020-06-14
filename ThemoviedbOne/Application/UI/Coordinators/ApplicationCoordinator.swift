@@ -4,7 +4,8 @@ final class ApplicationCoordinator: BaseCoordinator {
     
     private let coordinatorFactory: CoordinatorFactoryImpl
     private let router: Router
-    private var isAutorized = false
+    private var isFirstLaunch = true
+    private var isLogin = false
     
     init(router: Router, coordinatorFactory: CoordinatorFactoryImpl) {
         self.router = router
@@ -12,18 +13,36 @@ final class ApplicationCoordinator: BaseCoordinator {
     }
     
     override func start() {
-        if isAutorized {
+        if isFirstLaunch {
+            runStartFlow()
+            isFirstLaunch = false
+            return
+        }
+        
+        if isLogin {
             runMovieFlow()
         } else {
             runLoginFlow()
         }
     }
     
+    private func runStartFlow() {
+        
+        let coordinator = coordinatorFactory.makeStartCoordinator(router: router)
+        coordinator.finishFlow = { [weak self, weak coordinator] isLogin in
+            self?.isLogin = isLogin
+            self?.start()
+            self?.removeDependency(coordinator)
+        }
+        self.addDependency(coordinator)
+        coordinator.start()
+    }
+    
     private func runLoginFlow() {
         
         let coordinator = coordinatorFactory.makeLoginCoordinator(router: router)
         coordinator.finishFlow = { [weak self, weak coordinator] in
-            self?.isAutorized = true
+            self?.isLogin = true
             self?.start()
             self?.removeDependency(coordinator)
         }
@@ -34,7 +53,7 @@ final class ApplicationCoordinator: BaseCoordinator {
     private func runMovieFlow() {
         let coordinator = coordinatorFactory.makeMovieCoordinator(router: router)
         coordinator.finishFlow = { [weak self, weak coordinator] in
-            self?.isAutorized = true
+            self?.isLogin = true
             self?.start()
             self?.removeDependency(coordinator)
         }

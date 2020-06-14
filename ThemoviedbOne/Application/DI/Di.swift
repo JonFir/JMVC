@@ -5,6 +5,10 @@ final class Di {
     
     fileprivate let configuration: Configuration
     fileprivate let session: Session
+    
+    fileprivate let keychainWrapper: KeychainWrapperImpl
+    
+    
     fileprivate let requestBuilder: RequestBuilderImpl
     fileprivate let sessionRepository: SessionRepositoryImpl
     fileprivate let apiClient: ApiClient
@@ -28,11 +32,16 @@ final class Di {
         return MovieProviderImpl(movieService: movieService)
     }
     
+    fileprivate var loginStatusProvider: LoginStatusProviderImpl {
+        return LoginStatusProviderImpl(authenticatorService: authenticatorService)
+    }
+    
     init() {
         configuration = ProductionConfiguration()
         session = Session.default
+        keychainWrapper = KeychainWrapperImpl.standard
         requestBuilder = RequestBuilderImpl(configuration: configuration)
-        sessionRepository = SessionRepositoryImpl()
+        sessionRepository = SessionRepositoryImpl(keychainWrapper: keychainWrapper)
         apiClient = ApiClient(requestBuilder: requestBuilder, session: session)
         screenFactory = ScreenFactoryImpl()
         coordinatorFactory = CoordinatorFactoryImpl(screenFactory: screenFactory)
@@ -62,7 +71,7 @@ extension Di: AppFactory {
 
 protocol ScreenFactory {
     
-    func makeSplashScreen() -> UIViewController
+    func makeSplashScreen() -> SplashScreenVC<SplashScreenViewImpl>
     func makeLoginScreen() -> LoginScreenVC<LoginScreenViewImpl>
     func makeMoviesScreen() -> MoviesScreenVC<MoviesScreenViewImp>
     func makeMovieScreen(id: Movie.Id) -> MovieScreenVC<MovieScreenViewImpl>
@@ -73,9 +82,8 @@ final class ScreenFactoryImpl: ScreenFactory {
     fileprivate weak var di: Di!
     fileprivate init(){}
     
-    func makeSplashScreen() -> UIViewController {
-        let view = SplashScreenView.loadFromNib()
-        return ContainerViewController(rootView: view)
+    func makeSplashScreen() -> SplashScreenVC<SplashScreenViewImpl> {
+        return SplashScreenVC<SplashScreenViewImpl>(loginStatusProvider: di.loginStatusProvider)
     }
     
     func makeLoginScreen() -> LoginScreenVC<LoginScreenViewImpl> {
@@ -99,6 +107,7 @@ protocol CoordinatorFactory {
     
     func makeMovieCoordinator(router: Router) -> MoviesCoordinator
     
+    func makeStartCoordinator(router: Router) -> StartCoordinator
 }
 
 final class CoordinatorFactoryImpl: CoordinatorFactory {
@@ -119,6 +128,10 @@ final class CoordinatorFactoryImpl: CoordinatorFactory {
     
     func makeMovieCoordinator(router: Router) -> MoviesCoordinator {
         return MoviesCoordinator(router: router, screenFactory: screenFactory)
+    }
+    
+    func makeStartCoordinator(router: Router) -> StartCoordinator {
+        return StartCoordinator(router: router, screenFactory: screenFactory)
     }
 }
 

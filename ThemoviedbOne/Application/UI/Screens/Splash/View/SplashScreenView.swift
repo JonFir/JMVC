@@ -1,5 +1,3 @@
 import UIKit
 
-final class SplashScreenView: UIView {
-    
-}
+final class SplashScreenViewImpl: UIView {}

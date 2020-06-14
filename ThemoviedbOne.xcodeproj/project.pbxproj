@@ -17,8 +17,8 @@
 		DC005685247EB68500D1C318 /* ZeroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC005684247EB68500D1C318 /* ZeroView.xib */; };
 		DC005687247EB88100D1C318 /* ZeroViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC005686247EB88100D1C318 /* ZeroViewData.swift */; };
 		DC00568B247EBD7E00D1C318 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC00568A247EBD7E00D1C318 /* Types.swift */; };
-		DC005692247EBF7400D1C318 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC005691247EBF7400D1C318 /* SplashScreenView.swift */; };
-		DC005694247EBF8A00D1C318 /* SplashScreenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC005693247EBF8A00D1C318 /* SplashScreenView.xib */; };
+		DC005692247EBF7400D1C318 /* SplashScreenViewImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC005691247EBF7400D1C318 /* SplashScreenViewImpl.swift */; };
+		DC005694247EBF8A00D1C318 /* SplashScreenViewImpl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC005693247EBF8A00D1C318 /* SplashScreenViewImpl.xib */; };
 		DC005697247EC01900D1C318 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC005696247EC01900D1C318 /* ContainerViewController.swift */; };
 		DC1325A9247FE10B002929D6 /* RequestBuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1325A8247FE10B002929D6 /* RequestBuilderImpl.swift */; };
 		DC1325AB247FE5A3002929D6 /* AccountApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1325AA247FE5A3002929D6 /* AccountApiClient.swift */; };
@@ -71,6 +71,11 @@
 		DCA1BB2E247FC57C000CED5E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB2D247FC57C000CED5E /* ApiClient.swift */; };
 		DCA1BB30247FC60D000CED5E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB2F247FC60D000CED5E /* Configuration.swift */; };
 		DCA1BB32247FC689000CED5E /* ProductionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB31247FC689000CED5E /* ProductionConfiguration.swift */; };
+		DCA618B824968C44001D8B83 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA618B624968C44001D8B83 /* KeychainItemAccessibility.swift */; };
+		DCA618B924968C44001D8B83 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA618B724968C44001D8B83 /* KeychainWrapper.swift */; };
+		DCA618BB2496900E001D8B83 /* LoginStatusProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA618BA2496900E001D8B83 /* LoginStatusProviderImpl.swift */; };
+		DCA618BE2496916F001D8B83 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA618BD2496916F001D8B83 /* SplashScreenVC.swift */; };
+		DCA618C024969318001D8B83 /* StartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA618BF24969318001D8B83 /* StartCoordinator.swift */; };
 		DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */; };
 /* End PBXBuildFile section */
 
@@ -99,8 +104,8 @@
 		DC005684247EB68500D1C318 /* ZeroView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZeroView.xib; sourceTree = "<group>"; };
 		DC005686247EB88100D1C318 /* ZeroViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroViewData.swift; sourceTree = "<group>"; };
 		DC00568A247EBD7E00D1C318 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
-		DC005691247EBF7400D1C318 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
-		DC005693247EBF8A00D1C318 /* SplashScreenView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenView.xib; sourceTree = "<group>"; };
+		DC005691247EBF7400D1C318 /* SplashScreenViewImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewImpl.swift; sourceTree = "<group>"; };
+		DC005693247EBF8A00D1C318 /* SplashScreenViewImpl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenViewImpl.xib; sourceTree = "<group>"; };
 		DC005696247EC01900D1C318 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		DC1325A8247FE10B002929D6 /* RequestBuilderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilderImpl.swift; sourceTree = "<group>"; };
 		DC1325AA247FE5A3002929D6 /* AccountApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountApiClient.swift; sourceTree = "<group>"; };
@@ -151,6 +156,11 @@
 		DCA1BB2D247FC57C000CED5E /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		DCA1BB2F247FC60D000CED5E /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		DCA1BB31247FC689000CED5E /* ProductionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionConfiguration.swift; sourceTree = "<group>"; };
+		DCA618B624968C44001D8B83 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		DCA618B724968C44001D8B83 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		DCA618BA2496900E001D8B83 /* LoginStatusProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatusProviderImpl.swift; sourceTree = "<group>"; };
+		DCA618BD2496916F001D8B83 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		DCA618BF24969318001D8B83 /* StartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCoordinator.swift; sourceTree = "<group>"; };
 		DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviewWithSameSize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -343,6 +353,7 @@
 		DC005688247EBD5600D1C318 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				DCA618B524968C20001D8B83 /* Keychain */,
 				DC00568A247EBD7E00D1C318 /* Types.swift */,
 				DCA1BAD3247F7ADB000CED5E /* Optional+Execute.swift */,
 				DCA1BAD5247F7C25000CED5E /* Optional+Apply.swift */,
@@ -366,6 +377,7 @@
 			isa = PBXGroup;
 			children = (
 				DC005690247EBF5200D1C318 /* View */,
+				DCA618BC24969113001D8B83 /* Controller */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -373,8 +385,8 @@
 		DC005690247EBF5200D1C318 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DC005691247EBF7400D1C318 /* SplashScreenView.swift */,
-				DC005693247EBF8A00D1C318 /* SplashScreenView.xib */,
+				DC005691247EBF7400D1C318 /* SplashScreenViewImpl.swift */,
+				DC005693247EBF8A00D1C318 /* SplashScreenViewImpl.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -417,6 +429,7 @@
 				DC1325CA24800B26002929D6 /* ApplicationCoordinator.swift */,
 				DC1325CC24800CAC002929D6 /* LoginCoordinator.swift */,
 				DC77322F2480EFFC006AAEF7 /* MoviesCoordinator.swift */,
+				DCA618BF24969318001D8B83 /* StartCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -530,6 +543,7 @@
 				DC8F937D24827068009F03E4 /* MovieProviderImpl.swift */,
 				DC8F9369248128C1009F03E4 /* LoginProvider.swift */,
 				DC8F9361248114AC009F03E4 /* MoviesPagerProviderImpl.swift */,
+				DCA618BA2496900E001D8B83 /* LoginStatusProviderImpl.swift */,
 			);
 			path = Provider;
 			sourceTree = "<group>";
@@ -597,6 +611,23 @@
 				DC1325A8247FE10B002929D6 /* RequestBuilderImpl.swift */,
 			);
 			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		DCA618B524968C20001D8B83 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				DCA618B624968C44001D8B83 /* KeychainItemAccessibility.swift */,
+				DCA618B724968C44001D8B83 /* KeychainWrapper.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		DCA618BC24969113001D8B83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCA618BD2496916F001D8B83 /* SplashScreenVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -705,7 +736,7 @@
 				DC1325B5247FECB1002929D6 /* MakeTokenMock.json in Resources */,
 				DC8F938324828E2D009F03E4 /* ErrorView.xib in Resources */,
 				DC005685247EB68500D1C318 /* ZeroView.xib in Resources */,
-				DC005694247EBF8A00D1C318 /* SplashScreenView.xib in Resources */,
+				DC005694247EBF8A00D1C318 /* SplashScreenViewImpl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -726,13 +757,16 @@
 				DCA1BAD0247F76C2000CED5E /* LoginScreenViewImpl.swift in Sources */,
 				DC8F935B24810B07009F03E4 /* MoviesScreenViewImp.swift in Sources */,
 				DCA1BAD4247F7ADB000CED5E /* Optional+Execute.swift in Sources */,
+				DCA618BE2496916F001D8B83 /* SplashScreenVC.swift in Sources */,
 				DC8F937E24827068009F03E4 /* MovieProviderImpl.swift in Sources */,
+				DCA618C024969318001D8B83 /* StartCoordinator.swift in Sources */,
 				DC1325CD24800CAC002929D6 /* LoginCoordinator.swift in Sources */,
 				DC8F937C248260FE009F03E4 /* MovieScreenVC.swift in Sources */,
 				DC8F93662481268C009F03E4 /* UIView+hide.swift in Sources */,
 				DCA1BADF247FB761000CED5E /* AuthenticatorServiceImpl.swift in Sources */,
 				DCA1BAD6247F7C25000CED5E /* Optional+Apply.swift in Sources */,
 				DC7732342480F3F3006AAEF7 /* MoviesView.swift in Sources */,
+				DCA618BB2496900E001D8B83 /* LoginStatusProviderImpl.swift in Sources */,
 				DCA1BB2E247FC57C000CED5E /* ApiClient.swift in Sources */,
 				DCA1BB32247FC689000CED5E /* ProductionConfiguration.swift in Sources */,
 				DC005675247E98D300D1C318 /* Di.swift in Sources */,
@@ -746,6 +780,7 @@
 				DC7732302480EFFC006AAEF7 /* MoviesCoordinator.swift in Sources */,
 				DCA1BAE5247FBAF6000CED5E /* MovieViewCell.swift in Sources */,
 				DC1325CB24800B26002929D6 /* ApplicationCoordinator.swift in Sources */,
+				DCA618B824968C44001D8B83 /* KeychainItemAccessibility.swift in Sources */,
 				DC005683247EB67800D1C318 /* ZeroView.swift in Sources */,
 				DC1325B2247FE66A002929D6 /* Movie.swift in Sources */,
 				DC77323E2480FA6E006AAEF7 /* UITableView + dequeue.swift in Sources */,
@@ -762,11 +797,12 @@
 				DC77323B2480F51F006AAEF7 /* MoviesScreenVC.swift in Sources */,
 				DC1325D0248024D0002929D6 /* SessionRepositoryImpl.swift in Sources */,
 				DC00568B247EBD7E00D1C318 /* Types.swift in Sources */,
-				DC005692247EBF7400D1C318 /* SplashScreenView.swift in Sources */,
+				DC005692247EBF7400D1C318 /* SplashScreenViewImpl.swift in Sources */,
 				DC1325C7248008DE002929D6 /* Coordinator.swift in Sources */,
 				DC1325AD247FE5C5002929D6 /* MovieApiClient.swift in Sources */,
 				DCA1BADA247F8147000CED5E /* LoginScreenVC.swift in Sources */,
 				DC8F935F24811232009F03E4 /* MovieService.swift in Sources */,
+				DCA618B924968C44001D8B83 /* KeychainWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
