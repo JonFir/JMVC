@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 final class MoviesCoordinator: BaseCoordinator {
     
@@ -18,7 +18,11 @@ final class MoviesCoordinator: BaseCoordinator {
     
     private func showMovies() {
         let moviesScreen = screenFactory.makeMoviesScreen()
-        moviesScreen.onSelecMovie = { [weak self] in self?.showMovie(id: $0) }
+        moviesScreen.onSelectMovie = { [weak self] in self?.showMovie(id: $0) }
+        moviesScreen.onShowFavoriteAlert = { [weak router] data in
+            let alert = UIAlertController(inputData: data)
+            router?.present(alert)
+        }
         router.setRootModule(moviesScreen, hideBar: false)
     }
     
@@ -26,4 +30,5 @@ final class MoviesCoordinator: BaseCoordinator {
         let moviesScreen = screenFactory.makeMovieScreen(id: id)
         router.push(moviesScreen)
     }
+    
 }

@@ -11,6 +11,7 @@ final class Di {
     
     fileprivate let requestBuilder: RequestBuilderImpl
     fileprivate let sessionRepository: SessionRepositoryImpl
+    fileprivate let baseJsonDecoder: JSONDecoder
     fileprivate let apiClient: ApiClient
     fileprivate let screenFactory: ScreenFactoryImpl
     fileprivate let coordinatorFactory: CoordinatorFactoryImpl
@@ -42,7 +43,8 @@ final class Di {
         keychainWrapper = KeychainWrapperImpl.standard
         requestBuilder = RequestBuilderImpl(configuration: configuration)
         sessionRepository = SessionRepositoryImpl(keychainWrapper: keychainWrapper)
-        apiClient = ApiClient(requestBuilder: requestBuilder, session: session)
+        baseJsonDecoder = JSONDecoder.makeBaseDecoder()
+        apiClient = ApiClient(requestBuilder: requestBuilder, session: session, decoder: baseJsonDecoder)
         screenFactory = ScreenFactoryImpl()
         coordinatorFactory = CoordinatorFactoryImpl(screenFactory: screenFactory)
         authenticatorService = AuthenticatorServiceImpl(sessionRepository: sessionRepository, accountApiClient: apiClient)

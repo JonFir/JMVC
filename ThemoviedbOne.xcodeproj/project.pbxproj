@@ -44,6 +44,9 @@
 		DC7732362480F409006AAEF7 /* MoviesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7732352480F409006AAEF7 /* MoviesView.xib */; };
 		DC77323B2480F51F006AAEF7 /* MoviesScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77323A2480F51F006AAEF7 /* MoviesScreenVC.swift */; };
 		DC77323E2480FA6E006AAEF7 /* UITableView + dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77323D2480FA6E006AAEF7 /* UITableView + dequeue.swift */; };
+		DC897A4524A888990030BC5A /* MoviesScreenVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC897A4424A888990030BC5A /* MoviesScreenVCTests.swift */; };
+		DC897A4724A889340030BC5A /* MoviesScreenViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC897A4624A889340030BC5A /* MoviesScreenViewMock.swift */; };
+		DC897A4924A88A690030BC5A /* MoviesPagerProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC897A4824A88A690030BC5A /* MoviesPagerProviderMock.swift */; };
 		DC8F935B24810B07009F03E4 /* MoviesScreenViewImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F935A24810B07009F03E4 /* MoviesScreenViewImp.swift */; };
 		DC8F935D24810C88009F03E4 /* MoviesScreenViewImp.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F935C24810C88009F03E4 /* MoviesScreenViewImp.xib */; };
 		DC8F935F24811232009F03E4 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F935E24811232009F03E4 /* MovieService.swift */; };
@@ -57,6 +60,12 @@
 		DC8F937E24827068009F03E4 /* MovieProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F937D24827068009F03E4 /* MovieProviderImpl.swift */; };
 		DC8F938124828E0F009F03E4 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F938024828E0F009F03E4 /* ErrorView.swift */; };
 		DC8F938324828E2D009F03E4 /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F938224828E2D009F03E4 /* ErrorView.xib */; };
+		DC9CD9D9249BCDA300153784 /* authentication_token_validate_with_login_post.json in Resources */ = {isa = PBXBuildFile; fileRef = DC9CD9D8249BCDA300153784 /* authentication_token_validate_with_login_post.json */; };
+		DC9CD9DB249BD02500153784 /* authentication_session_new_post.json in Resources */ = {isa = PBXBuildFile; fileRef = DC9CD9DA249BD02500153784 /* authentication_session_new_post.json */; };
+		DC9CD9DD249BD11D00153784 /* AuthenticatorServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CD9DC249BD11D00153784 /* AuthenticatorServiceTests.swift */; };
+		DC9CD9DF249BD1C200153784 /* AccountApiClientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CD9DE249BD1C200153784 /* AccountApiClientMock.swift */; };
+		DCA0332624A883E500E1993D /* UIAlertControllerCommonInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0332524A883E500E1993D /* UIAlertControllerCommonInputData.swift */; };
+		DCA0332824A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0332724A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift */; };
 		DCA1BAD0247F76C2000CED5E /* LoginScreenViewImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BACF247F76C2000CED5E /* LoginScreenViewImpl.swift */; };
 		DCA1BAD2247F76E4000CED5E /* LoginScreenViewImpl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA1BAD1247F76E4000CED5E /* LoginScreenViewImpl.xib */; };
 		DCA1BAD4247F7ADB000CED5E /* Optional+Execute.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BAD3247F7ADB000CED5E /* Optional+Execute.swift */; };
@@ -76,6 +85,16 @@
 		DCA618BB2496900E001D8B83 /* LoginStatusProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA618BA2496900E001D8B83 /* LoginStatusProviderImpl.swift */; };
 		DCA618BE2496916F001D8B83 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA618BD2496916F001D8B83 /* SplashScreenVC.swift */; };
 		DCA618C024969318001D8B83 /* StartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA618BF24969318001D8B83 /* StartCoordinator.swift */; };
+		DCA6193A249B142B001D8B83 /* URLMockProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA61939249B142B001D8B83 /* URLMockProtocol.swift */; };
+		DCA6193C249B149C001D8B83 /* JsonLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6193B249B149C001D8B83 /* JsonLoader.swift */; };
+		DCA6193E249B17F8001D8B83 /* SessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6193D249B17F8001D8B83 /* SessionMock.swift */; };
+		DCA61942249B1966001D8B83 /* AccountApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA61941249B1966001D8B83 /* AccountApiClientTests.swift */; };
+		DCA61944249B1B1F001D8B83 /* ConfigurationMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA61943249B1B1F001D8B83 /* ConfigurationMock.swift */; };
+		DCA61946249B1BB1001D8B83 /* RequestBuilderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA61945249B1BB1001D8B83 /* RequestBuilderMock.swift */; };
+		DCA61949249B24F4001D8B83 /* authentication_token_new_get.json in Resources */ = {isa = PBXBuildFile; fileRef = DCA61948249B24F4001D8B83 /* authentication_token_new_get.json */; };
+		DCA6194B249B30CF001D8B83 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6194A249B30CF001D8B83 /* BaseTestCase.swift */; };
+		DCA6194D249B3358001D8B83 /* BaseJsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6194C249B3358001D8B83 /* BaseJsonDecoder.swift */; };
+		DCA6194F249B398E001D8B83 /* KeychainWrapperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6194E249B398E001D8B83 /* KeychainWrapperMock.swift */; };
 		DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */; };
 /* End PBXBuildFile section */
 
@@ -131,6 +150,9 @@
 		DC7732352480F409006AAEF7 /* MoviesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesView.xib; sourceTree = "<group>"; };
 		DC77323A2480F51F006AAEF7 /* MoviesScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreenVC.swift; sourceTree = "<group>"; };
 		DC77323D2480FA6E006AAEF7 /* UITableView + dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + dequeue.swift"; sourceTree = "<group>"; };
+		DC897A4424A888990030BC5A /* MoviesScreenVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreenVCTests.swift; sourceTree = "<group>"; };
+		DC897A4624A889340030BC5A /* MoviesScreenViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreenViewMock.swift; sourceTree = "<group>"; };
+		DC897A4824A88A690030BC5A /* MoviesPagerProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPagerProviderMock.swift; sourceTree = "<group>"; };
 		DC8F935A24810B07009F03E4 /* MoviesScreenViewImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreenViewImp.swift; sourceTree = "<group>"; };
 		DC8F935C24810C88009F03E4 /* MoviesScreenViewImp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesScreenViewImp.xib; sourceTree = "<group>"; };
 		DC8F935E24811232009F03E4 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
@@ -144,6 +166,12 @@
 		DC8F937D24827068009F03E4 /* MovieProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProviderImpl.swift; sourceTree = "<group>"; };
 		DC8F938024828E0F009F03E4 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		DC8F938224828E2D009F03E4 /* ErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
+		DC9CD9D8249BCDA300153784 /* authentication_token_validate_with_login_post.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authentication_token_validate_with_login_post.json; sourceTree = "<group>"; };
+		DC9CD9DA249BD02500153784 /* authentication_session_new_post.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authentication_session_new_post.json; sourceTree = "<group>"; };
+		DC9CD9DC249BD11D00153784 /* AuthenticatorServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorServiceTests.swift; sourceTree = "<group>"; };
+		DC9CD9DE249BD1C200153784 /* AccountApiClientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountApiClientMock.swift; sourceTree = "<group>"; };
+		DCA0332524A883E500E1993D /* UIAlertControllerCommonInputData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerCommonInputData.swift; sourceTree = "<group>"; };
+		DCA0332724A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+InitFromCommonInputData.swift"; sourceTree = "<group>"; };
 		DCA1BACF247F76C2000CED5E /* LoginScreenViewImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewImpl.swift; sourceTree = "<group>"; };
 		DCA1BAD1247F76E4000CED5E /* LoginScreenViewImpl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreenViewImpl.xib; sourceTree = "<group>"; };
 		DCA1BAD3247F7ADB000CED5E /* Optional+Execute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Execute.swift"; sourceTree = "<group>"; };
@@ -161,6 +189,16 @@
 		DCA618BA2496900E001D8B83 /* LoginStatusProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatusProviderImpl.swift; sourceTree = "<group>"; };
 		DCA618BD2496916F001D8B83 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
 		DCA618BF24969318001D8B83 /* StartCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartCoordinator.swift; sourceTree = "<group>"; };
+		DCA61939249B142B001D8B83 /* URLMockProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLMockProtocol.swift; sourceTree = "<group>"; };
+		DCA6193B249B149C001D8B83 /* JsonLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonLoader.swift; sourceTree = "<group>"; };
+		DCA6193D249B17F8001D8B83 /* SessionMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionMock.swift; sourceTree = "<group>"; };
+		DCA61941249B1966001D8B83 /* AccountApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountApiClientTests.swift; sourceTree = "<group>"; };
+		DCA61943249B1B1F001D8B83 /* ConfigurationMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationMock.swift; sourceTree = "<group>"; };
+		DCA61945249B1BB1001D8B83 /* RequestBuilderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilderMock.swift; sourceTree = "<group>"; };
+		DCA61948249B24F4001D8B83 /* authentication_token_new_get.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authentication_token_new_get.json; sourceTree = "<group>"; };
+		DCA6194A249B30CF001D8B83 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		DCA6194C249B3358001D8B83 /* BaseJsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseJsonDecoder.swift; sourceTree = "<group>"; };
+		DCA6194E249B398E001D8B83 /* KeychainWrapperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapperMock.swift; sourceTree = "<group>"; };
 		DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviewWithSameSize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,6 +254,10 @@
 		DC005659247E939B00D1C318 /* ThemoviedbOneTests */ = {
 			isa = PBXGroup;
 			children = (
+				DCA61947249B24E5001D8B83 /* json */,
+				DCA61940249B194A001D8B83 /* Tests */,
+				DCA6193F249B1941001D8B83 /* Mocks */,
+				DCA61938249B140F001D8B83 /* Library */,
 				DC00565A247E939B00D1C318 /* ThemoviedbOneTests.swift */,
 				DC00565C247E939B00D1C318 /* Info.plist */,
 			);
@@ -298,6 +340,7 @@
 		DC00566D247E965800D1C318 /* UIKIt */ = {
 			isa = PBXGroup;
 			children = (
+				DCA0332424A883CB00E1993D /* UIAlertController */,
 				DC8F9378248258D0009F03E4 /* SwiftUI */,
 				DC77323C2480FA63006AAEF7 /* UITableView */,
 				DC005695247EBFF700D1C318 /* UIViewController */,
@@ -548,6 +591,15 @@
 			path = Provider;
 			sourceTree = "<group>";
 		};
+		DCA0332424A883CB00E1993D /* UIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				DCA0332524A883E500E1993D /* UIAlertControllerCommonInputData.swift */,
+				DCA0332724A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift */,
+			);
+			path = UIAlertController;
+			sourceTree = "<group>";
+		};
 		DCA1BACE247F7666000CED5E /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -609,6 +661,7 @@
 				DC1325AC247FE5C5002929D6 /* MovieApiClient.swift */,
 				DC1325AE247FE5E9002929D6 /* FavoriteApiClient.swift */,
 				DC1325A8247FE10B002929D6 /* RequestBuilderImpl.swift */,
+				DCA6194C249B3358001D8B83 /* BaseJsonDecoder.swift */,
 			);
 			path = ApiClient;
 			sourceTree = "<group>";
@@ -628,6 +681,50 @@
 				DCA618BD2496916F001D8B83 /* SplashScreenVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		DCA61938249B140F001D8B83 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DCA61939249B142B001D8B83 /* URLMockProtocol.swift */,
+				DCA6193B249B149C001D8B83 /* JsonLoader.swift */,
+				DCA6194A249B30CF001D8B83 /* BaseTestCase.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DCA6193F249B1941001D8B83 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				DCA6193D249B17F8001D8B83 /* SessionMock.swift */,
+				DCA61943249B1B1F001D8B83 /* ConfigurationMock.swift */,
+				DCA61945249B1BB1001D8B83 /* RequestBuilderMock.swift */,
+				DCA6194E249B398E001D8B83 /* KeychainWrapperMock.swift */,
+				DC9CD9DE249BD1C200153784 /* AccountApiClientMock.swift */,
+				DC897A4624A889340030BC5A /* MoviesScreenViewMock.swift */,
+				DC897A4824A88A690030BC5A /* MoviesPagerProviderMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		DCA61940249B194A001D8B83 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA61941249B1966001D8B83 /* AccountApiClientTests.swift */,
+				DC9CD9DC249BD11D00153784 /* AuthenticatorServiceTests.swift */,
+				DC897A4424A888990030BC5A /* MoviesScreenVCTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DCA61947249B24E5001D8B83 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				DCA61948249B24F4001D8B83 /* authentication_token_new_get.json */,
+				DC9CD9D8249BCDA300153784 /* authentication_token_validate_with_login_post.json */,
+				DC9CD9DA249BD02500153784 /* authentication_session_new_post.json */,
+			);
+			path = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -744,6 +841,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9CD9DB249BD02500153784 /* authentication_session_new_post.json in Resources */,
+				DCA61949249B24F4001D8B83 /* authentication_token_new_get.json in Resources */,
+				DC9CD9D9249BCDA300153784 /* authentication_token_validate_with_login_post.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -767,6 +867,7 @@
 				DCA1BAD6247F7C25000CED5E /* Optional+Apply.swift in Sources */,
 				DC7732342480F3F3006AAEF7 /* MoviesView.swift in Sources */,
 				DCA618BB2496900E001D8B83 /* LoginStatusProviderImpl.swift in Sources */,
+				DCA0332624A883E500E1993D /* UIAlertControllerCommonInputData.swift in Sources */,
 				DCA1BB2E247FC57C000CED5E /* ApiClient.swift in Sources */,
 				DCA1BB32247FC689000CED5E /* ProductionConfiguration.swift in Sources */,
 				DC005675247E98D300D1C318 /* Di.swift in Sources */,
@@ -781,12 +882,14 @@
 				DCA1BAE5247FBAF6000CED5E /* MovieViewCell.swift in Sources */,
 				DC1325CB24800B26002929D6 /* ApplicationCoordinator.swift in Sources */,
 				DCA618B824968C44001D8B83 /* KeychainItemAccessibility.swift in Sources */,
+				DCA0332824A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift in Sources */,
 				DC005683247EB67800D1C318 /* ZeroView.swift in Sources */,
 				DC1325B2247FE66A002929D6 /* Movie.swift in Sources */,
 				DC77323E2480FA6E006AAEF7 /* UITableView + dequeue.swift in Sources */,
 				DCA1BB30247FC60D000CED5E /* Configuration.swift in Sources */,
 				DC00566F247E966300D1C318 /* loadFromNib.swift in Sources */,
 				DC1325A9247FE10B002929D6 /* RequestBuilderImpl.swift in Sources */,
+				DCA6194D249B3358001D8B83 /* BaseJsonDecoder.swift in Sources */,
 				DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */,
 				DC8F937524825846009F03E4 /* MovieScreenViewImpl.swift in Sources */,
 				DC8F938124828E0F009F03E4 /* ErrorView.swift in Sources */,
@@ -811,6 +914,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC00565B247E939B00D1C318 /* ThemoviedbOneTests.swift in Sources */,
+				DC897A4724A889340030BC5A /* MoviesScreenViewMock.swift in Sources */,
+				DC9CD9DF249BD1C200153784 /* AccountApiClientMock.swift in Sources */,
+				DCA6194F249B398E001D8B83 /* KeychainWrapperMock.swift in Sources */,
+				DCA61946249B1BB1001D8B83 /* RequestBuilderMock.swift in Sources */,
+				DCA6193C249B149C001D8B83 /* JsonLoader.swift in Sources */,
+				DCA6193E249B17F8001D8B83 /* SessionMock.swift in Sources */,
+				DC9CD9DD249BD11D00153784 /* AuthenticatorServiceTests.swift in Sources */,
+				DCA6194B249B30CF001D8B83 /* BaseTestCase.swift in Sources */,
+				DC897A4924A88A690030BC5A /* MoviesPagerProviderMock.swift in Sources */,
+				DCA61942249B1966001D8B83 /* AccountApiClientTests.swift in Sources */,
+				DCA61944249B1B1F001D8B83 /* ConfigurationMock.swift in Sources */,
+				DCA6193A249B142B001D8B83 /* URLMockProtocol.swift in Sources */,
+				DC897A4524A888990030BC5A /* MoviesScreenVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

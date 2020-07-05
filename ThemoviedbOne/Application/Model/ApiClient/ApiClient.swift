@@ -12,18 +12,16 @@ class ApiClient {
     let requestBuilder: RequestBuilder
     
     private let session: Session
-    private let decoder: JSONDecoder = {
-        let decoder = JSONDecoder()
-        decoder.keyDecodingStrategy = .convertFromSnakeCase
-        return decoder
-    }()
+    private let decoder: JSONDecoder
     
     init(
         requestBuilder: RequestBuilder,
-        session: Session) {
-        
+        session: Session,
+        decoder: JSONDecoder
+    ) {
         self.requestBuilder = requestBuilder
         self.session = session
+        self.decoder = decoder
     }
     
     func performRequest<T: Decodable>(_ request: URLRequest?) -> AnyPublisher<T, Error> {

@@ -1,9 +1,11 @@
-//
-//  BaseJsonDecoder.swift
-//  ThemoviedbOne
-//
-//  Created by Евгений Елчев on 18.06.2020.
-//  Copyright © 2020 jonfir. All rights reserved.
-//
-
 import Foundation
+
+extension JSONDecoder {
+    
+    static func makeBaseDecoder() -> JSONDecoder {
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        return decoder
+    }
+    
+}

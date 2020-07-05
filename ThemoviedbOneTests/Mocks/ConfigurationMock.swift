@@ -1,9 +1,10 @@
-//
-//  ConfigurationMock.swift
-//  ThemoviedbOneTests
-//
-//  Created by Евгений Елчев on 18.06.2020.
-//  Copyright © 2020 jonfir. All rights reserved.
-//
-
 import Foundation
+@testable import ThemoviedbOne
+
+class ConfigurationMock: Configuration {
+    let host = "https://test.test"
+    
+    let apiKey = "test_key"
+    
+    let imageUrl = "https://test.test/images"
+}

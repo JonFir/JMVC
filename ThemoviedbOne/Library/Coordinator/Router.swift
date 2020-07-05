@@ -1,6 +1,6 @@
 import UIKit
 
-protocol Presentable {
+protocol Presentable: AnyObject {
   func toPresent() -> UIViewController?
 }
 

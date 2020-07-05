@@ -2,9 +2,11 @@ import UIKit
 import Combine
 
 final class MoviesScreenVC<View: MoviesScreenView>: BaseViewController<View> {
-    typealias OnSelecMovie = (Movie.Id) -> Void
+    typealias OnSelectMovie = (Movie.Id) -> Void
+    typealias OnShowFavorite = (UIAlertControllerCommonInputData) -> Void
     
-    var onSelecMovie: OnSelecMovie?
+    var onSelectMovie: OnSelectMovie?
+    var onShowFavoriteAlert: OnShowFavorite?
     
     private let moviesPagerProvider: MoviesPagerProvider
     private var cancalables = Set<AnyCancellable>()
@@ -70,9 +72,41 @@ final class MoviesScreenVC<View: MoviesScreenView>: BaseViewController<View> {
             title: movie.title,
             description: movie.overview,
             isFavorite: false,
-            onSelect: { [weak self] in self?.onSelecMovie?(movie.id) },
-            onFavoriteToogle: { print(movie.id) }
+            onSelect: { [weak self] in self?.onSelectMovie?(movie.id) },
+            onFavoriteToogle: { [weak self] in self?.showShowFavoriteAlert() }
         )
     }
     
+    private func showShowFavoriteAlert() {
+        let data = UIAlertControllerCommonInputData(
+            title: "Упс!",
+            message: "Добавление в избранное, пока не реализовано(",
+            buttons: [
+                .init(title: "Хорошо")
+            ]
+        )
+        onShowFavoriteAlert?(data)
+    }
+    
 }
+
+/*
+1) Что такое попап?
+   а) Просто вью (семантически)
+   б) Вью контроллер (технически).
+
+2) Кто должен его показывать.
+   а) Вью (семантически)
+       + Это правильное место в нашей архитектуре
+       + легко тестировать юнитами
+       - сложно реализовывать. для реализации требуется контроллер, которого нет в UIView
+   б) Вью контроллер (технически)
+       + Легко реализовать
+       + Правильно место в архитектуре. Если попап вьюшка, то именно контроллер должен ею управлять
+       - сложно тестировать юнитами
+   в) Координатор (потому что отвечает за переходы и показы контроллеров)
+       + легко тестировать юнитами
+       +- средняя сложность реализация
+       - не правильно с архитектурной точки зрения
+       - прийдется закрывать тестами координаторы
+*/

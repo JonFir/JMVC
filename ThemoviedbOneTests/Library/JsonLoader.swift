@@ -1,9 +1,12 @@
-//
-//  JsonLoader.swift
-//  ThemoviedbOneTests
-//
-//  Created by Евгений Елчев on 18.06.2020.
-//  Copyright © 2020 jonfir. All rights reserved.
-//
-
 import Foundation
+
+final class JsonLoader {
+    private init(){}
+    
+    static func loadJsonAsData(name: String) -> Data {
+        let path = Bundle(for: self.self).url(forResource: name, withExtension: "json")!
+        return try! Data(contentsOf: path)
+    }
+}
+
+
