@@ -4,6 +4,7 @@ final class ApplicationCoordinator: BaseCoordinator {
     
     private let coordinatorFactory: CoordinatorFactoryImpl
     private let router: Router
+    
     private var isFirstLaunch = true
     private var isLogin = false
     
