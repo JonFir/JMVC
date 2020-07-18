@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -75,8 +75,8 @@
 		DCA1BADF247FB761000CED5E /* AuthenticatorServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BADE247FB761000CED5E /* AuthenticatorServiceImpl.swift */; };
 		DCA1BAE5247FBAF6000CED5E /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BAE3247FBAF6000CED5E /* MovieViewCell.swift */; };
 		DCA1BAE6247FBAF6000CED5E /* MovieViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA1BAE4247FBAF6000CED5E /* MovieViewCell.xib */; };
-		DCA1BB28247FC117000CED5E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DCA1BB27247FC117000CED5E /* Alamofire */; };
-		DCA1BB2B247FC4FF000CED5E /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = DCA1BB2A247FC4FF000CED5E /* AlamofireImage */; };
+		DCA1BB28247FC117000CED5E /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		DCA1BB2B247FC4FF000CED5E /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		DCA1BB2E247FC57C000CED5E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB2D247FC57C000CED5E /* ApiClient.swift */; };
 		DCA1BB30247FC60D000CED5E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB2F247FC60D000CED5E /* Configuration.swift */; };
 		DCA1BB32247FC689000CED5E /* ProductionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB31247FC689000CED5E /* ProductionConfiguration.swift */; };
@@ -95,6 +95,10 @@
 		DCA6194B249B30CF001D8B83 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6194A249B30CF001D8B83 /* BaseTestCase.swift */; };
 		DCA6194D249B3358001D8B83 /* BaseJsonDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6194C249B3358001D8B83 /* BaseJsonDecoder.swift */; };
 		DCA6194F249B398E001D8B83 /* KeychainWrapperMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6194E249B398E001D8B83 /* KeychainWrapperMock.swift */; };
+		DCB1111A24C3504B008DDFD6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */; };
+		DCB1111C24C3504B008DDFD6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111924C3504B008DDFD6 /* Alamofire.framework */; };
+		DCB1112024C3519D008DDFD6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111924C3504B008DDFD6 /* Alamofire.framework */; };
+		DCB1112124C3519D008DDFD6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */; };
 		DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */; };
 /* End PBXBuildFile section */
 
@@ -199,6 +203,8 @@
 		DCA6194A249B30CF001D8B83 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 		DCA6194C249B3358001D8B83 /* BaseJsonDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseJsonDecoder.swift; sourceTree = "<group>"; };
 		DCA6194E249B398E001D8B83 /* KeychainWrapperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapperMock.swift; sourceTree = "<group>"; };
+		DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		DCB1111924C3504B008DDFD6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviewWithSameSize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,8 +213,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCA1BB28247FC117000CED5E /* Alamofire in Frameworks */,
-				DCA1BB2B247FC4FF000CED5E /* AlamofireImage in Frameworks */,
+				DCB1111A24C3504B008DDFD6 /* AlamofireImage.framework in Frameworks */,
+				DCA1BB28247FC117000CED5E /* (null) in Frameworks */,
+				DCA1BB2B247FC4FF000CED5E /* (null) in Frameworks */,
+				DCB1111C24C3504B008DDFD6 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +224,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB1112024C3519D008DDFD6 /* Alamofire.framework in Frameworks */,
+				DCB1112124C3519D008DDFD6 /* AlamofireImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +238,7 @@
 				DC005642247E939A00D1C318 /* ThemoviedbOne */,
 				DC005659247E939B00D1C318 /* ThemoviedbOneTests */,
 				DC005641247E939A00D1C318 /* Products */,
+				DCB1111724C3504B008DDFD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -727,6 +738,15 @@
 			path = json;
 			sourceTree = "<group>";
 		};
+		DCB1111724C3504B008DDFD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB1111924C3504B008DDFD6 /* Alamofire.framework */,
+				DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -737,6 +757,7 @@
 				DC00563C247E939A00D1C318 /* Sources */,
 				DC00563D247E939A00D1C318 /* Frameworks */,
 				DC00563E247E939A00D1C318 /* Resources */,
+				DCB1111F24C35074008DDFD6 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -744,8 +765,6 @@
 			);
 			name = ThemoviedbOne;
 			packageProductDependencies = (
-				DCA1BB27247FC117000CED5E /* Alamofire */,
-				DCA1BB2A247FC4FF000CED5E /* AlamofireImage */,
 			);
 			productName = ThemoviedbOne;
 			productReference = DC005640247E939A00D1C318 /* ThemoviedbOne.app */;
@@ -798,8 +817,6 @@
 			);
 			mainGroup = DC005637247E939A00D1C318;
 			packageReferences = (
-				DCA1BB26247FC117000CED5E /* XCRemoteSwiftPackageReference "Alamofire" */,
-				DCA1BB29247FC4FF000CED5E /* XCRemoteSwiftPackageReference "AlamofireImage" */,
 			);
 			productRefGroup = DC005641247E939A00D1C318 /* Products */;
 			projectDirPath = "";
@@ -848,6 +865,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DCB1111F24C35074008DDFD6 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC00563C247E939A00D1C318 /* Sources */ = {
@@ -1072,6 +1114,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMD7EK7S94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ThemoviedbOne/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1090,6 +1136,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMD7EK7S94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ThemoviedbOne/Configuration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1109,6 +1159,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMD7EK7S94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ThemoviedbOneTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1131,6 +1185,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMD7EK7S94;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ThemoviedbOneTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1177,38 +1235,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		DCA1BB26247FC117000CED5E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.2.1;
-			};
-		};
-		DCA1BB29247FC4FF000CED5E /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.1.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DCA1BB27247FC117000CED5E /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DCA1BB26247FC117000CED5E /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		DCA1BB2A247FC4FF000CED5E /* AlamofireImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DCA1BB29247FC4FF000CED5E /* XCRemoteSwiftPackageReference "AlamofireImage" */;
-			productName = AlamofireImage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC005638247E939A00D1C318 /* Project object */;
 }
