@@ -1,15 +1,16 @@
 import Foundation
+import Swinject
 
 final class LoginCoordinator: BaseCoordinator {
     
     var finishFlow: VoidClosure?
     
-    private let screenFactory: ScreenFactory
+    private let resolver: Resolver
     private let router: Router
     
-    init(router: Router, screenFactory: ScreenFactory) {
-        self.screenFactory = screenFactory
+    init(router: Router, resolver: Resolver) {
         self.router = router
+        self.resolver = resolver
     }
     
     override func start() {
@@ -17,7 +18,7 @@ final class LoginCoordinator: BaseCoordinator {
     }
     
     private func showLogin() {
-        let loginScreen = screenFactory.makeLoginScreen()
+        let loginScreen = resolver.resolve(LoginScreenVC<LoginScreenViewImpl>.self)!
         loginScreen.onLogin = { [weak self] in
             self?.finishFlow?()
         }

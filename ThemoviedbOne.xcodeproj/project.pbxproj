@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB31633244CA71044B95936C /* ScreenAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB31662A64F9B0C292ADD9E9 /* ScreenAssembly.swift */; };
+		BB3165EB024377EA1690CCFF /* AppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB316890E512FB50F0A59B0E /* AppFactory.swift */; };
+		BB316D7641B25892B022C37E /* CoordinatorAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB316D3EE19BD5DC8A46FCB6 /* CoordinatorAssembly.swift */; };
 		DC005644247E939A00D1C318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC005643247E939A00D1C318 /* AppDelegate.swift */; };
 		DC00564D247E939B00D1C318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC00564C247E939B00D1C318 /* Assets.xcassets */; };
 		DC005650247E939B00D1C318 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC00564E247E939B00D1C318 /* LaunchScreen.storyboard */; };
@@ -99,6 +102,7 @@
 		DCB1112124C3519D008DDFD6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */; };
 		DCB1112324C35310008DDFD6 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1112224C35310008DDFD6 /* Swinject.framework */; };
 		DCB1112624C35319008DDFD6 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1112224C35310008DDFD6 /* Swinject.framework */; };
+		DCB1112824C35441008DDFD6 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB1112724C35441008DDFD6 /* MainAssembly.swift */; };
 		DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */; };
 /* End PBXBuildFile section */
 
@@ -113,6 +117,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB31662A64F9B0C292ADD9E9 /* ScreenAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenAssembly.swift; sourceTree = "<group>"; };
+		BB316890E512FB50F0A59B0E /* AppFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
+		BB316D3EE19BD5DC8A46FCB6 /* CoordinatorAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorAssembly.swift; sourceTree = "<group>"; };
 		DC005640247E939A00D1C318 /* ThemoviedbOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemoviedbOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC005643247E939A00D1C318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC00564C247E939B00D1C318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -206,6 +213,7 @@
 		DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		DCB1111924C3504B008DDFD6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		DCB1112224C35310008DDFD6 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
+		DCB1112724C35441008DDFD6 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
 		DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviewWithSameSize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -365,6 +373,10 @@
 			isa = PBXGroup;
 			children = (
 				DC005674247E98D300D1C318 /* Di.swift */,
+				DCB1112724C35441008DDFD6 /* MainAssembly.swift */,
+				BB31662A64F9B0C292ADD9E9 /* ScreenAssembly.swift */,
+				BB316D3EE19BD5DC8A46FCB6 /* CoordinatorAssembly.swift */,
+				BB316890E512FB50F0A59B0E /* AppFactory.swift */,
 			);
 			path = DI;
 			sourceTree = "<group>";
@@ -951,7 +963,11 @@
 				DC1325AD247FE5C5002929D6 /* MovieApiClient.swift in Sources */,
 				DCA1BADA247F8147000CED5E /* LoginScreenVC.swift in Sources */,
 				DC8F935F24811232009F03E4 /* MovieService.swift in Sources */,
+				DCB1112824C35441008DDFD6 /* MainAssembly.swift in Sources */,
 				DCA618B924968C44001D8B83 /* KeychainWrapper.swift in Sources */,
+				BB31633244CA71044B95936C /* ScreenAssembly.swift in Sources */,
+				BB316D7641B25892B022C37E /* CoordinatorAssembly.swift in Sources */,
+				BB3165EB024377EA1690CCFF /* AppFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

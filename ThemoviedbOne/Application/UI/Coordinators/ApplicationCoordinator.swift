@@ -1,16 +1,17 @@
 import Foundation
+import Swinject
 
 final class ApplicationCoordinator: BaseCoordinator {
     
-    private let coordinatorFactory: CoordinatorFactoryImpl
+    private let resolver: Resolver
     private let router: Router
     
     private var isFirstLaunch = true
     private var isLogin = false
     
-    init(router: Router, coordinatorFactory: CoordinatorFactoryImpl) {
+    init(router: Router, resolver: Resolver) {
         self.router = router
-        self.coordinatorFactory = coordinatorFactory
+        self.resolver = resolver
     }
     
     override func start() {
@@ -28,8 +29,7 @@ final class ApplicationCoordinator: BaseCoordinator {
     }
     
     private func runStartFlow() {
-        
-        let coordinator = coordinatorFactory.makeStartCoordinator(router: router)
+        let coordinator = resolver.resolve(StartCoordinator.self, argument: router)!
         coordinator.finishFlow = { [weak self, weak coordinator] isLogin in
             self?.isLogin = isLogin
             self?.start()
@@ -41,7 +41,7 @@ final class ApplicationCoordinator: BaseCoordinator {
     
     private func runLoginFlow() {
         
-        let coordinator = coordinatorFactory.makeLoginCoordinator(router: router)
+        let coordinator = resolver.resolve(LoginCoordinator.self, argument: router)!
         coordinator.finishFlow = { [weak self, weak coordinator] in
             self?.isLogin = true
             self?.start()
@@ -52,7 +52,7 @@ final class ApplicationCoordinator: BaseCoordinator {
     }
     
     private func runMovieFlow() {
-        let coordinator = coordinatorFactory.makeMovieCoordinator(router: router)
+        let coordinator = resolver.resolve(MoviesCoordinator.self, argument: router)!
         coordinator.finishFlow = { [weak self, weak coordinator] in
             self?.isLogin = true
             self?.start()

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC00563F247E939A00D1C318"
+               BuildableName = "ThemoviedbOne.app"
+               BlueprintName = "ThemoviedbOne"
+               ReferencedContainer = "container:ThemoviedbOne.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC00563F247E939A00D1C318"
+            BuildableName = "ThemoviedbOne.app"
+            BlueprintName = "ThemoviedbOne"
+            ReferencedContainer = "container:ThemoviedbOne.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

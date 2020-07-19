@@ -3,7 +3,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
-    private let appFactory: AppFactory = Di()
+    private let appFactory: AppFactory = assembler.resolver.resolve(AppFactory.self)!
     private var appCoordinator: Coordinator?
 
     var window: UIWindow?

@@ -1,14 +1,15 @@
 import UIKit
+import Swinject
 
 final class MoviesCoordinator: BaseCoordinator {
     
     var finishFlow: VoidClosure?
     
-    private let screenFactory: ScreenFactory
+    private let resolver: Resolver
     private let router: Router
     
-    init(router: Router, screenFactory: ScreenFactory) {
-        self.screenFactory = screenFactory
+    init(router: Router, resolver: Resolver) {
+        self.resolver = resolver
         self.router = router
     }
     
@@ -17,7 +18,7 @@ final class MoviesCoordinator: BaseCoordinator {
     }
     
     private func showMovies() {
-        let moviesScreen = screenFactory.makeMoviesScreen()
+        let moviesScreen = resolver.resolve(MoviesScreenVC<MoviesScreenViewImp>.self)!
         moviesScreen.onSelectMovie = { [weak self] in self?.showMovie(id: $0) }
         moviesScreen.onShowFavoriteAlert = { [weak router] data in
             let alert = UIAlertController(inputData: data)
@@ -27,7 +28,7 @@ final class MoviesCoordinator: BaseCoordinator {
     }
     
     private func showMovie(id: Movie.Id) {
-        let moviesScreen = screenFactory.makeMovieScreen(id: id)
+        let moviesScreen = resolver.resolve(MovieScreenVC<MovieScreenViewImpl>.self, argument: id)!
         router.push(moviesScreen)
     }
     

@@ -1,14 +1,15 @@
 import Foundation
+import Swinject
 
 final class StartCoordinator: BaseCoordinator {
     
     var finishFlow: BoolClosure?
     
-    private let screenFactory: ScreenFactory
+    private let resolver: Resolver
     private let router: Router
     
-    init(router: Router, screenFactory: ScreenFactory) {
-        self.screenFactory = screenFactory
+    init(router: Router, resolver: Resolver) {
+        self.resolver = resolver
         self.router = router
     }
     
@@ -17,7 +18,7 @@ final class StartCoordinator: BaseCoordinator {
     }
     
     private func showSplash() {
-        let splashScreen = screenFactory.makeSplashScreen()
+        let splashScreen = resolver.resolve(SplashScreenVC<SplashScreenViewImpl>.self)!
         splashScreen.onCheck = { [weak self] isLogin in
             self?.finishFlow?(isLogin)
         }
