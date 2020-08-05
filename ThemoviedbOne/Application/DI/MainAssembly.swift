@@ -15,6 +15,7 @@ class MainAssembly: Assembly {
     func assemble(container: Container) {
         
         container.register(Configuration.self) { _ in ProductionConfiguration() }
+        
         container.register(Session.self) { _ in Session.default }
         container.register(KeychainWrapper.self) { _ in KeychainWrapperImpl.standard }
         container.register(RequestBuilder.self) { RequestBuilderImpl(configuration: $0.resolve(Configuration.self)!) }
@@ -31,6 +32,12 @@ class MainAssembly: Assembly {
         }
         container.register(AppFactory.self) { _ in  AppFactoryImpl(resolver: assembler.resolver) }
         
+        container.register(MovieService.self) { r in
+            MovieServiceImpl(
+                configuration: r.resolve(Configuration.self)!,
+                movieApiClient: r.resolve(ApiClient.self)!
+            )
+        }
     }
     
 }

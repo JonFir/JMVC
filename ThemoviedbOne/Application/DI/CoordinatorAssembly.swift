@@ -6,7 +6,7 @@ class CoordinatorAssembly: Assembly {
     
     func assemble(container: Container) {
         
-        container.register(ApplicationCoordinator.self) { _, router in
+        container.register(ApplicationCoordinator.self) { (_, router: RouterImp) in
             ApplicationCoordinator(router: router, resolver: assembler.resolver)
         }
         container.register(LoginCoordinator.self) { _, router in
