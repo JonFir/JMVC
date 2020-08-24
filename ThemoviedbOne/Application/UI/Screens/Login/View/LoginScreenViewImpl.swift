@@ -113,6 +113,16 @@ final class LoginScreenViewImpl: UIView, LoginScreenView {
         setupPasswordInput()
         setupAuthButton()
         setupErrorLabel()
+        
+        #if DEBUG
+        loginInput.tag = 1
+        passwordInput.tag = 2
+        authButton.tag = 3
+        
+        loginInput.accessibilityIdentifier = "loginInput"
+        passwordInput.accessibilityIdentifier = "passwordInput"
+        authButton.accessibilityIdentifier = "authButton"
+        #endif
     }
     
 }

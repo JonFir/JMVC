@@ -2,13 +2,13 @@ import Foundation
 
 final class ApplicationCoordinator: BaseCoordinator {
     
-    private let coordinatorFactory: CoordinatorFactoryImpl
+    private let coordinatorFactory: CoordinatorFactory
     private let router: Router
     
     private var isFirstLaunch = true
     private var isLogin = false
     
-    init(router: Router, coordinatorFactory: CoordinatorFactoryImpl) {
+    init(router: Router, coordinatorFactory: CoordinatorFactory) {
         self.router = router
         self.coordinatorFactory = coordinatorFactory
     }

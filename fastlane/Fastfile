@@ -1,0 +1,22 @@
+fastlane_version "2.115.0"
+default_platform :ios
+
+platform :ios do
+
+  desc "-----------------------------------------Создаем скриншоты ---------------------------------------------------"
+  lane :make_screenshots do
+    derivedDataPath = 'fastlane/test_derived_data'
+    xcodebuild(
+      scheme: 'ScreenshotsTests',
+      destination: 'generic/platform=iOS',
+      configuration: 'Debug',
+      derivedDataPath: derivedDataPath,
+      xcargs: " -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO build-for-testing"
+    )
+    capture_ios_screenshots(
+      test_without_building: true,
+      derived_data_path: derivedDataPath
+    )
+  end
+
+end

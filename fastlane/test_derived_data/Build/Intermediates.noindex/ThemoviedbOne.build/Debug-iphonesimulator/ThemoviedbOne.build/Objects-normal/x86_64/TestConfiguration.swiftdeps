@@ -1,0 +1,154 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TestConfiguration"
+provides-nominal:
+- "13ThemoviedbOne17TestConfigurationC"
+- "13ThemoviedbOne17TestConfigurationC3KeyO"
+provides-member:
+- ["13ThemoviedbOne17TestConfigurationC", ""]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", ""]
+provides-dynamic-lookup:
+- "environmentProvider"
+- "isTesting"
+- "shared"
+- "startFlow"
+depends-top-level:
+- "=="
+- "Bool"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "ProcessInfoEnvironmentProvider"
+- "StartFlow"
+- "String"
+- "StringLiteralType"
+- "TestConfiguration"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["Se", "flatMap"]
+- !private ["SE", "flatMap"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "isTesting"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "startFlow"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- !private ["7SwiftUI7GestureP", "flatMap"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "flatMap"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "isTesting"]
+- ["SH", "rawValue"]
+- !private ["SH", "startFlow"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "=="]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "RawValue"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "_Default_RawValue"]
+- !private ["13ThemoviedbOne17TestConfigurationC3KeyO", "_findStringSwitchCase"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "_rawHashValue"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "deinit"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "hash"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "hashValue"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "init"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "isTesting"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "rawValue"]
+- ["13ThemoviedbOne17TestConfigurationC3KeyO", "startFlow"]
+- !private ["Sq", "flatMap"]
+- !private ["13ThemoviedbOne30ProcessInfoEnvironmentProviderC", "contains"]
+- !private ["13ThemoviedbOne30ProcessInfoEnvironmentProviderC", "environment"]
+- ["13ThemoviedbOne30ProcessInfoEnvironmentProviderC", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "isTesting"]
+- ["SY", "rawValue"]
+- !private ["SY", "startFlow"]
+- !private ["13ThemoviedbOne9StartFlowO", "deinit"]
+- !private ["13ThemoviedbOne9StartFlowO", "init"]
+- ["13ThemoviedbOne17TestConfigurationC", "Bool"]
+- ["13ThemoviedbOne17TestConfigurationC", "Key"]
+- ["13ThemoviedbOne17TestConfigurationC", "ProcessInfoEnvironmentProvider"]
+- ["13ThemoviedbOne17TestConfigurationC", "StartFlow"]
+- ["13ThemoviedbOne17TestConfigurationC", "String"]
+- ["13ThemoviedbOne17TestConfigurationC", "TestConfiguration"]
+- !private ["13ThemoviedbOne17TestConfigurationC", "_findStringSwitchCase"]
+- ["13ThemoviedbOne17TestConfigurationC", "deinit"]
+- !private ["13ThemoviedbOne17TestConfigurationC", "environmentProvider"]
+- ["13ThemoviedbOne17TestConfigurationC", "init"]
+- ["13ThemoviedbOne17TestConfigurationC", "isTesting"]
+- ["13ThemoviedbOne17TestConfigurationC", "shared"]
+- ["13ThemoviedbOne17TestConfigurationC", "startFlow"]
+- !private ["7SwiftUI4ViewP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- "13ThemoviedbOne17TestConfigurationC3KeyO"
+- !private "Sq"
+- "13ThemoviedbOne30ProcessInfoEnvironmentProviderC"
+- "SY"
+- !private "13ThemoviedbOne9StartFlowO"
+- "13ThemoviedbOne17TestConfigurationC"
+- !private "7SwiftUI4ViewP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "617a268645d274b77b27dbf247ee8c90"

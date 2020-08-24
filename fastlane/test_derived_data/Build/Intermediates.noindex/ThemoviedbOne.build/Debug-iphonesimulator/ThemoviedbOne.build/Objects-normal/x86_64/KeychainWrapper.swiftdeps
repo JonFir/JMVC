@@ -1,0 +1,632 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeychainWrapper"
+- "KeychainWrapperImpl"
+provides-nominal:
+- "13ThemoviedbOne15KeychainWrapperP"
+- "13ThemoviedbOne19KeychainWrapperImplC"
+provides-member:
+- ["13ThemoviedbOne15KeychainWrapperP", ""]
+- ["13ThemoviedbOne19KeychainWrapperImplC", ""]
+- ["13ThemoviedbOne15KeychainWrapperP", "removeObject"]
+provides-dynamic-lookup:
+- "accessGroup"
+- "accessibilityOfKey"
+- "allKeys"
+- "bool"
+- "data"
+- "dataRef"
+- "defaultKeychainWrapper"
+- "defaultServiceName"
+- "deleteKeychainSecClass"
+- "double"
+- "float"
+- "hasValue"
+- "integer"
+- "object"
+- "remove"
+- "removeAllKeys"
+- "removeObject"
+- "serviceName"
+- "set"
+- "setupKeychainQueryDictionary"
+- "standard"
+- "string"
+- "update"
+- "wipeKeychain"
+depends-top-level:
+- !private "=="
+- "??"
+- !private "AnyHashable"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Bundle"
+- !private "CFDictionary"
+- !private "CFString"
+- "CastingPrecedence"
+- "Data"
+- "Double"
+- "Float"
+- "Int"
+- "KeychainItemAccessibility"
+- "KeychainWrapper"
+- "KeychainWrapperImpl"
+- "NSCoding"
+- !private "NSKeyedArchiver"
+- !private "NSKeyedUnarchiver"
+- !private "NSNumber"
+- !private "OSStatus"
+- !private "SecAttrAccessGroup"
+- !private "SecAttrAccessible"
+- !private "SecAttrAccount"
+- !private "SecAttrGeneric"
+- !private "SecAttrService"
+- !private "SecClass"
+- !private "SecItemAdd"
+- !private "SecItemCopyMatching"
+- !private "SecItemDelete"
+- !private "SecItemUpdate"
+- !private "SecMatchLimit"
+- !private "SecReturnAttributes"
+- !private "SecReturnData"
+- !private "SecReturnPersistentRef"
+- !private "SecValueData"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "errSecDuplicateItem"
+- !private "errSecSuccess"
+- !private "kCFBooleanTrue"
+- "kSecAttrAccessGroup"
+- "kSecAttrAccessible"
+- "kSecAttrAccount"
+- "kSecAttrGeneric"
+- "kSecAttrService"
+- "kSecClass"
+- !private "kSecClassCertificate"
+- !private "kSecClassGenericPassword"
+- !private "kSecClassIdentity"
+- !private "kSecClassInternetPassword"
+- !private "kSecClassKey"
+- "kSecMatchLimit"
+- !private "kSecMatchLimitAll"
+- !private "kSecMatchLimitOne"
+- "kSecReturnAttributes"
+- "kSecReturnData"
+- "kSecReturnPersistentRef"
+- "kSecValueData"
+- !private "noErr"
+depends-member:
+- ["9Alamofire0A8ExtendedP", "bundleIdentifier"]
+- ["9Alamofire0A8ExtendedP", "main"]
+- !private ["SK", "Encoding"]
+- !private ["SK", "data"]
+- !private ["SK", "init"]
+- ["So8NSBundleC", "bundleIdentifier"]
+- ["So8NSBundleC", "main"]
+- !private ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "archivedData"]
+- !private ["s7CVarArgP", "boolValue"]
+- ["s7CVarArgP", "bundleIdentifier"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "doubleValue"]
+- !private ["s7CVarArgP", "floatValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "intValue"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unarchiveObject"]
+- !private ["Sl", "Encoding"]
+- !private ["Sl", "data"]
+- !private ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "Encoding"]
+- !private ["SL", "data"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "archivedData"]
+- !private ["s28CustomDebugStringConvertibleP", "boolValue"]
+- ["s28CustomDebugStringConvertibleP", "bundleIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- !private ["s28CustomDebugStringConvertibleP", "floatValue"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "unarchiveObject"]
+- !private ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "archivedData"]
+- !private ["s23CustomStringConvertibleP", "boolValue"]
+- ["s23CustomStringConvertibleP", "bundleIdentifier"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- !private ["s23CustomStringConvertibleP", "floatValue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unarchiveObject"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["Se", "Encoding"]
+- !private ["Se", "data"]
+- !private ["Se", "init"]
+- !private ["Se", "insert"]
+- !private ["Se", "removeValue"]
+- !private ["Se", "subscript"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- !private ["SE", "Encoding"]
+- !private ["SE", "data"]
+- !private ["SE", "init"]
+- !private ["SE", "insert"]
+- !private ["SE", "removeValue"]
+- !private ["SE", "subscript"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "Encoding"]
+- !private ["SQ", "accessibilityForAttributeValue"]
+- !private ["SQ", "archivedData"]
+- !private ["SQ", "boolValue"]
+- ["SQ", "bundleIdentifier"]
+- !private ["SQ", "data"]
+- !private ["SQ", "doubleValue"]
+- !private ["SQ", "floatValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "intValue"]
+- !private ["SQ", "keychainAttrValue"]
+- ["SQ", "main"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unarchiveObject"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "whenUnlocked"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s27ExpressibleByBooleanLiteralP", "boolValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "floatValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "intValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "boolValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "floatValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "intValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "boolValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "floatValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "intValue"]
+- !private ["s32ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s32ExpressibleByStringInterpolationP", "data"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "Encoding"]
+- !private ["SH", "accessibilityForAttributeValue"]
+- !private ["SH", "archivedData"]
+- !private ["SH", "boolValue"]
+- ["SH", "bundleIdentifier"]
+- !private ["SH", "data"]
+- !private ["SH", "doubleValue"]
+- !private ["SH", "floatValue"]
+- !private ["SH", "init"]
+- !private ["SH", "insert"]
+- !private ["SH", "intValue"]
+- !private ["SH", "keychainAttrValue"]
+- ["SH", "main"]
+- !private ["SH", "removeValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unarchiveObject"]
+- !private ["SH", "utf8"]
+- !private ["SH", "whenUnlocked"]
+- !private ["13ThemoviedbOne25KeychainAttrRepresentableP", "accessibilityForAttributeValue"]
+- !private ["13ThemoviedbOne25KeychainAttrRepresentableP", "keychainAttrValue"]
+- !private ["13ThemoviedbOne25KeychainAttrRepresentableP", "whenUnlocked"]
+- !private ["13ThemoviedbOne25KeychainItemAccessibilityO", "accessibilityForAttributeValue"]
+- !private ["13ThemoviedbOne25KeychainItemAccessibilityO", "deinit"]
+- !private ["13ThemoviedbOne25KeychainItemAccessibilityO", "keychainAttrValue"]
+- !private ["13ThemoviedbOne25KeychainItemAccessibilityO", "whenUnlocked"]
+- ["13ThemoviedbOne15KeychainWrapperP", "Bool"]
+- ["13ThemoviedbOne15KeychainWrapperP", "Bundle"]
+- ["13ThemoviedbOne15KeychainWrapperP", "KeychainItemAccessibility"]
+- ["13ThemoviedbOne15KeychainWrapperP", "KeychainWrapperImpl"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "NSKeyedArchiver"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "NSKeyedUnarchiver"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "NSNumber"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecAttrAccessGroup"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecAttrAccessible"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecAttrAccount"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecAttrGeneric"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecAttrService"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecClass"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecItemAdd"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecItemCopyMatching"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecItemDelete"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecItemUpdate"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecMatchLimit"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecReturnAttributes"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecReturnData"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecReturnPersistentRef"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "SecValueData"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "Set"]
+- ["13ThemoviedbOne15KeychainWrapperP", "String"]
+- ["13ThemoviedbOne15KeychainWrapperP", ""]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "accessGroup"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "data"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "defaultServiceName"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "deleteKeychainSecClass"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "errSecDuplicateItem"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "errSecSuccess"]
+- ["13ThemoviedbOne15KeychainWrapperP", "init"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "kCFBooleanTrue"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "kSecAttrAccount"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "kSecClassCertificate"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "kSecClassGenericPassword"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "kSecClassIdentity"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "kSecClassInternetPassword"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "kSecClassKey"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "kSecMatchLimitAll"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "kSecMatchLimitOne"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "noErr"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "object"]
+- ["13ThemoviedbOne15KeychainWrapperP", "removeObject"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "serviceName"]
+- ["13ThemoviedbOne15KeychainWrapperP", "set"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "setupKeychainQueryDictionary"]
+- ["13ThemoviedbOne15KeychainWrapperP", "standard"]
+- ["13ThemoviedbOne15KeychainWrapperP", "string"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "update"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "AnyHashable"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "AnyObject"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "Bool"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "Bundle"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "CFDictionary"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "CFString"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "Data"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "Double"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "Float"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "Int"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "KeychainItemAccessibility"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "KeychainWrapperImpl"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "NSCoding"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "NSKeyedArchiver"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "NSKeyedUnarchiver"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "NSNumber"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "OSStatus"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecAttrAccessGroup"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecAttrAccessible"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecAttrAccount"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecAttrGeneric"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecAttrService"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecClass"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecItemAdd"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecItemCopyMatching"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecItemDelete"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecItemUpdate"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecMatchLimit"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecReturnAttributes"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecReturnData"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecReturnPersistentRef"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "SecValueData"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "Set"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "String"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "accessGroup"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "accessibilityOfKey"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "allKeys"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "bool"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "data"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "dataRef"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "defaultKeychainWrapper"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "defaultServiceName"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "deinit"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "deleteKeychainSecClass"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "double"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "errSecDuplicateItem"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "errSecSuccess"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "float"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "hasValue"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "init"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "integer"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "kCFBooleanTrue"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "kSecAttrAccount"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "kSecClassCertificate"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "kSecClassGenericPassword"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "kSecClassIdentity"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "kSecClassInternetPassword"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "kSecClassKey"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "kSecMatchLimitAll"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "kSecMatchLimitOne"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "noErr"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "object"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "remove"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "removeAllKeys"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "removeObject"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "serviceName"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "set"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "setupKeychainQueryDictionary"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "standard"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "string"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "update"]
+- ["13ThemoviedbOne19KeychainWrapperImplC", "wipeKeychain"]
+- !private ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "data"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So7NSCoderC", "archivedData"]
+- !private ["So7NSCoderC", "unarchiveObject"]
+- !private ["So8NSCodingP", "boolValue"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "floatValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "intValue"]
+- !private ["So9NSCopyingP", "boolValue"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "floatValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "intValue"]
+- !private ["So20NSFetchRequestResultP", "boolValue"]
+- !private ["So20NSFetchRequestResultP", "doubleValue"]
+- !private ["So20NSFetchRequestResultP", "floatValue"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "intValue"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So15NSKeyedArchiverC", "archivedData"]
+- !private ["So17NSKeyedUnarchiverC", "unarchiveObject"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So8NSNumberC", "boolValue"]
+- !private ["So8NSNumberC", "doubleValue"]
+- !private ["So8NSNumberC", "floatValue"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSNumberC", "intValue"]
+- !private ["So8NSObjectC", "archivedData"]
+- !private ["So8NSObjectC", "boolValue"]
+- ["So8NSObjectC", "bundleIdentifier"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "floatValue"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "intValue"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "unarchiveObject"]
+- !private ["So8NSObjectP", "archivedData"]
+- !private ["So8NSObjectP", "boolValue"]
+- ["So8NSObjectP", "bundleIdentifier"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "doubleValue"]
+- !private ["So8NSObjectP", "floatValue"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "intValue"]
+- ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "unarchiveObject"]
+- !private ["So14NSSecureCodingP", "boolValue"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "floatValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "intValue"]
+- !private ["So8NSStringC", "data"]
+- !private ["So7NSValueC", "boolValue"]
+- !private ["So7NSValueC", "doubleValue"]
+- !private ["So7NSValueC", "floatValue"]
+- !private ["So7NSValueC", "init"]
+- !private ["So7NSValueC", "intValue"]
+- !private ["Sm", "Encoding"]
+- !private ["Sm", "data"]
+- !private ["Sm", "init"]
+- !private ["SY", "utf8"]
+- !private ["ST", "Encoding"]
+- !private ["ST", "data"]
+- !private ["ST", "init"]
+- !private ["ST", "insert"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "subscript"]
+- !private ["Sh", "init"]
+- !private ["Sh", "insert"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "data"]
+- !private ["SS", "init"]
+- !private ["Sy", "Encoding"]
+- !private ["Sy", "data"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "Encoding"]
+- !private ["9Alamofire14URLConvertibleP", "data"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "Encoding"]
+- !private ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "boolValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "floatValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "intValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "archivedData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boolValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bundleIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "floatValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "intValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unarchiveObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "archivedData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "boolValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bundleIdentifier"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "doubleValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "floatValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "intValue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unarchiveObject"]
+- !private ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "9Alamofire0A8ExtendedP"
+- !private "SK"
+- "So8NSBundleC"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "13ThemoviedbOne25KeychainAttrRepresentableP"
+- !private "13ThemoviedbOne25KeychainItemAccessibilityO"
+- "13ThemoviedbOne15KeychainWrapperP"
+- "13ThemoviedbOne19KeychainWrapperImplC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So7NSCoderC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So15NSKeyedArchiverC"
+- !private "So17NSKeyedUnarchiverC"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So7NSValueC"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ed03536361cd708a5f7a4057c503a200"

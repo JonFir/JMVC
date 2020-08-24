@@ -38,6 +38,7 @@
 		DC1325CD24800CAC002929D6 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1325CC24800CAC002929D6 /* LoginCoordinator.swift */; };
 		DC1325D0248024D0002929D6 /* SessionRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1325CF248024D0002929D6 /* SessionRepositoryImpl.swift */; };
 		DC249B3524F367F600681B91 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBD73FC24F3673300644F99 /* SnapKit.framework */; };
+		DC2AC0EC24F3A51600D50E0F /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2AC0EB24F3A51600D50E0F /* SnapshotHelper.swift */; };
 		DC77322D2480EBF0006AAEF7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77322C2480EBF0006AAEF7 /* Functions.swift */; };
 		DC7732302480EFFC006AAEF7 /* MoviesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77322F2480EFFC006AAEF7 /* MoviesCoordinator.swift */; };
 		DC7732342480F3F3006AAEF7 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7732332480F3F3006AAEF7 /* MoviesView.swift */; };
@@ -93,6 +94,27 @@
 		DCB1112124C3519D008DDFD6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */; };
 		DCBD73FD24F3673300644F99 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBD73FC24F3673300644F99 /* SnapKit.framework */; };
 		DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */; };
+		DCC4E48A24F3846700C82798 /* Localizations.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCC4E48C24F3846700C82798 /* Localizations.strings */; };
+		DCC4E4B224F3856D00C82798 /* ProcessInfoEnvironmentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4A224F3856D00C82798 /* ProcessInfoEnvironmentProvider.swift */; };
+		DCC4E4B324F3856D00C82798 /* StartFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4A324F3856D00C82798 /* StartFlow.swift */; };
+		DCC4E4B424F3856D00C82798 /* TestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4A424F3856D00C82798 /* TestConfiguration.swift */; };
+		DCC4E4B724F385F400C82798 /* DiScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4B624F385F400C82798 /* DiScreenshotMock.swift */; };
+		DCC4E4B924F387E600C82798 /* MoviesPagerProviderScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4B824F387E600C82798 /* MoviesPagerProviderScreenshotMock.swift */; };
+		DCC4E4BB24F3886400C82798 /* LoginProviderScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4BA24F3886400C82798 /* LoginProviderScreenshotMock.swift */; };
+		DCC4E4BD24F388B500C82798 /* MovieProviderScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4BC24F388B500C82798 /* MovieProviderScreenshotMock.swift */; };
+		DCC4E4BF24F3891000C82798 /* LoginStatusProviderScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4BE24F3891000C82798 /* LoginStatusProviderScreenshotMock.swift */; };
+		DCC4E4C124F38F2300C82798 /* ApplicationCoordinatorScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4C024F38F2300C82798 /* ApplicationCoordinatorScreenshotMock.swift */; };
+		DCC4E4D624F3949300C82798 /* SplashScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4D524F3949300C82798 /* SplashScreenTests.swift */; };
+		DCC4E4D924F3950000C82798 /* StartFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4A324F3856D00C82798 /* StartFlow.swift */; };
+		DCC4E4DA24F3950000C82798 /* TestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4A424F3856D00C82798 /* TestConfiguration.swift */; };
+		DCC4E4DB24F3955100C82798 /* ProcessInfoEnvironmentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4A224F3856D00C82798 /* ProcessInfoEnvironmentProvider.swift */; };
+		DCC4E4F024F3988A00C82798 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC4E4EA24F3985F00C82798 /* Alamofire.framework */; };
+		DCC4E4F124F3988A00C82798 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC4E4EB24F3985F00C82798 /* AlamofireImage.framework */; };
+		DCC4E4F224F3988A00C82798 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC4E4EC24F3985F00C82798 /* SnapKit.framework */; };
+		DCC4E4F424F398D600C82798 /* LoginScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4F324F398D600C82798 /* LoginScreenTests.swift */; };
+		DCC4E4F524F3991300C82798 /* Alamofire.framework in Carthage */ = {isa = PBXBuildFile; fileRef = DCC4E4EA24F3985F00C82798 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCC4E4F624F3991300C82798 /* AlamofireImage.framework in Carthage */ = {isa = PBXBuildFile; fileRef = DCC4E4EB24F3985F00C82798 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCC4E4F724F3991300C82798 /* SnapKit.framework in Carthage */ = {isa = PBXBuildFile; fileRef = DCC4E4EC24F3985F00C82798 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,7 +125,30 @@
 			remoteGlobalIDString = DC00563F247E939A00D1C318;
 			remoteInfo = ThemoviedbOne;
 		};
+		DCC4E4CB24F393EE00C82798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC005638247E939A00D1C318 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC00563F247E939A00D1C318;
+			remoteInfo = ThemoviedbOne;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCC4E4DC24F3975200C82798 /* Carthage */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCC4E4F524F3991300C82798 /* Alamofire.framework in Carthage */,
+				DCC4E4F624F3991300C82798 /* AlamofireImage.framework in Carthage */,
+				DCC4E4F724F3991300C82798 /* SnapKit.framework in Carthage */,
+			);
+			name = Carthage;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DC005640247E939A00D1C318 /* ThemoviedbOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThemoviedbOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +185,7 @@
 		DC1325CA24800B26002929D6 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		DC1325CC24800CAC002929D6 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		DC1325CF248024D0002929D6 /* SessionRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRepositoryImpl.swift; sourceTree = "<group>"; };
+		DC2AC0EB24F3A51600D50E0F /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		DC77322C2480EBF0006AAEF7 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		DC77322F2480EFFC006AAEF7 /* MoviesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCoordinator.swift; sourceTree = "<group>"; };
 		DC7732332480F3F3006AAEF7 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
@@ -193,6 +239,23 @@
 		DCB1111924C3504B008DDFD6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		DCBD73FC24F3673300644F99 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviewWithSameSize.swift"; sourceTree = "<group>"; };
+		DCC4E48B24F3846700C82798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizations.strings; sourceTree = "<group>"; };
+		DCC4E4A224F3856D00C82798 /* ProcessInfoEnvironmentProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessInfoEnvironmentProvider.swift; sourceTree = "<group>"; };
+		DCC4E4A324F3856D00C82798 /* StartFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartFlow.swift; sourceTree = "<group>"; };
+		DCC4E4A424F3856D00C82798 /* TestConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestConfiguration.swift; sourceTree = "<group>"; };
+		DCC4E4B624F385F400C82798 /* DiScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiScreenshotMock.swift; sourceTree = "<group>"; };
+		DCC4E4B824F387E600C82798 /* MoviesPagerProviderScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPagerProviderScreenshotMock.swift; sourceTree = "<group>"; };
+		DCC4E4BA24F3886400C82798 /* LoginProviderScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProviderScreenshotMock.swift; sourceTree = "<group>"; };
+		DCC4E4BC24F388B500C82798 /* MovieProviderScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProviderScreenshotMock.swift; sourceTree = "<group>"; };
+		DCC4E4BE24F3891000C82798 /* LoginStatusProviderScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStatusProviderScreenshotMock.swift; sourceTree = "<group>"; };
+		DCC4E4C024F38F2300C82798 /* ApplicationCoordinatorScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinatorScreenshotMock.swift; sourceTree = "<group>"; };
+		DCC4E4C624F393EE00C82798 /* ThemoviedbOneScreenshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemoviedbOneScreenshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC4E4CA24F393EE00C82798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCC4E4D524F3949300C82798 /* SplashScreenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenTests.swift; sourceTree = "<group>"; };
+		DCC4E4EA24F3985F00C82798 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		DCC4E4EB24F3985F00C82798 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = SOURCE_ROOT; };
+		DCC4E4EC24F3985F00C82798 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
+		DCC4E4F324F398D600C82798 /* LoginScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +279,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCC4E4C324F393EE00C82798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC4E4F024F3988A00C82798 /* Alamofire.framework in Frameworks */,
+				DCC4E4F124F3988A00C82798 /* AlamofireImage.framework in Frameworks */,
+				DCC4E4F224F3988A00C82798 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -224,6 +297,7 @@
 			children = (
 				DC005642247E939A00D1C318 /* ThemoviedbOne */,
 				DC005659247E939B00D1C318 /* ThemoviedbOneTests */,
+				DCC4E4C724F393EE00C82798 /* ThemoviedbOneScreenshotTests */,
 				DC005641247E939A00D1C318 /* Products */,
 				DCB1111724C3504B008DDFD6 /* Frameworks */,
 			);
@@ -234,6 +308,7 @@
 			children = (
 				DC005640247E939A00D1C318 /* ThemoviedbOne.app */,
 				DC005656247E939B00D1C318 /* ThemoviedbOneTests.xctest */,
+				DCC4E4C624F393EE00C82798 /* ThemoviedbOneScreenshotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,10 +316,12 @@
 		DC005642247E939A00D1C318 /* ThemoviedbOne */ = {
 			isa = PBXGroup;
 			children = (
+				DCC4E48D24F3846F00C82798 /* Generated */,
 				DC005666247E941000D1C318 /* Application */,
 				DC00566B247E956B00D1C318 /* Library */,
 				DC00566A247E951400D1C318 /* Configuration */,
 				DC005665247E93F800D1C318 /* Resources */,
+				DCC4E49124F3856D00C82798 /* TestsSpecs */,
 			);
 			path = ThemoviedbOne;
 			sourceTree = "<group>";
@@ -265,6 +342,8 @@
 		DC005665247E93F800D1C318 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DCC4E49024F3849A00C82798 /* Fonts */,
+				DCC4E48724F3842A00C82798 /* Localizations */,
 				DC1325B3247FEC8A002929D6 /* Moks */,
 				DC00564E247E939B00D1C318 /* LaunchScreen.storyboard */,
 				DC00564C247E939B00D1C318 /* Assets.xcassets */,
@@ -728,6 +807,98 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DCC4E48724F3842A00C82798 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4E48C24F3846700C82798 /* Localizations.strings */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		DCC4E48D24F3846F00C82798 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		DCC4E49024F3849A00C82798 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DCC4E49124F3856D00C82798 /* TestsSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4E49224F3856D00C82798 /* Mocks */,
+				DCC4E4A124F3856D00C82798 /* Environment */,
+			);
+			path = TestsSpecs;
+			sourceTree = "<group>";
+		};
+		DCC4E49224F3856D00C82798 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4E4B624F385F400C82798 /* DiScreenshotMock.swift */,
+				DCC4E4B824F387E600C82798 /* MoviesPagerProviderScreenshotMock.swift */,
+				DCC4E4BA24F3886400C82798 /* LoginProviderScreenshotMock.swift */,
+				DCC4E4BC24F388B500C82798 /* MovieProviderScreenshotMock.swift */,
+				DCC4E4BE24F3891000C82798 /* LoginStatusProviderScreenshotMock.swift */,
+				DCC4E4C024F38F2300C82798 /* ApplicationCoordinatorScreenshotMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		DCC4E4A124F3856D00C82798 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4E4A224F3856D00C82798 /* ProcessInfoEnvironmentProvider.swift */,
+				DCC4E4A324F3856D00C82798 /* StartFlow.swift */,
+				DCC4E4A424F3856D00C82798 /* TestConfiguration.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		DCC4E4C724F393EE00C82798 /* ThemoviedbOneScreenshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4E4E924F3981E00C82798 /* Frameworks */,
+				DCC4E4D424F3947E00C82798 /* ScreenshotTests */,
+				DCC4E4D324F3946F00C82798 /* SupportingFiles */,
+			);
+			path = ThemoviedbOneScreenshotTests;
+			sourceTree = "<group>";
+		};
+		DCC4E4D324F3946F00C82798 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4E4CA24F393EE00C82798 /* Info.plist */,
+				DC2AC0EB24F3A51600D50E0F /* SnapshotHelper.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		DCC4E4D424F3947E00C82798 /* ScreenshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4E4D524F3949300C82798 /* SplashScreenTests.swift */,
+				DCC4E4F324F398D600C82798 /* LoginScreenTests.swift */,
+			);
+			path = ScreenshotTests;
+			sourceTree = "<group>";
+		};
+		DCC4E4E924F3981E00C82798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCC4E4EA24F3985F00C82798 /* Alamofire.framework */,
+				DCC4E4EB24F3985F00C82798 /* AlamofireImage.framework */,
+				DCC4E4EC24F3985F00C82798 /* SnapKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -739,6 +910,7 @@
 				DC00563D247E939A00D1C318 /* Frameworks */,
 				DC00563E247E939A00D1C318 /* Resources */,
 				DCB1111F24C35074008DDFD6 /* Carthage */,
+				DCC4E48F24F3848600C82798 /* swiftgen */,
 			);
 			buildRules = (
 			);
@@ -769,13 +941,32 @@
 			productReference = DC005656247E939B00D1C318 /* ThemoviedbOneTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DCC4E4C524F393EE00C82798 /* ThemoviedbOneScreenshotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC4E4CD24F393EE00C82798 /* Build configuration list for PBXNativeTarget "ThemoviedbOneScreenshotTests" */;
+			buildPhases = (
+				DCC4E4C224F393EE00C82798 /* Sources */,
+				DCC4E4C324F393EE00C82798 /* Frameworks */,
+				DCC4E4C424F393EE00C82798 /* Resources */,
+				DCC4E4DC24F3975200C82798 /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC4E4CC24F393EE00C82798 /* PBXTargetDependency */,
+			);
+			name = ThemoviedbOneScreenshotTests;
+			productName = ThemoviedbOneScreenshotTests;
+			productReference = DCC4E4C624F393EE00C82798 /* ThemoviedbOneScreenshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		DC005638247E939A00D1C318 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = jonfir;
 				TargetAttributes = {
@@ -784,6 +975,10 @@
 					};
 					DC005655247E939B00D1C318 = {
 						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DC00563F247E939A00D1C318;
+					};
+					DCC4E4C524F393EE00C82798 = {
+						CreatedOnToolsVersion = 11.6;
 						TestTargetID = DC00563F247E939A00D1C318;
 					};
 				};
@@ -805,6 +1000,7 @@
 			targets = (
 				DC00563F247E939A00D1C318 /* ThemoviedbOne */,
 				DC005655247E939B00D1C318 /* ThemoviedbOneTests */,
+				DCC4E4C524F393EE00C82798 /* ThemoviedbOneScreenshotTests */,
 			);
 		};
 /* End PBXProject section */
@@ -815,6 +1011,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC1325C3247FEDF2002929D6 /* GetFavoriteMock.json in Resources */,
+				DCC4E48A24F3846700C82798 /* Localizations.strings in Resources */,
 				DC1325B7247FECDA002929D6 /* ValidateUserMock.json in Resources */,
 				DC005650247E939B00D1C318 /* LaunchScreen.storyboard in Resources */,
 				DC1325B9247FECF8002929D6 /* MakeSessionMock.json in Resources */,
@@ -835,6 +1032,13 @@
 				DC9CD9DB249BD02500153784 /* authentication_session_new_post.json in Resources */,
 				DCA61949249B24F4001D8B83 /* authentication_token_new_get.json in Resources */,
 				DC9CD9D9249BCDA300153784 /* authentication_token_validate_with_login_post.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC4E4C424F393EE00C82798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -865,6 +1069,24 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
+		DCC4E48F24F3848600C82798 /* swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = swiftgen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\nswiftgen\nelse\necho \"warning: SwiftGen not installed, download it from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -879,13 +1101,17 @@
 				DC8F937E24827068009F03E4 /* MovieProviderImpl.swift in Sources */,
 				DCA618C024969318001D8B83 /* StartCoordinator.swift in Sources */,
 				DC1325CD24800CAC002929D6 /* LoginCoordinator.swift in Sources */,
+				DCC4E4B324F3856D00C82798 /* StartFlow.swift in Sources */,
 				DC8F937C248260FE009F03E4 /* MovieScreenVC.swift in Sources */,
 				DC8F93662481268C009F03E4 /* UIView+hide.swift in Sources */,
+				DCC4E4BB24F3886400C82798 /* LoginProviderScreenshotMock.swift in Sources */,
 				DCA1BADF247FB761000CED5E /* AuthenticatorServiceImpl.swift in Sources */,
 				DCA1BAD6247F7C25000CED5E /* Optional+Apply.swift in Sources */,
 				DC7732342480F3F3006AAEF7 /* MoviesView.swift in Sources */,
 				DCA618BB2496900E001D8B83 /* LoginStatusProviderImpl.swift in Sources */,
 				DCA0332624A883E500E1993D /* UIAlertControllerCommonInputData.swift in Sources */,
+				DCC4E4BD24F388B500C82798 /* MovieProviderScreenshotMock.swift in Sources */,
+				DCC4E4B224F3856D00C82798 /* ProcessInfoEnvironmentProvider.swift in Sources */,
 				DCA1BB2E247FC57C000CED5E /* ApiClient.swift in Sources */,
 				DCA1BB32247FC689000CED5E /* ProductionConfiguration.swift in Sources */,
 				DC005675247E98D300D1C318 /* Di.swift in Sources */,
@@ -902,11 +1128,15 @@
 				DCA618B824968C44001D8B83 /* KeychainItemAccessibility.swift in Sources */,
 				DCA0332824A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift in Sources */,
 				DC005683247EB67800D1C318 /* ZeroView.swift in Sources */,
+				DCC4E4B724F385F400C82798 /* DiScreenshotMock.swift in Sources */,
 				DC1325B2247FE66A002929D6 /* Movie.swift in Sources */,
 				DC77323E2480FA6E006AAEF7 /* UITableView + dequeue.swift in Sources */,
+				DCC4E4B424F3856D00C82798 /* TestConfiguration.swift in Sources */,
+				DCC4E4BF24F3891000C82798 /* LoginStatusProviderScreenshotMock.swift in Sources */,
 				DCA1BB30247FC60D000CED5E /* Configuration.swift in Sources */,
 				DC00566F247E966300D1C318 /* loadFromNib.swift in Sources */,
 				DC1325A9247FE10B002929D6 /* RequestBuilderImpl.swift in Sources */,
+				DCC4E4C124F38F2300C82798 /* ApplicationCoordinatorScreenshotMock.swift in Sources */,
 				DCA6194D249B3358001D8B83 /* BaseJsonDecoder.swift in Sources */,
 				DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */,
 				DC8F937524825846009F03E4 /* MovieScreenViewImpl.swift in Sources */,
@@ -920,6 +1150,7 @@
 				DC00568B247EBD7E00D1C318 /* Types.swift in Sources */,
 				DC005692247EBF7400D1C318 /* SplashScreenViewImpl.swift in Sources */,
 				DC1325C7248008DE002929D6 /* Coordinator.swift in Sources */,
+				DCC4E4B924F387E600C82798 /* MoviesPagerProviderScreenshotMock.swift in Sources */,
 				DC1325AD247FE5C5002929D6 /* MovieApiClient.swift in Sources */,
 				DCA1BADA247F8147000CED5E /* LoginScreenVC.swift in Sources */,
 				DC8F935F24811232009F03E4 /* MovieService.swift in Sources */,
@@ -948,6 +1179,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCC4E4C224F393EE00C82798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC4E4D924F3950000C82798 /* StartFlow.swift in Sources */,
+				DCC4E4DA24F3950000C82798 /* TestConfiguration.swift in Sources */,
+				DCC4E4F424F398D600C82798 /* LoginScreenTests.swift in Sources */,
+				DCC4E4DB24F3955100C82798 /* ProcessInfoEnvironmentProvider.swift in Sources */,
+				DCC4E4D624F3949300C82798 /* SplashScreenTests.swift in Sources */,
+				DC2AC0EC24F3A51600D50E0F /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -955,6 +1199,11 @@
 			isa = PBXTargetDependency;
 			target = DC00563F247E939A00D1C318 /* ThemoviedbOne */;
 			targetProxy = DC005657247E939B00D1C318 /* PBXContainerItemProxy */;
+		};
+		DCC4E4CC24F393EE00C82798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC00563F247E939A00D1C318 /* ThemoviedbOne */;
+			targetProxy = DCC4E4CB24F393EE00C82798 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -965,6 +1214,14 @@
 				DC00564F247E939B00D1C318 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC4E48C24F3846700C82798 /* Localizations.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC4E48B24F3846700C82798 /* en */,
+			);
+			name = Localizations.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1180,6 +1437,52 @@
 			};
 			name = Release;
 		};
+		DCC4E4CE24F393EE00C82798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ThemoviedbOneScreenshotTests/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonfir.ThemoviedbOneScreenshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThemoviedbOne;
+			};
+			name = Debug;
+		};
+		DCC4E4CF24F393EE00C82798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ThemoviedbOneScreenshotTests/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonfir.ThemoviedbOneScreenshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThemoviedbOne;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1206,6 +1509,15 @@
 			buildConfigurations = (
 				DC005663247E939B00D1C318 /* Debug */,
 				DC005664247E939B00D1C318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC4E4CD24F393EE00C82798 /* Build configuration list for PBXNativeTarget "ThemoviedbOneScreenshotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC4E4CE24F393EE00C82798 /* Debug */,
+				DCC4E4CF24F393EE00C82798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

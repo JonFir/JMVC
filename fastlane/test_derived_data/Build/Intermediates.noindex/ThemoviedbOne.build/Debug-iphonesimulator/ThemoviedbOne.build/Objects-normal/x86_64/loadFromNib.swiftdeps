@@ -1,0 +1,723 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "loadView"]
+- ["So6UIViewC", "loadFromNib"]
+- ["So6UIViewC", "loadNib"]
+provides-dynamic-lookup:
+- "isNibExist"
+- "loadFromNib"
+- "loadNib"
+- "loadView"
+- "view"
+depends-top-level:
+- !private "=="
+- !private "??"
+- !private "AnyClass"
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Bundle"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "NSString"
+- !private "NSStringFromClass"
+- "Self"
+- "String"
+- !private "StringLiteralType"
+- !private "UINib"
+- !private "UIScreen"
+- "UIView"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+- !private "type"
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "first"]
+- !private ["9Alamofire0A8ExtendedP", "init"]
+- !private ["9Alamofire0A8ExtendedP", "last"]
+- !private ["9Alamofire0A8ExtendedP", "loadNibNamed"]
+- !private ["9Alamofire0A8ExtendedP", "path"]
+- !private ["Sa", "first"]
+- !private ["Sa", "last"]
+- !private ["SK", "components"]
+- !private ["SK", "first"]
+- !private ["SK", "last"]
+- !private ["So8NSBundleC", "init"]
+- !private ["So8NSBundleC", "loadNibNamed"]
+- !private ["So8NSBundleC", "path"]
+- !private ["So15CALayerDelegateP", "Bundle"]
+- !private ["So15CALayerDelegateP", "NSStringFromClass"]
+- ["So15CALayerDelegateP", "Self"]
+- !private ["So15CALayerDelegateP", "UINib"]
+- !private ["So15CALayerDelegateP", "UIScreen"]
+- !private ["So15CALayerDelegateP", "description"]
+- !private ["So15CALayerDelegateP", "fatalError"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isNibExist"]
+- !private ["So15CALayerDelegateP", "loadFromNib"]
+- !private ["So15CALayerDelegateP", "type"]
+- !private ["So15CALayerDelegateP", "view"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "NSStringFromClass"]
+- ["s7CVarArgP", "Self"]
+- !private ["s7CVarArgP", "UINib"]
+- !private ["s7CVarArgP", "UIScreen"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "description"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiate"]
+- !private ["s7CVarArgP", "isNibExist"]
+- !private ["s7CVarArgP", "last"]
+- !private ["s7CVarArgP", "loadFromNib"]
+- !private ["s7CVarArgP", "loadNibNamed"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "pathExtension"]
+- !private ["s7CVarArgP", "type"]
+- !private ["s7CVarArgP", "view"]
+- !private ["Sl", "components"]
+- !private ["Sl", "first"]
+- !private ["Sl", "last"]
+- !private ["SL", "components"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "Bundle"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "NSStringFromClass"]
+- ["7SnapKit25ConstraintRelatableTargetP", "Self"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UINib"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "UIScreen"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "description"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "fatalError"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "isNibExist"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "loadFromNib"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "type"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "view"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "NSStringFromClass"]
+- ["s28CustomDebugStringConvertibleP", "Self"]
+- !private ["s28CustomDebugStringConvertibleP", "UINib"]
+- !private ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiate"]
+- !private ["s28CustomDebugStringConvertibleP", "isNibExist"]
+- !private ["s28CustomDebugStringConvertibleP", "last"]
+- !private ["s28CustomDebugStringConvertibleP", "loadFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "loadNibNamed"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "pathExtension"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "last"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "NSStringFromClass"]
+- ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "UINib"]
+- !private ["s23CustomStringConvertibleP", "UIScreen"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiate"]
+- !private ["s23CustomStringConvertibleP", "isNibExist"]
+- !private ["s23CustomStringConvertibleP", "last"]
+- !private ["s23CustomStringConvertibleP", "loadFromNib"]
+- !private ["s23CustomStringConvertibleP", "loadNibNamed"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "pathExtension"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "last"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "components"]
+- !private ["Se", "first"]
+- !private ["Se", "last"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "components"]
+- !private ["SE", "first"]
+- !private ["SE", "last"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "NSStringFromClass"]
+- ["SQ", "Self"]
+- !private ["SQ", "UINib"]
+- !private ["SQ", "UIScreen"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "components"]
+- !private ["SQ", "description"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "instantiate"]
+- !private ["SQ", "isNibExist"]
+- !private ["SQ", "last"]
+- !private ["SQ", "loadFromNib"]
+- !private ["SQ", "loadNibNamed"]
+- !private ["SQ", "main"]
+- !private ["SQ", "path"]
+- !private ["SQ", "pathExtension"]
+- !private ["SQ", "type"]
+- !private ["SQ", "view"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "last"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "pathExtension"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["s32ExpressibleByStringInterpolationP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "components"]
+- !private ["s26ExpressibleByStringLiteralP", "pathExtension"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "components"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "pathExtension"]
+- !private ["7SwiftUI7GestureP", "callAsFunction"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "NSStringFromClass"]
+- ["SH", "Self"]
+- !private ["SH", "UINib"]
+- !private ["SH", "UIScreen"]
+- !private ["SH", "bounds"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "components"]
+- !private ["SH", "description"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "instantiate"]
+- !private ["SH", "isNibExist"]
+- !private ["SH", "last"]
+- !private ["SH", "loadFromNib"]
+- !private ["SH", "loadNibNamed"]
+- !private ["SH", "main"]
+- !private ["SH", "path"]
+- !private ["SH", "pathExtension"]
+- !private ["SH", "type"]
+- !private ["SH", "view"]
+- !private ["7SnapKit20LayoutConstraintItemP", "Bundle"]
+- !private ["7SnapKit20LayoutConstraintItemP", "NSStringFromClass"]
+- ["7SnapKit20LayoutConstraintItemP", "Self"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UINib"]
+- !private ["7SnapKit20LayoutConstraintItemP", "UIScreen"]
+- !private ["7SnapKit20LayoutConstraintItemP", "description"]
+- !private ["7SnapKit20LayoutConstraintItemP", "fatalError"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "isNibExist"]
+- !private ["7SnapKit20LayoutConstraintItemP", "loadFromNib"]
+- !private ["7SnapKit20LayoutConstraintItemP", "type"]
+- !private ["7SnapKit20LayoutConstraintItemP", "view"]
+- !private ["s25LosslessStringConvertibleP", "components"]
+- !private ["s10MirrorPathP", "components"]
+- !private ["SM", "first"]
+- !private ["SM", "last"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "last"]
+- !private ["So8NSCodingP", "Bundle"]
+- !private ["So8NSCodingP", "NSStringFromClass"]
+- ["So8NSCodingP", "Self"]
+- !private ["So8NSCodingP", "UINib"]
+- !private ["So8NSCodingP", "UIScreen"]
+- !private ["So8NSCodingP", "components"]
+- !private ["So8NSCodingP", "description"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isNibExist"]
+- !private ["So8NSCodingP", "loadFromNib"]
+- !private ["So8NSCodingP", "pathExtension"]
+- !private ["So8NSCodingP", "type"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So9NSCopyingP", "components"]
+- !private ["So9NSCopyingP", "pathExtension"]
+- !private ["So21NSItemProviderReadingP", "components"]
+- !private ["So21NSItemProviderReadingP", "pathExtension"]
+- !private ["So21NSItemProviderWritingP", "components"]
+- !private ["So21NSItemProviderWritingP", "pathExtension"]
+- !private ["So16NSMutableCopyingP", "components"]
+- !private ["So16NSMutableCopyingP", "pathExtension"]
+- !private ["So8NSObjectC", "AnyClass"]
+- !private ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "NSStringFromClass"]
+- ["So8NSObjectC", "Self"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UINib"]
+- !private ["So8NSObjectC", "UIScreen"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "components"]
+- !private ["So8NSObjectC", "description"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiate"]
+- ["So8NSObjectC", "isNibExist"]
+- ["So8NSObjectC", "loadFromNib"]
+- ["So8NSObjectC", "loadNib"]
+- !private ["So8NSObjectC", "loadNibNamed"]
+- ["So8NSObjectC", "loadView"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "pathExtension"]
+- !private ["So8NSObjectC", "type"]
+- ["So8NSObjectC", "view"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "NSStringFromClass"]
+- ["So8NSObjectP", "Self"]
+- !private ["So8NSObjectP", "UINib"]
+- !private ["So8NSObjectP", "UIScreen"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "components"]
+- !private ["So8NSObjectP", "description"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "instantiate"]
+- !private ["So8NSObjectP", "isNibExist"]
+- !private ["So8NSObjectP", "loadFromNib"]
+- !private ["So8NSObjectP", "loadNibNamed"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "pathExtension"]
+- !private ["So8NSObjectP", "type"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So14NSSecureCodingP", "components"]
+- !private ["So14NSSecureCodingP", "pathExtension"]
+- !private ["So8NSStringC", "components"]
+- !private ["So8NSStringC", "pathExtension"]
+- !private ["Sq", "callAsFunction"]
+- !private ["Sk", "first"]
+- !private ["Sk", "last"]
+- !private ["Sm", "components"]
+- !private ["Sm", "first"]
+- !private ["Sm", "last"]
+- !private ["ST", "components"]
+- !private ["ST", "first"]
+- !private ["ST", "last"]
+- !private ["SS", "components"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "components"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "components"]
+- !private ["s20TextOutputStreamableP", "components"]
+- !private ["So29UIAccessibilityIdentificationP", "Bundle"]
+- !private ["So29UIAccessibilityIdentificationP", "NSStringFromClass"]
+- ["So29UIAccessibilityIdentificationP", "Self"]
+- !private ["So29UIAccessibilityIdentificationP", "UINib"]
+- !private ["So29UIAccessibilityIdentificationP", "UIScreen"]
+- !private ["So29UIAccessibilityIdentificationP", "description"]
+- !private ["So29UIAccessibilityIdentificationP", "fatalError"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isNibExist"]
+- !private ["So29UIAccessibilityIdentificationP", "loadFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "type"]
+- !private ["So29UIAccessibilityIdentificationP", "view"]
+- !private ["So12UIAppearanceP", "Bundle"]
+- !private ["So12UIAppearanceP", "NSStringFromClass"]
+- ["So12UIAppearanceP", "Self"]
+- !private ["So12UIAppearanceP", "UINib"]
+- !private ["So12UIAppearanceP", "UIScreen"]
+- !private ["So12UIAppearanceP", "description"]
+- !private ["So12UIAppearanceP", "fatalError"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isNibExist"]
+- !private ["So12UIAppearanceP", "loadFromNib"]
+- !private ["So12UIAppearanceP", "type"]
+- !private ["So12UIAppearanceP", "view"]
+- !private ["So21UIAppearanceContainerP", "Bundle"]
+- !private ["So21UIAppearanceContainerP", "NSStringFromClass"]
+- ["So21UIAppearanceContainerP", "Self"]
+- !private ["So21UIAppearanceContainerP", "UINib"]
+- !private ["So21UIAppearanceContainerP", "UIScreen"]
+- !private ["So21UIAppearanceContainerP", "description"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isNibExist"]
+- !private ["So21UIAppearanceContainerP", "loadFromNib"]
+- !private ["So21UIAppearanceContainerP", "type"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So17UICoordinateSpaceP", "Bundle"]
+- !private ["So17UICoordinateSpaceP", "NSStringFromClass"]
+- ["So17UICoordinateSpaceP", "Self"]
+- !private ["So17UICoordinateSpaceP", "UINib"]
+- !private ["So17UICoordinateSpaceP", "UIScreen"]
+- !private ["So17UICoordinateSpaceP", "description"]
+- !private ["So17UICoordinateSpaceP", "fatalError"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isNibExist"]
+- !private ["So17UICoordinateSpaceP", "loadFromNib"]
+- !private ["So17UICoordinateSpaceP", "type"]
+- !private ["So17UICoordinateSpaceP", "view"]
+- !private ["So13UIDynamicItemP", "Bundle"]
+- !private ["So13UIDynamicItemP", "NSStringFromClass"]
+- ["So13UIDynamicItemP", "Self"]
+- !private ["So13UIDynamicItemP", "UINib"]
+- !private ["So13UIDynamicItemP", "UIScreen"]
+- !private ["So13UIDynamicItemP", "description"]
+- !private ["So13UIDynamicItemP", "fatalError"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isNibExist"]
+- !private ["So13UIDynamicItemP", "loadFromNib"]
+- !private ["So13UIDynamicItemP", "type"]
+- !private ["So13UIDynamicItemP", "view"]
+- !private ["So18UIFocusEnvironmentP", "Bundle"]
+- !private ["So18UIFocusEnvironmentP", "NSStringFromClass"]
+- ["So18UIFocusEnvironmentP", "Self"]
+- !private ["So18UIFocusEnvironmentP", "UINib"]
+- !private ["So18UIFocusEnvironmentP", "UIScreen"]
+- !private ["So18UIFocusEnvironmentP", "description"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isNibExist"]
+- !private ["So18UIFocusEnvironmentP", "loadFromNib"]
+- !private ["So18UIFocusEnvironmentP", "type"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "Bundle"]
+- !private ["So11UIFocusItemP", "NSStringFromClass"]
+- ["So11UIFocusItemP", "Self"]
+- !private ["So11UIFocusItemP", "UINib"]
+- !private ["So11UIFocusItemP", "UIScreen"]
+- !private ["So11UIFocusItemP", "description"]
+- !private ["So11UIFocusItemP", "fatalError"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isNibExist"]
+- !private ["So11UIFocusItemP", "loadFromNib"]
+- !private ["So11UIFocusItemP", "type"]
+- !private ["So11UIFocusItemP", "view"]
+- !private ["So20UIFocusItemContainerP", "Bundle"]
+- !private ["So20UIFocusItemContainerP", "NSStringFromClass"]
+- ["So20UIFocusItemContainerP", "Self"]
+- !private ["So20UIFocusItemContainerP", "UINib"]
+- !private ["So20UIFocusItemContainerP", "UIScreen"]
+- !private ["So20UIFocusItemContainerP", "description"]
+- !private ["So20UIFocusItemContainerP", "fatalError"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isNibExist"]
+- !private ["So20UIFocusItemContainerP", "loadFromNib"]
+- !private ["So20UIFocusItemContainerP", "type"]
+- !private ["So20UIFocusItemContainerP", "view"]
+- !private ["So24UILargeContentViewerItemP", "Bundle"]
+- !private ["So24UILargeContentViewerItemP", "NSStringFromClass"]
+- ["So24UILargeContentViewerItemP", "Self"]
+- !private ["So24UILargeContentViewerItemP", "UINib"]
+- !private ["So24UILargeContentViewerItemP", "UIScreen"]
+- !private ["So24UILargeContentViewerItemP", "description"]
+- !private ["So24UILargeContentViewerItemP", "fatalError"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isNibExist"]
+- !private ["So24UILargeContentViewerItemP", "loadFromNib"]
+- !private ["So24UILargeContentViewerItemP", "type"]
+- !private ["So24UILargeContentViewerItemP", "view"]
+- !private ["So5UINibC", "init"]
+- !private ["So5UINibC", "instantiate"]
+- !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSStringFromClass"]
+- ["So30UIPasteConfigurationSupportingP", "Self"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINib"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIScreen"]
+- !private ["So30UIPasteConfigurationSupportingP", "description"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isNibExist"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "type"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So11UIResponderC", "AnyClass"]
+- !private ["So11UIResponderC", "AnyObject"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "Bundle"]
+- !private ["So11UIResponderC", "NSString"]
+- !private ["So11UIResponderC", "NSStringFromClass"]
+- ["So11UIResponderC", "Self"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UINib"]
+- !private ["So11UIResponderC", "UIScreen"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "description"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "isNibExist"]
+- ["So11UIResponderC", "loadFromNib"]
+- ["So11UIResponderC", "loadNib"]
+- ["So11UIResponderC", "loadView"]
+- !private ["So11UIResponderC", "type"]
+- ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "Bundle"]
+- !private ["So30UIResponderStandardEditActionsP", "NSStringFromClass"]
+- ["So30UIResponderStandardEditActionsP", "Self"]
+- !private ["So30UIResponderStandardEditActionsP", "UINib"]
+- !private ["So30UIResponderStandardEditActionsP", "UIScreen"]
+- !private ["So30UIResponderStandardEditActionsP", "description"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isNibExist"]
+- !private ["So30UIResponderStandardEditActionsP", "loadFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "type"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So8UIScreenC", "bounds"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So18UITraitEnvironmentP", "Bundle"]
+- !private ["So18UITraitEnvironmentP", "NSStringFromClass"]
+- ["So18UITraitEnvironmentP", "Self"]
+- !private ["So18UITraitEnvironmentP", "UINib"]
+- !private ["So18UITraitEnvironmentP", "UIScreen"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "description"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isNibExist"]
+- !private ["So18UITraitEnvironmentP", "loadFromNib"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "type"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So23UIUserActivityRestoringP", "Bundle"]
+- !private ["So23UIUserActivityRestoringP", "NSStringFromClass"]
+- ["So23UIUserActivityRestoringP", "Self"]
+- !private ["So23UIUserActivityRestoringP", "UINib"]
+- !private ["So23UIUserActivityRestoringP", "UIScreen"]
+- !private ["So23UIUserActivityRestoringP", "description"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isNibExist"]
+- !private ["So23UIUserActivityRestoringP", "loadFromNib"]
+- !private ["So23UIUserActivityRestoringP", "type"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So6UIViewC", "AnyClass"]
+- !private ["So6UIViewC", "AnyObject"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "Bundle"]
+- !private ["So6UIViewC", "NSString"]
+- !private ["So6UIViewC", "NSStringFromClass"]
+- ["So6UIViewC", "Self"]
+- ["So6UIViewC", "String"]
+- !private ["So6UIViewC", "UINib"]
+- !private ["So6UIViewC", "UIScreen"]
+- ["So6UIViewC", "UIView"]
+- !private ["So6UIViewC", "description"]
+- !private ["So6UIViewC", "fatalError"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isNibExist"]
+- ["So6UIViewC", "loadFromNib"]
+- ["So6UIViewC", "loadNib"]
+- ["So6UIViewC", "loadView"]
+- !private ["So6UIViewC", "type"]
+- !private ["So6UIViewC", "view"]
+- !private ["9Alamofire14URLConvertibleP", "components"]
+- !private ["7SwiftUI4ViewP", "callAsFunction"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "last"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "components"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pathExtension"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "last"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "components"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "components"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "components"]
+- !private ["s19_HasContiguousBytesP", "components"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "last"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "pathExtension"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSStringFromClass"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Self"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "description"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isNibExist"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadNibNamed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pathExtension"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "type"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSStringFromClass"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Self"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UINib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIScreen"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "components"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "description"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "instantiate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isNibExist"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadNibNamed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "path"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pathExtension"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "type"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "last"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "Bundle"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSStringFromClass"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "Self"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UINib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIScreen"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "description"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "fatalError"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isNibExist"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "loadFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "type"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "view"]
+depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- !private "So8NSBundleC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "7SnapKit25ConstraintRelatableTargetP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- "7SnapKit20LayoutConstraintItemP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So24UILargeContentViewerItemP"
+- !private "So5UINibC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "7SwiftUI4ViewP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+- !private "isKind"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "93f909ea9aaa7411252e5e8e73cc4921"

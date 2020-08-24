@@ -1,0 +1,594 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Di"
+- "AppFactory"
+- "ScreenFactory"
+- "ScreenFactoryImpl"
+- "CoordinatorFactory"
+- "CoordinatorFactoryImpl"
+provides-nominal:
+- "13ThemoviedbOne2DiC"
+- "13ThemoviedbOne10AppFactoryP"
+- "13ThemoviedbOne13ScreenFactoryP"
+- "13ThemoviedbOne17ScreenFactoryImplC"
+- "13ThemoviedbOne18CoordinatorFactoryP"
+- "13ThemoviedbOne22CoordinatorFactoryImplC"
+provides-member:
+- ["13ThemoviedbOne2DiC", ""]
+- ["13ThemoviedbOne10AppFactoryP", ""]
+- ["13ThemoviedbOne13ScreenFactoryP", ""]
+- ["13ThemoviedbOne17ScreenFactoryImplC", ""]
+- ["13ThemoviedbOne18CoordinatorFactoryP", ""]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", ""]
+provides-dynamic-lookup:
+- "apiClient"
+- "authenticatorService"
+- "baseJsonDecoder"
+- "configuration"
+- "coordinatorFactory"
+- "di"
+- "keychainWrapper"
+- "loginProvider"
+- "loginStatusProvider"
+- "makeApplicationCoordinator"
+- "makeKeyWindowWithCoordinator"
+- "makeLoginCoordinator"
+- "makeLoginScreen"
+- "makeMovieCoordinator"
+- "makeMovieScreen"
+- "makeMoviesScreen"
+- "makeSplashScreen"
+- "makeStartCoordinator"
+- "movieProvider"
+- "movieService"
+- "moviesPagerProvider"
+- "requestBuilder"
+- "screenFactory"
+- "session"
+- "sessionRepository"
+depends-top-level:
+- "ApiClient"
+- "AppFactory"
+- "ApplicationCoordinator"
+- "AssignmentPrecedence"
+- "AuthenticatorServiceImpl"
+- !private "BooleanLiteralType"
+- "Configuration"
+- "Coordinator"
+- "CoordinatorFactory"
+- "CoordinatorFactoryImpl"
+- "Di"
+- "JSONDecoder"
+- "KeychainWrapperImpl"
+- "LoginCoordinator"
+- "LoginProviderImpl"
+- "LoginScreenVC"
+- "LoginScreenViewImpl"
+- "LoginStatusProviderImpl"
+- "Movie"
+- "MovieProviderImpl"
+- "MovieScreenVC"
+- "MovieScreenViewImpl"
+- "MovieServiceImpl"
+- "MoviesCoordinator"
+- "MoviesPagerProviderImpl"
+- "MoviesScreenVC"
+- "MoviesScreenViewImp"
+- !private "ProductionConfiguration"
+- "RequestBuilderImpl"
+- "Router"
+- !private "RouterImp"
+- "ScreenFactory"
+- "ScreenFactoryImpl"
+- "Session"
+- "SessionRepositoryImpl"
+- "SplashScreenVC"
+- "SplashScreenViewImpl"
+- "StartCoordinator"
+- !private "UINavigationController"
+- "UIWindow"
+depends-member:
+- !private ["13ThemoviedbOne16AccountApiClientP", "init"]
+- !private ["13ThemoviedbOne9ApiClientC", "deinit"]
+- !private ["13ThemoviedbOne9ApiClientC", "init"]
+- !private ["13ThemoviedbOne10AppFactoryP", "ApiClient"]
+- !private ["13ThemoviedbOne10AppFactoryP", "AuthenticatorServiceImpl"]
+- ["13ThemoviedbOne10AppFactoryP", "Coordinator"]
+- !private ["13ThemoviedbOne10AppFactoryP", "CoordinatorFactoryImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "JSONDecoder"]
+- !private ["13ThemoviedbOne10AppFactoryP", "KeychainWrapperImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "LoginProviderImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "LoginStatusProviderImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "MovieProviderImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "MovieServiceImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "MoviesPagerProviderImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "ProductionConfiguration"]
+- !private ["13ThemoviedbOne10AppFactoryP", "RequestBuilderImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "RouterImp"]
+- !private ["13ThemoviedbOne10AppFactoryP", "ScreenFactoryImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "Session"]
+- !private ["13ThemoviedbOne10AppFactoryP", "SessionRepositoryImpl"]
+- !private ["13ThemoviedbOne10AppFactoryP", "UINavigationController"]
+- ["13ThemoviedbOne10AppFactoryP", "UIWindow"]
+- ["13ThemoviedbOne10AppFactoryP", ""]
+- !private ["13ThemoviedbOne10AppFactoryP", "apiClient"]
+- !private ["13ThemoviedbOne10AppFactoryP", "authenticatorService"]
+- !private ["13ThemoviedbOne10AppFactoryP", "baseJsonDecoder"]
+- !private ["13ThemoviedbOne10AppFactoryP", "configuration"]
+- !private ["13ThemoviedbOne10AppFactoryP", "coordinatorFactory"]
+- !private ["13ThemoviedbOne10AppFactoryP", "keychainWrapper"]
+- !private ["13ThemoviedbOne10AppFactoryP", "loginProvider"]
+- !private ["13ThemoviedbOne10AppFactoryP", "loginStatusProvider"]
+- ["13ThemoviedbOne10AppFactoryP", "makeKeyWindowWithCoordinator"]
+- !private ["13ThemoviedbOne10AppFactoryP", "movieProvider"]
+- !private ["13ThemoviedbOne10AppFactoryP", "movieService"]
+- !private ["13ThemoviedbOne10AppFactoryP", "moviesPagerProvider"]
+- !private ["13ThemoviedbOne10AppFactoryP", "requestBuilder"]
+- !private ["13ThemoviedbOne10AppFactoryP", "screenFactory"]
+- !private ["13ThemoviedbOne10AppFactoryP", "session"]
+- !private ["13ThemoviedbOne10AppFactoryP", "sessionRepository"]
+- !private ["13ThemoviedbOne22ApplicationCoordinatorC", "deinit"]
+- !private ["13ThemoviedbOne22ApplicationCoordinatorC", "init"]
+- !private ["13ThemoviedbOne20AuthenticatorServiceP", "init"]
+- !private ["13ThemoviedbOne24AuthenticatorServiceImplC", "deinit"]
+- !private ["13ThemoviedbOne24AuthenticatorServiceImplC", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "prefersLargeTitles"]
+- !private ["So15CALayerDelegateP", "rootViewController"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "navigationBar"]
+- !private ["s7CVarArgP", "prefersLargeTitles"]
+- !private ["s7CVarArgP", "rootViewController"]
+- !private ["13ThemoviedbOne13ConfigurationP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "prefersLargeTitles"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "rootViewController"]
+- !private ["13ThemoviedbOne11CoordinatorP", "init"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", "ApplicationCoordinator"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", "LoginCoordinator"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", "MoviesCoordinator"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", "Router"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", "StartCoordinator"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", ""]
+- !private ["13ThemoviedbOne18CoordinatorFactoryP", "init"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", "makeApplicationCoordinator"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", "makeLoginCoordinator"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", "makeMovieCoordinator"]
+- ["13ThemoviedbOne18CoordinatorFactoryP", "makeStartCoordinator"]
+- !private ["13ThemoviedbOne18CoordinatorFactoryP", "screenFactory"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "ApplicationCoordinator"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "LoginCoordinator"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "MoviesCoordinator"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "Router"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "ScreenFactory"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "StartCoordinator"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "deinit"]
+- !private ["13ThemoviedbOne22CoordinatorFactoryImplC", "init"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "makeApplicationCoordinator"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "makeLoginCoordinator"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "makeMovieCoordinator"]
+- ["13ThemoviedbOne22CoordinatorFactoryImplC", "makeStartCoordinator"]
+- !private ["13ThemoviedbOne22CoordinatorFactoryImplC", "screenFactory"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loginProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "loginStatusProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "movieProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "moviesPagerProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "prefersLargeTitles"]
+- !private ["s28CustomDebugStringConvertibleP", "rootViewController"]
+- !private ["s17CustomReflectableP", "loginProvider"]
+- !private ["s17CustomReflectableP", "loginStatusProvider"]
+- !private ["s17CustomReflectableP", "movieProvider"]
+- !private ["s17CustomReflectableP", "moviesPagerProvider"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "navigationBar"]
+- !private ["s23CustomStringConvertibleP", "prefersLargeTitles"]
+- !private ["s23CustomStringConvertibleP", "rootViewController"]
+- !private ["9Alamofire11DataDecoderP", "makeBaseDecoder"]
+- ["Se", "Id"]
+- !private ["Se", "loginProvider"]
+- !private ["Se", "loginStatusProvider"]
+- !private ["Se", "movieProvider"]
+- !private ["Se", "moviesPagerProvider"]
+- ["13ThemoviedbOne2DiC", "ApiClient"]
+- ["13ThemoviedbOne2DiC", "AuthenticatorServiceImpl"]
+- ["13ThemoviedbOne2DiC", "Configuration"]
+- ["13ThemoviedbOne2DiC", "Coordinator"]
+- ["13ThemoviedbOne2DiC", "CoordinatorFactoryImpl"]
+- ["13ThemoviedbOne2DiC", "JSONDecoder"]
+- ["13ThemoviedbOne2DiC", "KeychainWrapperImpl"]
+- ["13ThemoviedbOne2DiC", "LoginProviderImpl"]
+- ["13ThemoviedbOne2DiC", "LoginStatusProviderImpl"]
+- ["13ThemoviedbOne2DiC", "MovieProviderImpl"]
+- ["13ThemoviedbOne2DiC", "MovieServiceImpl"]
+- ["13ThemoviedbOne2DiC", "MoviesPagerProviderImpl"]
+- !private ["13ThemoviedbOne2DiC", "ProductionConfiguration"]
+- ["13ThemoviedbOne2DiC", "RequestBuilderImpl"]
+- !private ["13ThemoviedbOne2DiC", "RouterImp"]
+- ["13ThemoviedbOne2DiC", "ScreenFactoryImpl"]
+- ["13ThemoviedbOne2DiC", "Session"]
+- ["13ThemoviedbOne2DiC", "SessionRepositoryImpl"]
+- !private ["13ThemoviedbOne2DiC", "UINavigationController"]
+- ["13ThemoviedbOne2DiC", "UIWindow"]
+- !private ["13ThemoviedbOne2DiC", "apiClient"]
+- !private ["13ThemoviedbOne2DiC", "authenticatorService"]
+- !private ["13ThemoviedbOne2DiC", "baseJsonDecoder"]
+- !private ["13ThemoviedbOne2DiC", "configuration"]
+- !private ["13ThemoviedbOne2DiC", "coordinatorFactory"]
+- ["13ThemoviedbOne2DiC", "deinit"]
+- ["13ThemoviedbOne2DiC", "init"]
+- !private ["13ThemoviedbOne2DiC", "keychainWrapper"]
+- !private ["13ThemoviedbOne2DiC", "loginProvider"]
+- !private ["13ThemoviedbOne2DiC", "loginStatusProvider"]
+- ["13ThemoviedbOne2DiC", "makeKeyWindowWithCoordinator"]
+- !private ["13ThemoviedbOne2DiC", "movieProvider"]
+- !private ["13ThemoviedbOne2DiC", "movieService"]
+- !private ["13ThemoviedbOne2DiC", "moviesPagerProvider"]
+- !private ["13ThemoviedbOne2DiC", "requestBuilder"]
+- !private ["13ThemoviedbOne2DiC", "screenFactory"]
+- !private ["13ThemoviedbOne2DiC", "session"]
+- !private ["13ThemoviedbOne2DiC", "sessionRepository"]
+- !private ["SE", "loginProvider"]
+- !private ["SE", "loginStatusProvider"]
+- !private ["SE", "movieProvider"]
+- !private ["SE", "moviesPagerProvider"]
+- !private ["SQ", "init"]
+- !private ["SQ", "loginProvider"]
+- !private ["SQ", "loginStatusProvider"]
+- !private ["SQ", "movieProvider"]
+- !private ["SQ", "moviesPagerProvider"]
+- !private ["SQ", "navigationBar"]
+- !private ["SQ", "prefersLargeTitles"]
+- !private ["SQ", "rootViewController"]
+- !private ["s23ExpressibleByNilLiteralP", "loginProvider"]
+- !private ["s23ExpressibleByNilLiteralP", "loginStatusProvider"]
+- !private ["s23ExpressibleByNilLiteralP", "movieProvider"]
+- !private ["s23ExpressibleByNilLiteralP", "moviesPagerProvider"]
+- !private ["13ThemoviedbOne17FavoriteApiClientP", "init"]
+- !private ["7SwiftUI7GestureP", "loginProvider"]
+- !private ["7SwiftUI7GestureP", "loginStatusProvider"]
+- !private ["7SwiftUI7GestureP", "movieProvider"]
+- !private ["7SwiftUI7GestureP", "moviesPagerProvider"]
+- !private ["SH", "init"]
+- !private ["SH", "loginProvider"]
+- !private ["SH", "loginStatusProvider"]
+- !private ["SH", "movieProvider"]
+- !private ["SH", "moviesPagerProvider"]
+- !private ["SH", "navigationBar"]
+- !private ["SH", "prefersLargeTitles"]
+- !private ["SH", "rootViewController"]
+- !private ["10Foundation11JSONDecoderC", "makeBaseDecoder"]
+- !private ["13ThemoviedbOne15KeychainWrapperP", "standard"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "deinit"]
+- !private ["13ThemoviedbOne19KeychainWrapperImplC", "standard"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "prefersLargeTitles"]
+- !private ["7SnapKit20LayoutConstraintItemP", "rootViewController"]
+- !private ["13ThemoviedbOne16LoginCoordinatorC", "init"]
+- !private ["13ThemoviedbOne13LoginProviderP", "init"]
+- !private ["13ThemoviedbOne17LoginProviderImplC", "deinit"]
+- !private ["13ThemoviedbOne17LoginProviderImplC", "init"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "deinit"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "init"]
+- ["13ThemoviedbOne19LoginScreenViewImplC", "deinit"]
+- !private ["13ThemoviedbOne19LoginStatusProviderP", "init"]
+- !private ["13ThemoviedbOne23LoginStatusProviderImplC", "deinit"]
+- !private ["13ThemoviedbOne23LoginStatusProviderImplC", "init"]
+- ["13ThemoviedbOne5MovieV", "Id"]
+- !private ["13ThemoviedbOne14MovieApiClientP", "init"]
+- !private ["13ThemoviedbOne13MovieProviderP", "init"]
+- !private ["13ThemoviedbOne17MovieProviderImplC", "deinit"]
+- !private ["13ThemoviedbOne17MovieProviderImplC", "init"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "deinit"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "init"]
+- ["13ThemoviedbOne19MovieScreenViewImplC", "deinit"]
+- !private ["13ThemoviedbOne12MovieServiceP", "init"]
+- !private ["13ThemoviedbOne16MovieServiceImplC", "deinit"]
+- !private ["13ThemoviedbOne16MovieServiceImplC", "init"]
+- !private ["13ThemoviedbOne17MoviesCoordinatorC", "init"]
+- !private ["13ThemoviedbOne19MoviesPagerProviderP", "init"]
+- !private ["13ThemoviedbOne23MoviesPagerProviderImplC", "deinit"]
+- !private ["13ThemoviedbOne23MoviesPagerProviderImplC", "init"]
+- !private ["13ThemoviedbOne14MoviesScreenVCC", "deinit"]
+- !private ["13ThemoviedbOne14MoviesScreenVCC", "init"]
+- ["13ThemoviedbOne19MoviesScreenViewImpC", "deinit"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "navigationBar"]
+- !private ["So8NSCodingP", "prefersLargeTitles"]
+- !private ["So8NSCodingP", "rootViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationBar"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "navigationBar"]
+- !private ["So8NSObjectC", "prefersLargeTitles"]
+- !private ["So8NSObjectC", "rootViewController"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "navigationBar"]
+- !private ["So8NSObjectP", "prefersLargeTitles"]
+- !private ["So8NSObjectP", "rootViewController"]
+- !private ["Sq", "loginProvider"]
+- !private ["Sq", "loginStatusProvider"]
+- !private ["Sq", "movieProvider"]
+- !private ["Sq", "moviesPagerProvider"]
+- !private ["13ThemoviedbOne11PresentableP", "init"]
+- !private ["13ThemoviedbOne11PresentableP", "navigationBar"]
+- !private ["13ThemoviedbOne23ProductionConfigurationV", "deinit"]
+- !private ["13ThemoviedbOne23ProductionConfigurationV", "init"]
+- !private ["13ThemoviedbOne14RequestBuilderP", "init"]
+- !private ["13ThemoviedbOne18RequestBuilderImplC", "deinit"]
+- !private ["13ThemoviedbOne18RequestBuilderImplC", "init"]
+- !private ["9Alamofire15RequestDelegateP", "default"]
+- !private ["13ThemoviedbOne6RouterP", "init"]
+- !private ["13ThemoviedbOne9RouterImpC", "deinit"]
+- !private ["13ThemoviedbOne9RouterImpC", "init"]
+- ["13ThemoviedbOne13ScreenFactoryP", "LoginScreenVC"]
+- ["13ThemoviedbOne13ScreenFactoryP", "LoginScreenViewImpl"]
+- ["13ThemoviedbOne13ScreenFactoryP", "Movie"]
+- ["13ThemoviedbOne13ScreenFactoryP", "MovieScreenVC"]
+- ["13ThemoviedbOne13ScreenFactoryP", "MovieScreenViewImpl"]
+- ["13ThemoviedbOne13ScreenFactoryP", "MoviesScreenVC"]
+- ["13ThemoviedbOne13ScreenFactoryP", "MoviesScreenViewImp"]
+- ["13ThemoviedbOne13ScreenFactoryP", "SplashScreenVC"]
+- ["13ThemoviedbOne13ScreenFactoryP", "SplashScreenViewImpl"]
+- ["13ThemoviedbOne13ScreenFactoryP", ""]
+- !private ["13ThemoviedbOne13ScreenFactoryP", "di"]
+- !private ["13ThemoviedbOne13ScreenFactoryP", "init"]
+- ["13ThemoviedbOne13ScreenFactoryP", "makeLoginScreen"]
+- ["13ThemoviedbOne13ScreenFactoryP", "makeMovieScreen"]
+- ["13ThemoviedbOne13ScreenFactoryP", "makeMoviesScreen"]
+- ["13ThemoviedbOne13ScreenFactoryP", "makeSplashScreen"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "Di"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "LoginScreenVC"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "LoginScreenViewImpl"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "Movie"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "MovieScreenVC"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "MovieScreenViewImpl"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "MoviesScreenVC"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "MoviesScreenViewImp"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "SplashScreenVC"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "SplashScreenViewImpl"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "deinit"]
+- !private ["13ThemoviedbOne17ScreenFactoryImplC", "di"]
+- !private ["13ThemoviedbOne17ScreenFactoryImplC", "init"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "makeLoginScreen"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "makeMovieScreen"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "makeMoviesScreen"]
+- ["13ThemoviedbOne17ScreenFactoryImplC", "makeSplashScreen"]
+- !private ["9Alamofire7SessionC", "default"]
+- !private ["13ThemoviedbOne17SessionRepositoryP", "init"]
+- !private ["13ThemoviedbOne21SessionRepositoryImplC", "deinit"]
+- !private ["13ThemoviedbOne21SessionRepositoryImplC", "init"]
+- !private ["9Alamofire20SessionStateProviderP", "default"]
+- !private ["13ThemoviedbOne14SplashScreenVCC", "deinit"]
+- !private ["13ThemoviedbOne14SplashScreenVCC", "init"]
+- ["13ThemoviedbOne20SplashScreenViewImplC", "deinit"]
+- !private ["13ThemoviedbOne16StartCoordinatorC", "init"]
+- !private ["7Combine15TopLevelDecoderP", "makeBaseDecoder"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "prefersLargeTitles"]
+- !private ["So29UIAccessibilityIdentificationP", "rootViewController"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "prefersLargeTitles"]
+- !private ["So12UIAppearanceP", "rootViewController"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationBar"]
+- !private ["So21UIAppearanceContainerP", "prefersLargeTitles"]
+- !private ["So21UIAppearanceContainerP", "rootViewController"]
+- !private ["So16UIBarPositioningP", "prefersLargeTitles"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationBar"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "prefersLargeTitles"]
+- !private ["So17UICoordinateSpaceP", "rootViewController"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "prefersLargeTitles"]
+- !private ["So13UIDynamicItemP", "rootViewController"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationBar"]
+- !private ["So18UIFocusEnvironmentP", "prefersLargeTitles"]
+- !private ["So18UIFocusEnvironmentP", "rootViewController"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "prefersLargeTitles"]
+- !private ["So11UIFocusItemP", "rootViewController"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "prefersLargeTitles"]
+- !private ["So20UIFocusItemContainerP", "rootViewController"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "prefersLargeTitles"]
+- !private ["So24UILargeContentViewerItemP", "rootViewController"]
+- !private ["So15UINavigationBarC", "prefersLargeTitles"]
+- !private ["So22UINavigationControllerC", "init"]
+- !private ["So22UINavigationControllerC", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "prefersLargeTitles"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootViewController"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationBar"]
+- !private ["So11UIResponderC", "prefersLargeTitles"]
+- !private ["So11UIResponderC", "rootViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "prefersLargeTitles"]
+- !private ["So30UIResponderStandardEditActionsP", "rootViewController"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationBar"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationBar"]
+- !private ["So18UITraitEnvironmentP", "prefersLargeTitles"]
+- !private ["So18UITraitEnvironmentP", "rootViewController"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "navigationBar"]
+- !private ["So23UIUserActivityRestoringP", "prefersLargeTitles"]
+- !private ["So23UIUserActivityRestoringP", "rootViewController"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "prefersLargeTitles"]
+- !private ["So6UIViewC", "rootViewController"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationBar"]
+- !private ["So8UIWindowC", "init"]
+- !private ["So8UIWindowC", "rootViewController"]
+- !private ["7SwiftUI4ViewP", "loginProvider"]
+- !private ["7SwiftUI4ViewP", "loginStatusProvider"]
+- !private ["7SwiftUI4ViewP", "movieProvider"]
+- !private ["7SwiftUI4ViewP", "moviesPagerProvider"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prefersLargeTitles"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootViewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "navigationBar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prefersLargeTitles"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootViewController"]
+- !private ["s21_ObjectiveCBridgeableP", "loginProvider"]
+- !private ["s21_ObjectiveCBridgeableP", "loginStatusProvider"]
+- !private ["s21_ObjectiveCBridgeableP", "movieProvider"]
+- !private ["s21_ObjectiveCBridgeableP", "moviesPagerProvider"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "prefersLargeTitles"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "rootViewController"]
+depends-nominal:
+- !private "13ThemoviedbOne16AccountApiClientP"
+- !private "13ThemoviedbOne9ApiClientC"
+- "13ThemoviedbOne10AppFactoryP"
+- !private "13ThemoviedbOne22ApplicationCoordinatorC"
+- !private "13ThemoviedbOne20AuthenticatorServiceP"
+- !private "13ThemoviedbOne24AuthenticatorServiceImplC"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "13ThemoviedbOne13ConfigurationP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- !private "13ThemoviedbOne11CoordinatorP"
+- "13ThemoviedbOne18CoordinatorFactoryP"
+- "13ThemoviedbOne22CoordinatorFactoryImplC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataDecoderP"
+- "Se"
+- "13ThemoviedbOne2DiC"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "13ThemoviedbOne17FavoriteApiClientP"
+- !private "7SwiftUI7GestureP"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "13ThemoviedbOne15KeychainWrapperP"
+- !private "13ThemoviedbOne19KeychainWrapperImplC"
+- !private "7SnapKit20LayoutConstraintItemP"
+- !private "13ThemoviedbOne16LoginCoordinatorC"
+- !private "13ThemoviedbOne13LoginProviderP"
+- !private "13ThemoviedbOne17LoginProviderImplC"
+- !private "13ThemoviedbOne13LoginScreenVCC"
+- "13ThemoviedbOne19LoginScreenViewImplC"
+- !private "13ThemoviedbOne19LoginStatusProviderP"
+- !private "13ThemoviedbOne23LoginStatusProviderImplC"
+- "13ThemoviedbOne5MovieV"
+- !private "13ThemoviedbOne14MovieApiClientP"
+- !private "13ThemoviedbOne13MovieProviderP"
+- !private "13ThemoviedbOne17MovieProviderImplC"
+- !private "13ThemoviedbOne13MovieScreenVCC"
+- "13ThemoviedbOne19MovieScreenViewImplC"
+- !private "13ThemoviedbOne12MovieServiceP"
+- !private "13ThemoviedbOne16MovieServiceImplC"
+- !private "13ThemoviedbOne17MoviesCoordinatorC"
+- !private "13ThemoviedbOne19MoviesPagerProviderP"
+- !private "13ThemoviedbOne23MoviesPagerProviderImplC"
+- !private "13ThemoviedbOne14MoviesScreenVCC"
+- "13ThemoviedbOne19MoviesScreenViewImpC"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sq"
+- !private "13ThemoviedbOne11PresentableP"
+- !private "13ThemoviedbOne23ProductionConfigurationV"
+- !private "13ThemoviedbOne14RequestBuilderP"
+- !private "13ThemoviedbOne18RequestBuilderImplC"
+- !private "9Alamofire15RequestDelegateP"
+- !private "13ThemoviedbOne6RouterP"
+- !private "13ThemoviedbOne9RouterImpC"
+- "13ThemoviedbOne13ScreenFactoryP"
+- "13ThemoviedbOne17ScreenFactoryImplC"
+- !private "9Alamofire7SessionC"
+- !private "13ThemoviedbOne17SessionRepositoryP"
+- !private "13ThemoviedbOne21SessionRepositoryImplC"
+- !private "9Alamofire20SessionStateProviderP"
+- !private "13ThemoviedbOne14SplashScreenVCC"
+- "13ThemoviedbOne20SplashScreenViewImplC"
+- !private "13ThemoviedbOne16StartCoordinatorC"
+- !private "7Combine15TopLevelDecoderP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UIBarPositioningP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So15UINavigationBarC"
+- !private "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "So8UIWindowC"
+- !private "7SwiftUI4ViewP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dff05634245039d030906b39fb285be3"

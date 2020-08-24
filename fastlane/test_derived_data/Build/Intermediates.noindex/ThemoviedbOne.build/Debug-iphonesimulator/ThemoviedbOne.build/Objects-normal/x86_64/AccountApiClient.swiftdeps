@@ -1,0 +1,218 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AccountApiClient"
+provides-nominal:
+- "13ThemoviedbOne16AccountApiClientP"
+- "13ThemoviedbOne9ApiClientC"
+- "13ThemoviedbOne9ApiClientC17MakeTokenResponseV"
+- "13ThemoviedbOne9ApiClientC20ValidateUserResponseV"
+- "13ThemoviedbOne9ApiClientC19MakeSessionResponseV"
+provides-member:
+- ["13ThemoviedbOne16AccountApiClientP", ""]
+- ["13ThemoviedbOne9ApiClientC", ""]
+- ["13ThemoviedbOne9ApiClientC17MakeTokenResponseV", ""]
+- ["13ThemoviedbOne9ApiClientC20ValidateUserResponseV", ""]
+- ["13ThemoviedbOne9ApiClientC19MakeSessionResponseV", ""]
+provides-dynamic-lookup:
+- "makeSession"
+- "makeToken"
+- "validateUser"
+depends-top-level:
+- "=="
+- "AccountApiClient"
+- "AnyPublisher"
+- "ApiClient"
+- "Decodable"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- !private "~="
+depends-member:
+- ["13ThemoviedbOne16AccountApiClientP", "AnyPublisher"]
+- ["13ThemoviedbOne16AccountApiClientP", "ApiClient"]
+- ["13ThemoviedbOne16AccountApiClientP", "Error"]
+- ["13ThemoviedbOne16AccountApiClientP", "MakeSessionResponse"]
+- ["13ThemoviedbOne16AccountApiClientP", "MakeTokenResponse"]
+- ["13ThemoviedbOne16AccountApiClientP", "String"]
+- ["13ThemoviedbOne16AccountApiClientP", "ValidateUserResponse"]
+- ["13ThemoviedbOne16AccountApiClientP", ""]
+- ["13ThemoviedbOne16AccountApiClientP", "makeSession"]
+- ["13ThemoviedbOne16AccountApiClientP", "makeToken"]
+- !private ["13ThemoviedbOne16AccountApiClientP", "performRequest"]
+- !private ["13ThemoviedbOne16AccountApiClientP", "requestBuilder"]
+- ["13ThemoviedbOne16AccountApiClientP", "validateUser"]
+- ["13ThemoviedbOne9ApiClientC", "AnyPublisher"]
+- ["13ThemoviedbOne9ApiClientC", "ApiClient"]
+- ["13ThemoviedbOne9ApiClientC", "Decodable"]
+- ["13ThemoviedbOne9ApiClientC", "Error"]
+- ["13ThemoviedbOne9ApiClientC", "MakeSessionResponse"]
+- ["13ThemoviedbOne9ApiClientC", "MakeTokenResponse"]
+- ["13ThemoviedbOne9ApiClientC", "String"]
+- ["13ThemoviedbOne9ApiClientC", "ValidateUserResponse"]
+- ["13ThemoviedbOne9ApiClientC", "deinit"]
+- ["13ThemoviedbOne9ApiClientC", "makeSession"]
+- ["13ThemoviedbOne9ApiClientC", "makeToken"]
+- !private ["13ThemoviedbOne9ApiClientC", "performRequest"]
+- !private ["13ThemoviedbOne9ApiClientC", "requestBuilder"]
+- ["13ThemoviedbOne9ApiClientC", "validateUser"]
+- ["s9CodingKeyP", "=="]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- ["Se", "init"]
+- !private ["Se", "requestToken"]
+- !private ["Se", "sessionId"]
+- !private ["s7DecoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "get"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "post"]
+- ["SQ", "stringValue"]
+- ["13ThemoviedbOne17FavoriteApiClientP", "MakeSessionResponse"]
+- ["13ThemoviedbOne17FavoriteApiClientP", "MakeTokenResponse"]
+- ["13ThemoviedbOne17FavoriteApiClientP", "ValidateUserResponse"]
+- ["13ThemoviedbOne17FavoriteApiClientP", "makeSession"]
+- ["13ThemoviedbOne17FavoriteApiClientP", "makeToken"]
+- !private ["13ThemoviedbOne17FavoriteApiClientP", "performRequest"]
+- !private ["13ThemoviedbOne17FavoriteApiClientP", "requestBuilder"]
+- ["13ThemoviedbOne17FavoriteApiClientP", "validateUser"]
+- !private ["9Alamofire10HTTPMethodV", "get"]
+- !private ["9Alamofire10HTTPMethodV", "post"]
+- ["SH", "=="]
+- !private ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "get"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "post"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["13ThemoviedbOne9ApiClientC19MakeSessionResponseV", "String"]
+- ["13ThemoviedbOne9ApiClientC19MakeSessionResponseV", "deinit"]
+- ["13ThemoviedbOne9ApiClientC19MakeSessionResponseV", "init"]
+- ["13ThemoviedbOne9ApiClientC19MakeSessionResponseV", "sessionId"]
+- ["13ThemoviedbOne9ApiClientC17MakeTokenResponseV", "String"]
+- ["13ThemoviedbOne9ApiClientC17MakeTokenResponseV", "deinit"]
+- ["13ThemoviedbOne9ApiClientC17MakeTokenResponseV", "init"]
+- ["13ThemoviedbOne9ApiClientC17MakeTokenResponseV", "requestToken"]
+- ["13ThemoviedbOne14MovieApiClientP", "MakeSessionResponse"]
+- ["13ThemoviedbOne14MovieApiClientP", "MakeTokenResponse"]
+- ["13ThemoviedbOne14MovieApiClientP", "ValidateUserResponse"]
+- ["13ThemoviedbOne14MovieApiClientP", "makeSession"]
+- ["13ThemoviedbOne14MovieApiClientP", "makeToken"]
+- !private ["13ThemoviedbOne14MovieApiClientP", "performRequest"]
+- !private ["13ThemoviedbOne14MovieApiClientP", "requestBuilder"]
+- ["13ThemoviedbOne14MovieApiClientP", "validateUser"]
+- !private ["SY", "get"]
+- !private ["SY", "post"]
+- !private ["13ThemoviedbOne14RequestBuilderP", "build"]
+- ["13ThemoviedbOne9ApiClientC20ValidateUserResponseV", "String"]
+- ["13ThemoviedbOne9ApiClientC20ValidateUserResponseV", "deinit"]
+- ["13ThemoviedbOne9ApiClientC20ValidateUserResponseV", "init"]
+- ["13ThemoviedbOne9ApiClientC20ValidateUserResponseV", "requestToken"]
+depends-nominal:
+- "13ThemoviedbOne16AccountApiClientP"
+- "13ThemoviedbOne9ApiClientC"
+- "s9CodingKeyP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SQ"
+- "13ThemoviedbOne17FavoriteApiClientP"
+- !private "9Alamofire10HTTPMethodV"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- "13ThemoviedbOne9ApiClientC19MakeSessionResponseV"
+- "13ThemoviedbOne9ApiClientC17MakeTokenResponseV"
+- "13ThemoviedbOne14MovieApiClientP"
+- !private "SY"
+- !private "13ThemoviedbOne14RequestBuilderP"
+- "13ThemoviedbOne9ApiClientC20ValidateUserResponseV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7ce1f1eef4228f1cdd9252a942294fac"

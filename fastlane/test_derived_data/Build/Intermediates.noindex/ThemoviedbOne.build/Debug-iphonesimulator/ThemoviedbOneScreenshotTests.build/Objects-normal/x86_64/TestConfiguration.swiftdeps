@@ -1,0 +1,149 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TestConfiguration"
+provides-nominal:
+- "28ThemoviedbOneScreenshotTests17TestConfigurationC"
+- "28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO"
+provides-member:
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", ""]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", ""]
+provides-dynamic-lookup:
+- "environmentProvider"
+- "isTesting"
+- "shared"
+- "startFlow"
+depends-top-level:
+- "=="
+- "Bool"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "ProcessInfoEnvironmentProvider"
+- "StartFlow"
+- "String"
+- "StringLiteralType"
+- "TestConfiguration"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["Se", "flatMap"]
+- !private ["SE", "flatMap"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "flatMap"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "isTesting"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "startFlow"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "flatMap"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "isTesting"]
+- ["SH", "rawValue"]
+- !private ["SH", "startFlow"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "=="]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "RawValue"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "_Default_RawValue"]
+- !private ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "_findStringSwitchCase"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "_rawHashValue"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "deinit"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "hash"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "hashValue"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "init"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "isTesting"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "rawValue"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO", "startFlow"]
+- !private ["Sq", "flatMap"]
+- !private ["28ThemoviedbOneScreenshotTests30ProcessInfoEnvironmentProviderC", "contains"]
+- !private ["28ThemoviedbOneScreenshotTests30ProcessInfoEnvironmentProviderC", "environment"]
+- ["28ThemoviedbOneScreenshotTests30ProcessInfoEnvironmentProviderC", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "isTesting"]
+- ["SY", "rawValue"]
+- !private ["SY", "startFlow"]
+- !private ["28ThemoviedbOneScreenshotTests9StartFlowO", "deinit"]
+- !private ["28ThemoviedbOneScreenshotTests9StartFlowO", "init"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "Bool"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "Key"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "ProcessInfoEnvironmentProvider"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "StartFlow"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "String"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "TestConfiguration"]
+- !private ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "_findStringSwitchCase"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "deinit"]
+- !private ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "environmentProvider"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "init"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "isTesting"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "shared"]
+- ["28ThemoviedbOneScreenshotTests17TestConfigurationC", "startFlow"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- "28ThemoviedbOneScreenshotTests17TestConfigurationC3KeyO"
+- !private "Sq"
+- "28ThemoviedbOneScreenshotTests30ProcessInfoEnvironmentProviderC"
+- "SY"
+- !private "28ThemoviedbOneScreenshotTests9StartFlowO"
+- "28ThemoviedbOneScreenshotTests17TestConfigurationC"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "617a268645d274b77b27dbf247ee8c90"

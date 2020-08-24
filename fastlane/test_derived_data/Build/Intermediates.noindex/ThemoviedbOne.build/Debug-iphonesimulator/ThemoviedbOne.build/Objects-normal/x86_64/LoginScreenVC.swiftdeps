@@ -1,0 +1,666 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoginScreenVC"
+provides-nominal:
+- "13ThemoviedbOne13LoginScreenVCC"
+provides-member:
+- ["13ThemoviedbOne13LoginScreenVCC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "=="
+- "AnyCancellable"
+- !private "ApiClientError"
+- "AssignmentPrecedence"
+- "BaseViewController"
+- "Error"
+- !private "LoginCredentials"
+- "LoginProvider"
+- "LoginProviderState"
+- "LoginScreenVC"
+- "LoginScreenView"
+- "LoginScreenViewEvent"
+- "LoginScreenViewInputData"
+- "NSCoder"
+- "Set"
+- "String"
+- !private "StringLiteralType"
+- "VoidClosure"
+- !private "fatalError"
+depends-member:
+- !private ["7Combine14AnyCancellableC", "store"]
+- !private ["13ThemoviedbOne14ApiClientErrorO", "deinit"]
+- !private ["13ThemoviedbOne14ApiClientErrorO", "unauthorized"]
+- ["13ThemoviedbOne18BaseViewControllerC", "AnyCancellable"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "ApiClientError"]
+- ["13ThemoviedbOne18BaseViewControllerC", "Error"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "LoginCredentials"]
+- ["13ThemoviedbOne18BaseViewControllerC", "LoginProvider"]
+- ["13ThemoviedbOne18BaseViewControllerC", "LoginProviderState"]
+- ["13ThemoviedbOne18BaseViewControllerC", "LoginScreenViewEvent"]
+- ["13ThemoviedbOne18BaseViewControllerC", "LoginScreenViewInputData"]
+- ["13ThemoviedbOne18BaseViewControllerC", "NSCoder"]
+- ["13ThemoviedbOne18BaseViewControllerC", "Set"]
+- ["13ThemoviedbOne18BaseViewControllerC", "String"]
+- ["13ThemoviedbOne18BaseViewControllerC", "VoidClosure"]
+- ["13ThemoviedbOne18BaseViewControllerC", ""]
+- ["13ThemoviedbOne18BaseViewControllerC", "cancalables"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "deinit"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "fatalError"]
+- ["13ThemoviedbOne18BaseViewControllerC", "init"]
+- ["13ThemoviedbOne18BaseViewControllerC", "loginProvider"]
+- ["13ThemoviedbOne18BaseViewControllerC", "makeErrorMessage"]
+- ["13ThemoviedbOne18BaseViewControllerC", "makeLoginScreenViewInputData"]
+- ["13ThemoviedbOne18BaseViewControllerC", "onLogin"]
+- ["13ThemoviedbOne18BaseViewControllerC", "onStateChange"]
+- ["13ThemoviedbOne18BaseViewControllerC", "onViewEvent"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "rootView"]
+- ["13ThemoviedbOne18BaseViewControllerC", "viewDidLoad"]
+- !private ["So15CALayerDelegateP", "events"]
+- !private ["So15CALayerDelegateP", "udapte"]
+- !private ["s7CVarArgP", "LoginCredentials"]
+- !private ["s7CVarArgP", "LoginScreenViewInputData"]
+- ["s7CVarArgP", "Set"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cancalables"]
+- !private ["s7CVarArgP", "events"]
+- !private ["s7CVarArgP", "fatalError"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loginProvider"]
+- !private ["s7CVarArgP", "makeErrorMessage"]
+- !private ["s7CVarArgP", "makeLoginScreenViewInputData"]
+- !private ["s7CVarArgP", "onLogin"]
+- !private ["s7CVarArgP", "onStateChange"]
+- !private ["s7CVarArgP", "onViewEvent"]
+- !private ["s7CVarArgP", "rootView"]
+- !private ["s7CVarArgP", "udapte"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["7Combine11CancellableP", "store"]
+- ["Sl", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "events"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "udapte"]
+- !private ["7Combine19CurrentValueSubjectC", "sink"]
+- !private ["7Combine19CurrentValueSubjectC", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "LoginCredentials"]
+- !private ["s28CustomDebugStringConvertibleP", "LoginScreenViewInputData"]
+- ["s28CustomDebugStringConvertibleP", "Set"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "apply"]
+- !private ["s28CustomDebugStringConvertibleP", "cancalables"]
+- !private ["s28CustomDebugStringConvertibleP", "events"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loginProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "makeErrorMessage"]
+- !private ["s28CustomDebugStringConvertibleP", "makeLoginScreenViewInputData"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "onLogin"]
+- !private ["s28CustomDebugStringConvertibleP", "onStateChange"]
+- !private ["s28CustomDebugStringConvertibleP", "onViewEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "rootView"]
+- !private ["s28CustomDebugStringConvertibleP", "udapte"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "apply"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "LoginCredentials"]
+- !private ["s23CustomStringConvertibleP", "LoginScreenViewInputData"]
+- ["s23CustomStringConvertibleP", "Set"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cancalables"]
+- !private ["s23CustomStringConvertibleP", "events"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loginProvider"]
+- !private ["s23CustomStringConvertibleP", "makeErrorMessage"]
+- !private ["s23CustomStringConvertibleP", "makeLoginScreenViewInputData"]
+- !private ["s23CustomStringConvertibleP", "onLogin"]
+- !private ["s23CustomStringConvertibleP", "onStateChange"]
+- !private ["s23CustomStringConvertibleP", "onViewEvent"]
+- !private ["s23CustomStringConvertibleP", "rootView"]
+- !private ["s23CustomStringConvertibleP", "udapte"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "apply"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["SE", "apply"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SQ", "LoginCredentials"]
+- !private ["SQ", "LoginScreenViewInputData"]
+- ["SQ", "Set"]
+- ["SQ", ""]
+- !private ["SQ", "apply"]
+- !private ["SQ", "cancalables"]
+- !private ["SQ", "events"]
+- !private ["SQ", "fatalError"]
+- ["SQ", "init"]
+- !private ["SQ", "loginProvider"]
+- !private ["SQ", "makeErrorMessage"]
+- !private ["SQ", "makeLoginScreenViewInputData"]
+- !private ["SQ", "map"]
+- !private ["SQ", "onLogin"]
+- !private ["SQ", "onStateChange"]
+- !private ["SQ", "onViewEvent"]
+- !private ["SQ", "rootView"]
+- !private ["SQ", "store"]
+- !private ["SQ", "udapte"]
+- !private ["SQ", "unauthorized"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s5ErrorP", "unauthorized"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "apply"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["7SwiftUI7GestureP", "apply"]
+- !private ["7SwiftUI7GestureP", "map"]
+- !private ["SH", "LoginCredentials"]
+- !private ["SH", "LoginScreenViewInputData"]
+- ["SH", "Set"]
+- ["SH", ""]
+- !private ["SH", "apply"]
+- !private ["SH", "cancalables"]
+- !private ["SH", "events"]
+- !private ["SH", "fatalError"]
+- ["SH", "init"]
+- !private ["SH", "loginProvider"]
+- !private ["SH", "makeErrorMessage"]
+- !private ["SH", "makeLoginScreenViewInputData"]
+- !private ["SH", "map"]
+- !private ["SH", "onLogin"]
+- !private ["SH", "onStateChange"]
+- !private ["SH", "onViewEvent"]
+- !private ["SH", "rootView"]
+- !private ["SH", "store"]
+- !private ["SH", "udapte"]
+- !private ["SH", "unauthorized"]
+- !private ["SH", "viewDidLoad"]
+- !private ["7SnapKit20LayoutConstraintItemP", "events"]
+- !private ["7SnapKit20LayoutConstraintItemP", "udapte"]
+- !private ["13ThemoviedbOne16LoginCredentialsV", "init"]
+- !private ["13ThemoviedbOne13LoginProviderP", "auth"]
+- !private ["13ThemoviedbOne13LoginProviderP", "state"]
+- !private ["13ThemoviedbOne13LoginProviderP", "update"]
+- !private ["13ThemoviedbOne18LoginProviderStateV", "error"]
+- !private ["13ThemoviedbOne18LoginProviderStateV", "isAuth"]
+- !private ["13ThemoviedbOne18LoginProviderStateV", "isAuthInProgress"]
+- !private ["13ThemoviedbOne18LoginProviderStateV", "loginCredentials"]
+- ["13ThemoviedbOne13LoginScreenVCC", "AnyCancellable"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "ApiClientError"]
+- ["13ThemoviedbOne13LoginScreenVCC", "Error"]
+- ["13ThemoviedbOne13LoginScreenVCC", "ErrorMessage"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "LoginCredentials"]
+- ["13ThemoviedbOne13LoginScreenVCC", "LoginProvider"]
+- ["13ThemoviedbOne13LoginScreenVCC", "LoginProviderState"]
+- ["13ThemoviedbOne13LoginScreenVCC", "LoginScreenViewEvent"]
+- ["13ThemoviedbOne13LoginScreenVCC", "LoginScreenViewInputData"]
+- ["13ThemoviedbOne13LoginScreenVCC", "NSCoder"]
+- ["13ThemoviedbOne13LoginScreenVCC", "Set"]
+- ["13ThemoviedbOne13LoginScreenVCC", "String"]
+- ["13ThemoviedbOne13LoginScreenVCC", "VoidClosure"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "cancalables"]
+- ["13ThemoviedbOne13LoginScreenVCC", "deinit"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "fatalError"]
+- ["13ThemoviedbOne13LoginScreenVCC", "init"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "loginProvider"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "makeErrorMessage"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "makeLoginScreenViewInputData"]
+- ["13ThemoviedbOne13LoginScreenVCC", "onLogin"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "onStateChange"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "onViewEvent"]
+- !private ["13ThemoviedbOne13LoginScreenVCC", "rootView"]
+- ["13ThemoviedbOne13LoginScreenVCC", "viewDidLoad"]
+- !private ["13ThemoviedbOne15LoginScreenViewP", "events"]
+- !private ["13ThemoviedbOne15LoginScreenViewP", "udapte"]
+- ["13ThemoviedbOne20LoginScreenViewEventO", "authButtonPressed"]
+- ["13ThemoviedbOne20LoginScreenViewEventO", "formDidChange"]
+- !private ["13ThemoviedbOne24LoginScreenViewInputDataV", "init"]
+- !private ["13ThemoviedbOne25LoginScreenViewOuptutDataV", "login"]
+- !private ["13ThemoviedbOne25LoginScreenViewOuptutDataV", "password"]
+- !private ["So8NSCodingP", "LoginCredentials"]
+- !private ["So8NSCodingP", "LoginScreenViewInputData"]
+- ["So8NSCodingP", "Set"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "cancalables"]
+- !private ["So8NSCodingP", "events"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "loginProvider"]
+- !private ["So8NSCodingP", "makeErrorMessage"]
+- !private ["So8NSCodingP", "makeLoginScreenViewInputData"]
+- !private ["So8NSCodingP", "onLogin"]
+- !private ["So8NSCodingP", "onStateChange"]
+- !private ["So8NSCodingP", "onViewEvent"]
+- !private ["So8NSCodingP", "rootView"]
+- !private ["So8NSCodingP", "udapte"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "LoginCredentials"]
+- !private ["So26NSExtensionRequestHandlingP", "LoginScreenViewInputData"]
+- ["So26NSExtensionRequestHandlingP", "Set"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "cancalables"]
+- !private ["So26NSExtensionRequestHandlingP", "fatalError"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "loginProvider"]
+- !private ["So26NSExtensionRequestHandlingP", "makeErrorMessage"]
+- !private ["So26NSExtensionRequestHandlingP", "makeLoginScreenViewInputData"]
+- !private ["So26NSExtensionRequestHandlingP", "onLogin"]
+- !private ["So26NSExtensionRequestHandlingP", "onStateChange"]
+- !private ["So26NSExtensionRequestHandlingP", "onViewEvent"]
+- !private ["So26NSExtensionRequestHandlingP", "rootView"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "AnyCancellable"]
+- !private ["So8NSObjectC", "ApiClientError"]
+- ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "LoginCredentials"]
+- ["So8NSObjectC", "LoginProvider"]
+- ["So8NSObjectC", "LoginProviderState"]
+- ["So8NSObjectC", "LoginScreenViewEvent"]
+- ["So8NSObjectC", "LoginScreenViewInputData"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "VoidClosure"]
+- ["So8NSObjectC", "cancalables"]
+- !private ["So8NSObjectC", "events"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loginProvider"]
+- ["So8NSObjectC", "makeErrorMessage"]
+- ["So8NSObjectC", "makeLoginScreenViewInputData"]
+- ["So8NSObjectC", "onLogin"]
+- ["So8NSObjectC", "onStateChange"]
+- ["So8NSObjectC", "onViewEvent"]
+- !private ["So8NSObjectC", "rootView"]
+- !private ["So8NSObjectC", "udapte"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "LoginCredentials"]
+- !private ["So8NSObjectP", "LoginScreenViewInputData"]
+- ["So8NSObjectP", "Set"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "cancalables"]
+- !private ["So8NSObjectP", "events"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "loginProvider"]
+- !private ["So8NSObjectP", "makeErrorMessage"]
+- !private ["So8NSObjectP", "makeLoginScreenViewInputData"]
+- !private ["So8NSObjectP", "onLogin"]
+- !private ["So8NSObjectP", "onStateChange"]
+- !private ["So8NSObjectP", "onViewEvent"]
+- !private ["So8NSObjectP", "rootView"]
+- !private ["So8NSObjectP", "udapte"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "apply"]
+- !private ["Sq", "map"]
+- !private ["7Combine18PassthroughSubjectC", "sink"]
+- !private ["13ThemoviedbOne11PresentableP", "LoginCredentials"]
+- !private ["13ThemoviedbOne11PresentableP", "LoginScreenViewInputData"]
+- ["13ThemoviedbOne11PresentableP", "Set"]
+- ["13ThemoviedbOne11PresentableP", ""]
+- !private ["13ThemoviedbOne11PresentableP", "cancalables"]
+- !private ["13ThemoviedbOne11PresentableP", "fatalError"]
+- !private ["13ThemoviedbOne11PresentableP", "init"]
+- !private ["13ThemoviedbOne11PresentableP", "loginProvider"]
+- !private ["13ThemoviedbOne11PresentableP", "makeErrorMessage"]
+- !private ["13ThemoviedbOne11PresentableP", "makeLoginScreenViewInputData"]
+- !private ["13ThemoviedbOne11PresentableP", "onLogin"]
+- !private ["13ThemoviedbOne11PresentableP", "onStateChange"]
+- !private ["13ThemoviedbOne11PresentableP", "onViewEvent"]
+- !private ["13ThemoviedbOne11PresentableP", "rootView"]
+- !private ["13ThemoviedbOne11PresentableP", "viewDidLoad"]
+- !private ["7Combine9PublisherP", "sink"]
+- !private ["7Combine9PublisherP", "value"]
+- ["ST", "init"]
+- ["Sh", "init"]
+- ["s10SetAlgebraP", "init"]
+- !private ["7Combine7SubjectP", "sink"]
+- !private ["7Combine7SubjectP", "value"]
+- !private ["So29UIAccessibilityIdentificationP", "events"]
+- !private ["So29UIAccessibilityIdentificationP", "udapte"]
+- !private ["So12UIAppearanceP", "events"]
+- !private ["So12UIAppearanceP", "udapte"]
+- !private ["So21UIAppearanceContainerP", "LoginCredentials"]
+- !private ["So21UIAppearanceContainerP", "LoginScreenViewInputData"]
+- ["So21UIAppearanceContainerP", "Set"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "cancalables"]
+- !private ["So21UIAppearanceContainerP", "events"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "loginProvider"]
+- !private ["So21UIAppearanceContainerP", "makeErrorMessage"]
+- !private ["So21UIAppearanceContainerP", "makeLoginScreenViewInputData"]
+- !private ["So21UIAppearanceContainerP", "onLogin"]
+- !private ["So21UIAppearanceContainerP", "onStateChange"]
+- !private ["So21UIAppearanceContainerP", "onViewEvent"]
+- !private ["So21UIAppearanceContainerP", "rootView"]
+- !private ["So21UIAppearanceContainerP", "udapte"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "LoginCredentials"]
+- !private ["So18UIContentContainerP", "LoginScreenViewInputData"]
+- ["So18UIContentContainerP", "Set"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "cancalables"]
+- !private ["So18UIContentContainerP", "fatalError"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "loginProvider"]
+- !private ["So18UIContentContainerP", "makeErrorMessage"]
+- !private ["So18UIContentContainerP", "makeLoginScreenViewInputData"]
+- !private ["So18UIContentContainerP", "onLogin"]
+- !private ["So18UIContentContainerP", "onStateChange"]
+- !private ["So18UIContentContainerP", "onViewEvent"]
+- !private ["So18UIContentContainerP", "rootView"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "events"]
+- !private ["So17UICoordinateSpaceP", "udapte"]
+- !private ["So13UIDynamicItemP", "events"]
+- !private ["So13UIDynamicItemP", "udapte"]
+- !private ["So18UIFocusEnvironmentP", "LoginCredentials"]
+- !private ["So18UIFocusEnvironmentP", "LoginScreenViewInputData"]
+- ["So18UIFocusEnvironmentP", "Set"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "cancalables"]
+- !private ["So18UIFocusEnvironmentP", "events"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "loginProvider"]
+- !private ["So18UIFocusEnvironmentP", "makeErrorMessage"]
+- !private ["So18UIFocusEnvironmentP", "makeLoginScreenViewInputData"]
+- !private ["So18UIFocusEnvironmentP", "onLogin"]
+- !private ["So18UIFocusEnvironmentP", "onStateChange"]
+- !private ["So18UIFocusEnvironmentP", "onViewEvent"]
+- !private ["So18UIFocusEnvironmentP", "rootView"]
+- !private ["So18UIFocusEnvironmentP", "udapte"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "events"]
+- !private ["So11UIFocusItemP", "udapte"]
+- !private ["So20UIFocusItemContainerP", "events"]
+- !private ["So20UIFocusItemContainerP", "udapte"]
+- !private ["So24UILargeContentViewerItemP", "events"]
+- !private ["So24UILargeContentViewerItemP", "udapte"]
+- !private ["So30UIPasteConfigurationSupportingP", "LoginCredentials"]
+- !private ["So30UIPasteConfigurationSupportingP", "LoginScreenViewInputData"]
+- ["So30UIPasteConfigurationSupportingP", "Set"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "cancalables"]
+- !private ["So30UIPasteConfigurationSupportingP", "events"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "loginProvider"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeErrorMessage"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeLoginScreenViewInputData"]
+- !private ["So30UIPasteConfigurationSupportingP", "onLogin"]
+- !private ["So30UIPasteConfigurationSupportingP", "onStateChange"]
+- !private ["So30UIPasteConfigurationSupportingP", "onViewEvent"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootView"]
+- !private ["So30UIPasteConfigurationSupportingP", "udapte"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AnyCancellable"]
+- !private ["So11UIResponderC", "ApiClientError"]
+- ["So11UIResponderC", "Error"]
+- !private ["So11UIResponderC", "LoginCredentials"]
+- ["So11UIResponderC", "LoginProvider"]
+- ["So11UIResponderC", "LoginProviderState"]
+- ["So11UIResponderC", "LoginScreenViewEvent"]
+- ["So11UIResponderC", "LoginScreenViewInputData"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "Set"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "VoidClosure"]
+- ["So11UIResponderC", "cancalables"]
+- !private ["So11UIResponderC", "events"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "loginProvider"]
+- ["So11UIResponderC", "makeErrorMessage"]
+- ["So11UIResponderC", "makeLoginScreenViewInputData"]
+- ["So11UIResponderC", "onLogin"]
+- ["So11UIResponderC", "onStateChange"]
+- ["So11UIResponderC", "onViewEvent"]
+- !private ["So11UIResponderC", "rootView"]
+- !private ["So11UIResponderC", "udapte"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "LoginCredentials"]
+- !private ["So30UIResponderStandardEditActionsP", "LoginScreenViewInputData"]
+- ["So30UIResponderStandardEditActionsP", "Set"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "cancalables"]
+- !private ["So30UIResponderStandardEditActionsP", "events"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "loginProvider"]
+- !private ["So30UIResponderStandardEditActionsP", "makeErrorMessage"]
+- !private ["So30UIResponderStandardEditActionsP", "makeLoginScreenViewInputData"]
+- !private ["So30UIResponderStandardEditActionsP", "onLogin"]
+- !private ["So30UIResponderStandardEditActionsP", "onStateChange"]
+- !private ["So30UIResponderStandardEditActionsP", "onViewEvent"]
+- !private ["So30UIResponderStandardEditActionsP", "rootView"]
+- !private ["So30UIResponderStandardEditActionsP", "udapte"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "LoginCredentials"]
+- !private ["So16UIStateRestoringP", "LoginScreenViewInputData"]
+- ["So16UIStateRestoringP", "Set"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "cancalables"]
+- !private ["So16UIStateRestoringP", "fatalError"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "loginProvider"]
+- !private ["So16UIStateRestoringP", "makeErrorMessage"]
+- !private ["So16UIStateRestoringP", "makeLoginScreenViewInputData"]
+- !private ["So16UIStateRestoringP", "onLogin"]
+- !private ["So16UIStateRestoringP", "onStateChange"]
+- !private ["So16UIStateRestoringP", "onViewEvent"]
+- !private ["So16UIStateRestoringP", "rootView"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "LoginCredentials"]
+- !private ["So18UITraitEnvironmentP", "LoginScreenViewInputData"]
+- ["So18UITraitEnvironmentP", "Set"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "cancalables"]
+- !private ["So18UITraitEnvironmentP", "events"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "loginProvider"]
+- !private ["So18UITraitEnvironmentP", "makeErrorMessage"]
+- !private ["So18UITraitEnvironmentP", "makeLoginScreenViewInputData"]
+- !private ["So18UITraitEnvironmentP", "onLogin"]
+- !private ["So18UITraitEnvironmentP", "onStateChange"]
+- !private ["So18UITraitEnvironmentP", "onViewEvent"]
+- !private ["So18UITraitEnvironmentP", "rootView"]
+- !private ["So18UITraitEnvironmentP", "udapte"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "LoginCredentials"]
+- !private ["So23UIUserActivityRestoringP", "LoginScreenViewInputData"]
+- ["So23UIUserActivityRestoringP", "Set"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "cancalables"]
+- !private ["So23UIUserActivityRestoringP", "events"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "loginProvider"]
+- !private ["So23UIUserActivityRestoringP", "makeErrorMessage"]
+- !private ["So23UIUserActivityRestoringP", "makeLoginScreenViewInputData"]
+- !private ["So23UIUserActivityRestoringP", "onLogin"]
+- !private ["So23UIUserActivityRestoringP", "onStateChange"]
+- !private ["So23UIUserActivityRestoringP", "onViewEvent"]
+- !private ["So23UIUserActivityRestoringP", "rootView"]
+- !private ["So23UIUserActivityRestoringP", "udapte"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "events"]
+- !private ["So6UIViewC", "udapte"]
+- ["So16UIViewControllerC", "AnyCancellable"]
+- !private ["So16UIViewControllerC", "ApiClientError"]
+- ["So16UIViewControllerC", "Error"]
+- !private ["So16UIViewControllerC", "LoginCredentials"]
+- ["So16UIViewControllerC", "LoginProvider"]
+- ["So16UIViewControllerC", "LoginProviderState"]
+- ["So16UIViewControllerC", "LoginScreenViewEvent"]
+- ["So16UIViewControllerC", "LoginScreenViewInputData"]
+- ["So16UIViewControllerC", "NSCoder"]
+- ["So16UIViewControllerC", "Set"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "VoidClosure"]
+- ["So16UIViewControllerC", "cancalables"]
+- !private ["So16UIViewControllerC", "fatalError"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "loginProvider"]
+- ["So16UIViewControllerC", "makeErrorMessage"]
+- ["So16UIViewControllerC", "makeLoginScreenViewInputData"]
+- ["So16UIViewControllerC", "onLogin"]
+- ["So16UIViewControllerC", "onStateChange"]
+- ["So16UIViewControllerC", "onViewEvent"]
+- !private ["So16UIViewControllerC", "rootView"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["7SwiftUI4ViewP", "apply"]
+- !private ["7SwiftUI4ViewP", "map"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginCredentials"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "LoginScreenViewInputData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Set"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancalables"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "events"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loginProvider"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeErrorMessage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeLoginScreenViewInputData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onLogin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onStateChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onViewEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "udapte"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoginCredentials"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LoginScreenViewInputData"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Set"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancalables"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "events"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loginProvider"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeErrorMessage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeLoginScreenViewInputData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onLogin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onStateChange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onViewEvent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "udapte"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "apply"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "events"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "udapte"]
+depends-nominal:
+- !private "7Combine14AnyCancellableC"
+- !private "13ThemoviedbOne14ApiClientErrorO"
+- "13ThemoviedbOne18BaseViewControllerC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "7Combine11CancellableP"
+- "Sl"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- !private "7Combine19CurrentValueSubjectC"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "7SnapKit20LayoutConstraintItemP"
+- !private "13ThemoviedbOne16LoginCredentialsV"
+- !private "13ThemoviedbOne13LoginProviderP"
+- !private "13ThemoviedbOne18LoginProviderStateV"
+- "13ThemoviedbOne13LoginScreenVCC"
+- !private "13ThemoviedbOne15LoginScreenViewP"
+- "13ThemoviedbOne20LoginScreenViewEventO"
+- !private "13ThemoviedbOne24LoginScreenViewInputDataV"
+- !private "13ThemoviedbOne25LoginScreenViewOuptutDataV"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "7Combine18PassthroughSubjectC"
+- "13ThemoviedbOne11PresentableP"
+- !private "7Combine9PublisherP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "7Combine7SubjectP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "7SwiftUI4ViewP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4c4453ffda43d9dc35b38b14df0ee69c"

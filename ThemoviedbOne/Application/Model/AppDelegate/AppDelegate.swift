@@ -3,7 +3,14 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
+    #if DEBUG
+    private let appFactory: AppFactory = {
+        let appFactory: AppFactory = TestConfiguration.shared.isTesting ? DiScreenshotMock() : Di()
+        return appFactory
+    }()
+    #else
     private let appFactory: AppFactory = Di()
+    #endif
     private var appCoordinator: Coordinator?
 
     var window: UIWindow?

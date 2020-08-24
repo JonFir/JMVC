@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "e2d901e57508426afaff32794c60aa34"
+build_time: [1598258669, 51656000]
+inputs:
+  "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/TestsSpecs/Environment/StartFlow.swift": [1598249494, 770358977]
+  "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/TestsSpecs/Environment/TestConfiguration.swift": [1595845003, 0]
+  "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOneScreenshotTests/ScreenshotTests/LoginScreenTests.swift": [1598257894, 101505825]
+  "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/TestsSpecs/Environment/ProcessInfoEnvironmentProvider.swift": [1594360487, 0]
+  "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOneScreenshotTests/ScreenshotTests/SplashScreenTests.swift": [1598254513, 278661350]
+  "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/fastlane/SnapshotHelper.swift": [1598255584, 617814996]

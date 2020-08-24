@@ -1,0 +1,153 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StartCoordinator"
+provides-nominal:
+- "13ThemoviedbOne16StartCoordinatorC"
+provides-member:
+- ["13ThemoviedbOne16StartCoordinatorC", ""]
+provides-dynamic-lookup:
+- "finishFlow"
+- "router"
+- "screenFactory"
+- "showSplash"
+- "start"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BaseCoordinator"
+- "BoolClosure"
+- !private "BooleanLiteralType"
+- "Router"
+- "ScreenFactory"
+- "StartCoordinator"
+depends-member:
+- ["13ThemoviedbOne15BaseCoordinatorC", "BoolClosure"]
+- ["13ThemoviedbOne15BaseCoordinatorC", "Router"]
+- ["13ThemoviedbOne15BaseCoordinatorC", "ScreenFactory"]
+- ["13ThemoviedbOne15BaseCoordinatorC", ""]
+- ["13ThemoviedbOne15BaseCoordinatorC", "finishFlow"]
+- ["13ThemoviedbOne15BaseCoordinatorC", "init"]
+- ["13ThemoviedbOne15BaseCoordinatorC", "router"]
+- ["13ThemoviedbOne15BaseCoordinatorC", "screenFactory"]
+- ["13ThemoviedbOne15BaseCoordinatorC", "showSplash"]
+- ["13ThemoviedbOne15BaseCoordinatorC", "start"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "onCheck"]
+- !private ["s7CVarArgP", "onCheck"]
+- ["13ThemoviedbOne11CoordinatorP", ""]
+- !private ["13ThemoviedbOne11CoordinatorP", "finishFlow"]
+- !private ["13ThemoviedbOne11CoordinatorP", "init"]
+- !private ["13ThemoviedbOne11CoordinatorP", "router"]
+- !private ["13ThemoviedbOne11CoordinatorP", "screenFactory"]
+- !private ["13ThemoviedbOne11CoordinatorP", "showSplash"]
+- !private ["s28CustomDebugStringConvertibleP", "onCheck"]
+- !private ["s23CustomStringConvertibleP", "onCheck"]
+- !private ["SQ", "onCheck"]
+- !private ["SH", "onCheck"]
+- !private ["So8NSCodingP", "onCheck"]
+- !private ["So26NSExtensionRequestHandlingP", "onCheck"]
+- !private ["So8NSObjectC", "onCheck"]
+- !private ["So8NSObjectP", "onCheck"]
+- !private ["13ThemoviedbOne11PresentableP", "onCheck"]
+- !private ["13ThemoviedbOne11PresentableP", "setRootModule"]
+- !private ["13ThemoviedbOne6RouterP", "setRootModule"]
+- !private ["13ThemoviedbOne13ScreenFactoryP", "makeSplashScreen"]
+- !private ["13ThemoviedbOne14SplashScreenVCC", "deinit"]
+- !private ["13ThemoviedbOne14SplashScreenVCC", "onCheck"]
+- !private ["13ThemoviedbOne20SplashScreenViewImplC", "deinit"]
+- ["13ThemoviedbOne16StartCoordinatorC", "BoolClosure"]
+- ["13ThemoviedbOne16StartCoordinatorC", "Router"]
+- ["13ThemoviedbOne16StartCoordinatorC", "ScreenFactory"]
+- ["13ThemoviedbOne16StartCoordinatorC", "deinit"]
+- ["13ThemoviedbOne16StartCoordinatorC", "finishFlow"]
+- ["13ThemoviedbOne16StartCoordinatorC", "init"]
+- !private ["13ThemoviedbOne16StartCoordinatorC", "router"]
+- !private ["13ThemoviedbOne16StartCoordinatorC", "screenFactory"]
+- !private ["13ThemoviedbOne16StartCoordinatorC", "showSplash"]
+- ["13ThemoviedbOne16StartCoordinatorC", "start"]
+- !private ["So21UIAppearanceContainerP", "onCheck"]
+- !private ["So18UIContentContainerP", "onCheck"]
+- !private ["So18UIFocusEnvironmentP", "onCheck"]
+- !private ["So30UIPasteConfigurationSupportingP", "onCheck"]
+- !private ["So11UIResponderC", "onCheck"]
+- !private ["So30UIResponderStandardEditActionsP", "onCheck"]
+- !private ["So16UIStateRestoringP", "onCheck"]
+- !private ["So18UITraitEnvironmentP", "onCheck"]
+- !private ["So23UIUserActivityRestoringP", "onCheck"]
+- !private ["So16UIViewControllerC", "onCheck"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onCheck"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onCheck"]
+depends-nominal:
+- "13ThemoviedbOne15BaseCoordinatorC"
+- !private "13ThemoviedbOne18BaseViewControllerC"
+- !private "s7CVarArgP"
+- "13ThemoviedbOne11CoordinatorP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "SH"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "13ThemoviedbOne11PresentableP"
+- !private "13ThemoviedbOne6RouterP"
+- !private "13ThemoviedbOne13ScreenFactoryP"
+- !private "13ThemoviedbOne14SplashScreenVCC"
+- !private "13ThemoviedbOne20SplashScreenViewImplC"
+- "13ThemoviedbOne16StartCoordinatorC"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So16UIViewControllerC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "adce80eaecde5b7a1378b5afbfa32e46"

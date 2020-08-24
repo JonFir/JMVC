@@ -1,0 +1,262 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseViewController"
+provides-nominal:
+- "13ThemoviedbOne18BaseViewControllerC"
+provides-member:
+- ["13ThemoviedbOne18BaseViewControllerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "BaseViewController"
+- "Bool"
+- "CastingPrecedence"
+- "UIView"
+- "UIViewController"
+- "Void"
+depends-member:
+- ["13ThemoviedbOne18BaseViewControllerC", "Bool"]
+- ["13ThemoviedbOne18BaseViewControllerC", "OnBackButtonTap"]
+- ["13ThemoviedbOne18BaseViewControllerC", "Void"]
+- ["13ThemoviedbOne18BaseViewControllerC", "deinit"]
+- ["13ThemoviedbOne18BaseViewControllerC", "init"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "isMovingFromParent"]
+- ["13ThemoviedbOne18BaseViewControllerC", "loadView"]
+- ["13ThemoviedbOne18BaseViewControllerC", "onBackButtonTap"]
+- ["13ThemoviedbOne18BaseViewControllerC", "rootView"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "view"]
+- ["13ThemoviedbOne18BaseViewControllerC", "viewWillDisappear"]
+- !private ["So15CALayerDelegateP", "loadView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "isMovingFromParent"]
+- !private ["s7CVarArgP", "loadView"]
+- !private ["s7CVarArgP", "onBackButtonTap"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewWillDisappear"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "loadView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "isMovingFromParent"]
+- !private ["s28CustomDebugStringConvertibleP", "loadView"]
+- !private ["s28CustomDebugStringConvertibleP", "onBackButtonTap"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewWillDisappear"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "isMovingFromParent"]
+- !private ["s23CustomStringConvertibleP", "loadView"]
+- !private ["s23CustomStringConvertibleP", "onBackButtonTap"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewWillDisappear"]
+- ["SQ", ""]
+- !private ["SQ", "isMovingFromParent"]
+- !private ["SQ", "loadView"]
+- !private ["SQ", "onBackButtonTap"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewWillDisappear"]
+- ["SH", ""]
+- !private ["SH", "isMovingFromParent"]
+- !private ["SH", "loadView"]
+- !private ["SH", "onBackButtonTap"]
+- !private ["SH", "view"]
+- !private ["SH", "viewWillDisappear"]
+- !private ["7SnapKit20LayoutConstraintItemP", "loadView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "isMovingFromParent"]
+- !private ["So8NSCodingP", "loadView"]
+- !private ["So8NSCodingP", "onBackButtonTap"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewWillDisappear"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "isMovingFromParent"]
+- !private ["So26NSExtensionRequestHandlingP", "onBackButtonTap"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewWillDisappear"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "OnBackButtonTap"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isMovingFromParent"]
+- ["So8NSObjectC", "loadView"]
+- ["So8NSObjectC", "onBackButtonTap"]
+- ["So8NSObjectC", "rootView"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewWillDisappear"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "isMovingFromParent"]
+- !private ["So8NSObjectP", "loadView"]
+- !private ["So8NSObjectP", "onBackButtonTap"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewWillDisappear"]
+- ["13ThemoviedbOne11PresentableP", ""]
+- !private ["13ThemoviedbOne11PresentableP", "isMovingFromParent"]
+- !private ["13ThemoviedbOne11PresentableP", "onBackButtonTap"]
+- !private ["13ThemoviedbOne11PresentableP", "view"]
+- !private ["13ThemoviedbOne11PresentableP", "viewWillDisappear"]
+- !private ["So29UIAccessibilityIdentificationP", "loadView"]
+- !private ["So12UIAppearanceP", "loadView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "isMovingFromParent"]
+- !private ["So21UIAppearanceContainerP", "loadView"]
+- !private ["So21UIAppearanceContainerP", "onBackButtonTap"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewWillDisappear"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "isMovingFromParent"]
+- !private ["So18UIContentContainerP", "onBackButtonTap"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewWillDisappear"]
+- !private ["So17UICoordinateSpaceP", "loadView"]
+- !private ["So13UIDynamicItemP", "loadView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "isMovingFromParent"]
+- !private ["So18UIFocusEnvironmentP", "loadView"]
+- !private ["So18UIFocusEnvironmentP", "onBackButtonTap"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewWillDisappear"]
+- !private ["So11UIFocusItemP", "loadView"]
+- !private ["So20UIFocusItemContainerP", "loadView"]
+- !private ["So24UILargeContentViewerItemP", "loadView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "isMovingFromParent"]
+- !private ["So30UIPasteConfigurationSupportingP", "loadView"]
+- !private ["So30UIPasteConfigurationSupportingP", "onBackButtonTap"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewWillDisappear"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "OnBackButtonTap"]
+- ["So11UIResponderC", "Void"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isMovingFromParent"]
+- ["So11UIResponderC", "loadView"]
+- ["So11UIResponderC", "onBackButtonTap"]
+- ["So11UIResponderC", "rootView"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewWillDisappear"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "isMovingFromParent"]
+- !private ["So30UIResponderStandardEditActionsP", "loadView"]
+- !private ["So30UIResponderStandardEditActionsP", "onBackButtonTap"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewWillDisappear"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "isMovingFromParent"]
+- !private ["So16UIStateRestoringP", "onBackButtonTap"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewWillDisappear"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "isMovingFromParent"]
+- !private ["So18UITraitEnvironmentP", "loadView"]
+- !private ["So18UITraitEnvironmentP", "onBackButtonTap"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewWillDisappear"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "isMovingFromParent"]
+- !private ["So23UIUserActivityRestoringP", "loadView"]
+- !private ["So23UIUserActivityRestoringP", "onBackButtonTap"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewWillDisappear"]
+- !private ["So6UIViewC", "loadView"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "OnBackButtonTap"]
+- ["So16UIViewControllerC", "Void"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "isMovingFromParent"]
+- ["So16UIViewControllerC", "loadView"]
+- ["So16UIViewControllerC", "onBackButtonTap"]
+- ["So16UIViewControllerC", "rootView"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewWillDisappear"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isMovingFromParent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onBackButtonTap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillDisappear"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isMovingFromParent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onBackButtonTap"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewWillDisappear"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "loadView"]
+depends-nominal:
+- "13ThemoviedbOne18BaseViewControllerC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "7SnapKit20LayoutConstraintItemP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "13ThemoviedbOne11PresentableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1d2935e7aee0ba580c79207272640518"

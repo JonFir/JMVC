@@ -1,0 +1,672 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovieScreenVC"
+provides-nominal:
+- "13ThemoviedbOne13MovieScreenVCC"
+provides-member:
+- ["13ThemoviedbOne13MovieScreenVCC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AnyCancellable"
+- "AssignmentPrecedence"
+- "BaseViewController"
+- !private "ErrorInputData"
+- "Movie"
+- "MovieProvider"
+- "MovieProviderState"
+- "MovieScreenVC"
+- "MovieScreenView"
+- "MovieScreenViewInputData"
+- "NSCoder"
+- !private "RunLoop"
+- "Set"
+- !private "StringLiteralType"
+- !private "URL"
+- !private "fatalError"
+depends-member:
+- !private ["7Combine14AnyCancellableC", "store"]
+- ["13ThemoviedbOne18BaseViewControllerC", "AnyCancellable"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "ErrorInputData"]
+- ["13ThemoviedbOne18BaseViewControllerC", "Movie"]
+- ["13ThemoviedbOne18BaseViewControllerC", "MovieProvider"]
+- ["13ThemoviedbOne18BaseViewControllerC", "MovieProviderState"]
+- ["13ThemoviedbOne18BaseViewControllerC", "MovieScreenViewInputData"]
+- ["13ThemoviedbOne18BaseViewControllerC", "NSCoder"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "RunLoop"]
+- ["13ThemoviedbOne18BaseViewControllerC", "Set"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "URL"]
+- ["13ThemoviedbOne18BaseViewControllerC", ""]
+- ["13ThemoviedbOne18BaseViewControllerC", "cancalables"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "deinit"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "fatalError"]
+- ["13ThemoviedbOne18BaseViewControllerC", "id"]
+- ["13ThemoviedbOne18BaseViewControllerC", "init"]
+- ["13ThemoviedbOne18BaseViewControllerC", "makeMovie"]
+- ["13ThemoviedbOne18BaseViewControllerC", "makeMovieScreenViewInputData"]
+- ["13ThemoviedbOne18BaseViewControllerC", "movieProvider"]
+- ["13ThemoviedbOne18BaseViewControllerC", "onStateChange"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "rootView"]
+- !private ["13ThemoviedbOne18BaseViewControllerC", "title"]
+- ["13ThemoviedbOne18BaseViewControllerC", "viewDidLoad"]
+- !private ["So15CALayerDelegateP", "udapte"]
+- !private ["s7CVarArgP", "ErrorInputData"]
+- !private ["s7CVarArgP", "MovieScreenViewInputData"]
+- !private ["s7CVarArgP", "RunLoop"]
+- ["s7CVarArgP", "Set"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "cancalables"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "id"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "makeMovie"]
+- !private ["s7CVarArgP", "makeMovieScreenViewInputData"]
+- !private ["s7CVarArgP", "movieProvider"]
+- !private ["s7CVarArgP", "onStateChange"]
+- !private ["s7CVarArgP", "rootView"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s7CVarArgP", "udapte"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["7Combine11CancellableP", "store"]
+- ["Sl", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "udapte"]
+- !private ["7Combine19CurrentValueSubjectC", "receive"]
+- !private ["s28CustomDebugStringConvertibleP", "ErrorInputData"]
+- !private ["s28CustomDebugStringConvertibleP", "MovieScreenViewInputData"]
+- !private ["s28CustomDebugStringConvertibleP", "RunLoop"]
+- ["s28CustomDebugStringConvertibleP", "Set"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "cancalables"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "makeMovie"]
+- !private ["s28CustomDebugStringConvertibleP", "makeMovieScreenViewInputData"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "movieProvider"]
+- !private ["s28CustomDebugStringConvertibleP", "onStateChange"]
+- !private ["s28CustomDebugStringConvertibleP", "rootView"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s28CustomDebugStringConvertibleP", "udapte"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "ErrorInputData"]
+- !private ["s23CustomStringConvertibleP", "MovieScreenViewInputData"]
+- !private ["s23CustomStringConvertibleP", "RunLoop"]
+- ["s23CustomStringConvertibleP", "Set"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "cancalables"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "makeMovie"]
+- !private ["s23CustomStringConvertibleP", "makeMovieScreenViewInputData"]
+- !private ["s23CustomStringConvertibleP", "movieProvider"]
+- !private ["s23CustomStringConvertibleP", "onStateChange"]
+- !private ["s23CustomStringConvertibleP", "rootView"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s23CustomStringConvertibleP", "udapte"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["Se", "Id"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "overview"]
+- !private ["Se", "posterPath"]
+- !private ["Se", "releaseDate"]
+- !private ["Se", "title"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SQ", "ErrorInputData"]
+- !private ["SQ", "MovieScreenViewInputData"]
+- !private ["SQ", "RunLoop"]
+- ["SQ", "Set"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- !private ["SQ", "cancalables"]
+- !private ["SQ", "fatalError"]
+- !private ["SQ", "id"]
+- ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "makeMovie"]
+- !private ["SQ", "makeMovieScreenViewInputData"]
+- !private ["SQ", "map"]
+- !private ["SQ", "movieProvider"]
+- !private ["SQ", "onStateChange"]
+- !private ["SQ", "rootView"]
+- !private ["SQ", "store"]
+- !private ["SQ", "title"]
+- !private ["SQ", "udapte"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["13ThemoviedbOne14ErrorInputDataV", "applicationError"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "map"]
+- !private ["7SwiftUI7GestureP", "map"]
+- !private ["SH", "ErrorInputData"]
+- !private ["SH", "MovieScreenViewInputData"]
+- !private ["SH", "RunLoop"]
+- ["SH", "Set"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- !private ["SH", "cancalables"]
+- !private ["SH", "fatalError"]
+- !private ["SH", "id"]
+- ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "makeMovie"]
+- !private ["SH", "makeMovieScreenViewInputData"]
+- !private ["SH", "map"]
+- !private ["SH", "movieProvider"]
+- !private ["SH", "onStateChange"]
+- !private ["SH", "rootView"]
+- !private ["SH", "store"]
+- !private ["SH", "title"]
+- !private ["SH", "udapte"]
+- !private ["SH", "viewDidLoad"]
+- !private ["7SnapKit20LayoutConstraintItemP", "udapte"]
+- ["13ThemoviedbOne5MovieV", "Id"]
+- !private ["13ThemoviedbOne5MovieV", "id"]
+- !private ["13ThemoviedbOne24MovieScreenViewInputDataV0C0V", "init"]
+- !private ["13ThemoviedbOne5MovieV", "overview"]
+- !private ["13ThemoviedbOne5MovieV", "posterPath"]
+- !private ["13ThemoviedbOne5MovieV", "releaseDate"]
+- !private ["13ThemoviedbOne5MovieV", "title"]
+- !private ["13ThemoviedbOne13MovieProviderP", "findMovie"]
+- !private ["13ThemoviedbOne13MovieProviderP", "state"]
+- !private ["13ThemoviedbOne18MovieProviderStateV", "error"]
+- !private ["13ThemoviedbOne18MovieProviderStateV", "movie"]
+- ["13ThemoviedbOne13MovieScreenVCC", "AnyCancellable"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "ErrorInputData"]
+- ["13ThemoviedbOne13MovieScreenVCC", "Movie"]
+- ["13ThemoviedbOne13MovieScreenVCC", "MovieProvider"]
+- ["13ThemoviedbOne13MovieScreenVCC", "MovieProviderState"]
+- ["13ThemoviedbOne13MovieScreenVCC", "MovieScreenViewInputData"]
+- ["13ThemoviedbOne13MovieScreenVCC", "NSCoder"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "RunLoop"]
+- ["13ThemoviedbOne13MovieScreenVCC", "Set"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "URL"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "cancalables"]
+- ["13ThemoviedbOne13MovieScreenVCC", "deinit"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "fatalError"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "id"]
+- ["13ThemoviedbOne13MovieScreenVCC", "init"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "makeMovie"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "makeMovieScreenViewInputData"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "movieProvider"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "onStateChange"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "rootView"]
+- !private ["13ThemoviedbOne13MovieScreenVCC", "title"]
+- ["13ThemoviedbOne13MovieScreenVCC", "viewDidLoad"]
+- !private ["13ThemoviedbOne15MovieScreenViewP", "udapte"]
+- ["13ThemoviedbOne24MovieScreenViewInputDataV", "Movie"]
+- !private ["13ThemoviedbOne24MovieScreenViewInputDataV", "init"]
+- !private ["So8NSCodingP", "ErrorInputData"]
+- !private ["So8NSCodingP", "MovieScreenViewInputData"]
+- !private ["So8NSCodingP", "RunLoop"]
+- ["So8NSCodingP", "Set"]
+- !private ["So8NSCodingP", "URL"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "cancalables"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "id"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "makeMovie"]
+- !private ["So8NSCodingP", "makeMovieScreenViewInputData"]
+- !private ["So8NSCodingP", "movieProvider"]
+- !private ["So8NSCodingP", "onStateChange"]
+- !private ["So8NSCodingP", "rootView"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So8NSCodingP", "udapte"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "ErrorInputData"]
+- !private ["So26NSExtensionRequestHandlingP", "MovieScreenViewInputData"]
+- !private ["So26NSExtensionRequestHandlingP", "RunLoop"]
+- ["So26NSExtensionRequestHandlingP", "Set"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "cancalables"]
+- !private ["So26NSExtensionRequestHandlingP", "fatalError"]
+- !private ["So26NSExtensionRequestHandlingP", "id"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "makeMovie"]
+- !private ["So26NSExtensionRequestHandlingP", "makeMovieScreenViewInputData"]
+- !private ["So26NSExtensionRequestHandlingP", "movieProvider"]
+- !private ["So26NSExtensionRequestHandlingP", "onStateChange"]
+- !private ["So26NSExtensionRequestHandlingP", "rootView"]
+- !private ["So26NSExtensionRequestHandlingP", "title"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "AnyCancellable"]
+- !private ["So8NSObjectC", "ErrorInputData"]
+- ["So8NSObjectC", "Movie"]
+- ["So8NSObjectC", "MovieProvider"]
+- ["So8NSObjectC", "MovieProviderState"]
+- ["So8NSObjectC", "MovieScreenViewInputData"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "RunLoop"]
+- ["So8NSObjectC", "Set"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "cancalables"]
+- !private ["So8NSObjectC", "fatalError"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "makeMovie"]
+- ["So8NSObjectC", "makeMovieScreenViewInputData"]
+- ["So8NSObjectC", "movieProvider"]
+- ["So8NSObjectC", "onStateChange"]
+- !private ["So8NSObjectC", "rootView"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So8NSObjectC", "udapte"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "ErrorInputData"]
+- !private ["So8NSObjectP", "MovieScreenViewInputData"]
+- !private ["So8NSObjectP", "RunLoop"]
+- ["So8NSObjectP", "Set"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "cancalables"]
+- !private ["So8NSObjectP", "fatalError"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "makeMovie"]
+- !private ["So8NSObjectP", "makeMovieScreenViewInputData"]
+- !private ["So8NSObjectP", "movieProvider"]
+- !private ["So8NSObjectP", "onStateChange"]
+- !private ["So8NSObjectP", "rootView"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So8NSObjectP", "udapte"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "map"]
+- !private ["13ThemoviedbOne11PresentableP", "ErrorInputData"]
+- !private ["13ThemoviedbOne11PresentableP", "MovieScreenViewInputData"]
+- !private ["13ThemoviedbOne11PresentableP", "RunLoop"]
+- ["13ThemoviedbOne11PresentableP", "Set"]
+- !private ["13ThemoviedbOne11PresentableP", "URL"]
+- ["13ThemoviedbOne11PresentableP", ""]
+- !private ["13ThemoviedbOne11PresentableP", "cancalables"]
+- !private ["13ThemoviedbOne11PresentableP", "fatalError"]
+- !private ["13ThemoviedbOne11PresentableP", "id"]
+- !private ["13ThemoviedbOne11PresentableP", "init"]
+- !private ["13ThemoviedbOne11PresentableP", "makeMovie"]
+- !private ["13ThemoviedbOne11PresentableP", "makeMovieScreenViewInputData"]
+- !private ["13ThemoviedbOne11PresentableP", "movieProvider"]
+- !private ["13ThemoviedbOne11PresentableP", "onStateChange"]
+- !private ["13ThemoviedbOne11PresentableP", "rootView"]
+- !private ["13ThemoviedbOne11PresentableP", "title"]
+- !private ["13ThemoviedbOne11PresentableP", "viewDidLoad"]
+- !private ["7Combine9PublisherP", "receive"]
+- !private ["7Combine9PublisherP", "sink"]
+- !private ["7Combine10PublishersO9ReceiveOnV", "sink"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So9NSRunLoopC", "main"]
+- !private ["7Combine9SchedulerP", "main"]
+- ["ST", "init"]
+- ["Sh", "init"]
+- ["s10SetAlgebraP", "init"]
+- !private ["7Combine7SubjectP", "receive"]
+- !private ["So29UIAccessibilityIdentificationP", "udapte"]
+- !private ["So12UIAppearanceP", "udapte"]
+- !private ["So21UIAppearanceContainerP", "ErrorInputData"]
+- !private ["So21UIAppearanceContainerP", "MovieScreenViewInputData"]
+- !private ["So21UIAppearanceContainerP", "RunLoop"]
+- ["So21UIAppearanceContainerP", "Set"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "cancalables"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "id"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "makeMovie"]
+- !private ["So21UIAppearanceContainerP", "makeMovieScreenViewInputData"]
+- !private ["So21UIAppearanceContainerP", "movieProvider"]
+- !private ["So21UIAppearanceContainerP", "onStateChange"]
+- !private ["So21UIAppearanceContainerP", "rootView"]
+- !private ["So21UIAppearanceContainerP", "title"]
+- !private ["So21UIAppearanceContainerP", "udapte"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "ErrorInputData"]
+- !private ["So18UIContentContainerP", "MovieScreenViewInputData"]
+- !private ["So18UIContentContainerP", "RunLoop"]
+- ["So18UIContentContainerP", "Set"]
+- !private ["So18UIContentContainerP", "URL"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "cancalables"]
+- !private ["So18UIContentContainerP", "fatalError"]
+- !private ["So18UIContentContainerP", "id"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "makeMovie"]
+- !private ["So18UIContentContainerP", "makeMovieScreenViewInputData"]
+- !private ["So18UIContentContainerP", "movieProvider"]
+- !private ["So18UIContentContainerP", "onStateChange"]
+- !private ["So18UIContentContainerP", "rootView"]
+- !private ["So18UIContentContainerP", "title"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "udapte"]
+- !private ["So13UIDynamicItemP", "udapte"]
+- !private ["So18UIFocusEnvironmentP", "ErrorInputData"]
+- !private ["So18UIFocusEnvironmentP", "MovieScreenViewInputData"]
+- !private ["So18UIFocusEnvironmentP", "RunLoop"]
+- ["So18UIFocusEnvironmentP", "Set"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "cancalables"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "id"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "makeMovie"]
+- !private ["So18UIFocusEnvironmentP", "makeMovieScreenViewInputData"]
+- !private ["So18UIFocusEnvironmentP", "movieProvider"]
+- !private ["So18UIFocusEnvironmentP", "onStateChange"]
+- !private ["So18UIFocusEnvironmentP", "rootView"]
+- !private ["So18UIFocusEnvironmentP", "title"]
+- !private ["So18UIFocusEnvironmentP", "udapte"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "udapte"]
+- !private ["So20UIFocusItemContainerP", "udapte"]
+- !private ["So24UILargeContentViewerItemP", "udapte"]
+- !private ["So30UIPasteConfigurationSupportingP", "ErrorInputData"]
+- !private ["So30UIPasteConfigurationSupportingP", "MovieScreenViewInputData"]
+- !private ["So30UIPasteConfigurationSupportingP", "RunLoop"]
+- ["So30UIPasteConfigurationSupportingP", "Set"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "cancalables"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "id"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeMovie"]
+- !private ["So30UIPasteConfigurationSupportingP", "makeMovieScreenViewInputData"]
+- !private ["So30UIPasteConfigurationSupportingP", "movieProvider"]
+- !private ["So30UIPasteConfigurationSupportingP", "onStateChange"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootView"]
+- !private ["So30UIPasteConfigurationSupportingP", "title"]
+- !private ["So30UIPasteConfigurationSupportingP", "udapte"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "AnyCancellable"]
+- !private ["So11UIResponderC", "ErrorInputData"]
+- ["So11UIResponderC", "Movie"]
+- ["So11UIResponderC", "MovieProvider"]
+- ["So11UIResponderC", "MovieProviderState"]
+- ["So11UIResponderC", "MovieScreenViewInputData"]
+- ["So11UIResponderC", "NSCoder"]
+- !private ["So11UIResponderC", "RunLoop"]
+- ["So11UIResponderC", "Set"]
+- !private ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "cancalables"]
+- !private ["So11UIResponderC", "fatalError"]
+- ["So11UIResponderC", "id"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "makeMovie"]
+- ["So11UIResponderC", "makeMovieScreenViewInputData"]
+- ["So11UIResponderC", "movieProvider"]
+- ["So11UIResponderC", "onStateChange"]
+- !private ["So11UIResponderC", "rootView"]
+- !private ["So11UIResponderC", "title"]
+- !private ["So11UIResponderC", "udapte"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "ErrorInputData"]
+- !private ["So30UIResponderStandardEditActionsP", "MovieScreenViewInputData"]
+- !private ["So30UIResponderStandardEditActionsP", "RunLoop"]
+- ["So30UIResponderStandardEditActionsP", "Set"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "cancalables"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "id"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "makeMovie"]
+- !private ["So30UIResponderStandardEditActionsP", "makeMovieScreenViewInputData"]
+- !private ["So30UIResponderStandardEditActionsP", "movieProvider"]
+- !private ["So30UIResponderStandardEditActionsP", "onStateChange"]
+- !private ["So30UIResponderStandardEditActionsP", "rootView"]
+- !private ["So30UIResponderStandardEditActionsP", "title"]
+- !private ["So30UIResponderStandardEditActionsP", "udapte"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "ErrorInputData"]
+- !private ["So16UIStateRestoringP", "MovieScreenViewInputData"]
+- !private ["So16UIStateRestoringP", "RunLoop"]
+- ["So16UIStateRestoringP", "Set"]
+- !private ["So16UIStateRestoringP", "URL"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "cancalables"]
+- !private ["So16UIStateRestoringP", "fatalError"]
+- !private ["So16UIStateRestoringP", "id"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "makeMovie"]
+- !private ["So16UIStateRestoringP", "makeMovieScreenViewInputData"]
+- !private ["So16UIStateRestoringP", "movieProvider"]
+- !private ["So16UIStateRestoringP", "onStateChange"]
+- !private ["So16UIStateRestoringP", "rootView"]
+- !private ["So16UIStateRestoringP", "title"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "ErrorInputData"]
+- !private ["So18UITraitEnvironmentP", "MovieScreenViewInputData"]
+- !private ["So18UITraitEnvironmentP", "RunLoop"]
+- ["So18UITraitEnvironmentP", "Set"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "cancalables"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "id"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "makeMovie"]
+- !private ["So18UITraitEnvironmentP", "makeMovieScreenViewInputData"]
+- !private ["So18UITraitEnvironmentP", "movieProvider"]
+- !private ["So18UITraitEnvironmentP", "onStateChange"]
+- !private ["So18UITraitEnvironmentP", "rootView"]
+- !private ["So18UITraitEnvironmentP", "title"]
+- !private ["So18UITraitEnvironmentP", "udapte"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "ErrorInputData"]
+- !private ["So23UIUserActivityRestoringP", "MovieScreenViewInputData"]
+- !private ["So23UIUserActivityRestoringP", "RunLoop"]
+- ["So23UIUserActivityRestoringP", "Set"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "cancalables"]
+- !private ["So23UIUserActivityRestoringP", "fatalError"]
+- !private ["So23UIUserActivityRestoringP", "id"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "makeMovie"]
+- !private ["So23UIUserActivityRestoringP", "makeMovieScreenViewInputData"]
+- !private ["So23UIUserActivityRestoringP", "movieProvider"]
+- !private ["So23UIUserActivityRestoringP", "onStateChange"]
+- !private ["So23UIUserActivityRestoringP", "rootView"]
+- !private ["So23UIUserActivityRestoringP", "title"]
+- !private ["So23UIUserActivityRestoringP", "udapte"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "udapte"]
+- ["So16UIViewControllerC", "AnyCancellable"]
+- !private ["So16UIViewControllerC", "ErrorInputData"]
+- ["So16UIViewControllerC", "Movie"]
+- ["So16UIViewControllerC", "MovieProvider"]
+- ["So16UIViewControllerC", "MovieProviderState"]
+- ["So16UIViewControllerC", "MovieScreenViewInputData"]
+- ["So16UIViewControllerC", "NSCoder"]
+- !private ["So16UIViewControllerC", "RunLoop"]
+- ["So16UIViewControllerC", "Set"]
+- !private ["So16UIViewControllerC", "URL"]
+- ["So16UIViewControllerC", "cancalables"]
+- !private ["So16UIViewControllerC", "fatalError"]
+- ["So16UIViewControllerC", "id"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "makeMovie"]
+- ["So16UIViewControllerC", "makeMovieScreenViewInputData"]
+- ["So16UIViewControllerC", "movieProvider"]
+- ["So16UIViewControllerC", "onStateChange"]
+- !private ["So16UIViewControllerC", "rootView"]
+- !private ["So16UIViewControllerC", "title"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["7SwiftUI4ViewP", "map"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ErrorInputData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MovieScreenViewInputData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RunLoop"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Set"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancalables"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeMovie"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeMovieScreenViewInputData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "movieProvider"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "onStateChange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "udapte"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ErrorInputData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MovieScreenViewInputData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RunLoop"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Set"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cancalables"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fatalError"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "id"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeMovie"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeMovieScreenViewInputData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "movieProvider"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "onStateChange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "udapte"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "udapte"]
+depends-nominal:
+- !private "7Combine14AnyCancellableC"
+- "13ThemoviedbOne18BaseViewControllerC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "7Combine11CancellableP"
+- "Sl"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- !private "7Combine19CurrentValueSubjectC"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "13ThemoviedbOne14ErrorInputDataV"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "7SnapKit20LayoutConstraintItemP"
+- "13ThemoviedbOne5MovieV"
+- !private "13ThemoviedbOne24MovieScreenViewInputDataV0C0V"
+- !private "13ThemoviedbOne5MovieV"
+- !private "13ThemoviedbOne13MovieProviderP"
+- !private "13ThemoviedbOne18MovieProviderStateV"
+- "13ThemoviedbOne13MovieScreenVCC"
+- !private "13ThemoviedbOne15MovieScreenViewP"
+- "13ThemoviedbOne24MovieScreenViewInputDataV"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "13ThemoviedbOne11PresentableP"
+- !private "7Combine9PublisherP"
+- !private "7Combine10PublishersO9ReceiveOnV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So9NSRunLoopC"
+- !private "7Combine9SchedulerP"
+- "ST"
+- "Sh"
+- "s10SetAlgebraP"
+- !private "7Combine7SubjectP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "7SwiftUI4ViewP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "486b12f168e7db832538d86687f681fd"

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: Verifying fastlane version" time="0.000312">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: default_platform" time="0.000128">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: xcodebuild" time="2.867738">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="3: capture_ios_screenshots" time="40.433673">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

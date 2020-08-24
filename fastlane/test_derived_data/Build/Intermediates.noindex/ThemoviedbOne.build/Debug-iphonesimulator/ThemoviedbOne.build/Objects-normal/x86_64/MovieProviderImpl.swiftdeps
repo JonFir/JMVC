@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovieProvider"
+- "MovieProviderImpl"
+- "MovieProviderState"
+provides-nominal:
+- "13ThemoviedbOne13MovieProviderP"
+- "13ThemoviedbOne17MovieProviderImplC"
+- "13ThemoviedbOne18MovieProviderStateV"
+provides-member:
+- ["13ThemoviedbOne13MovieProviderP", ""]
+- ["13ThemoviedbOne17MovieProviderImplC", ""]
+- ["13ThemoviedbOne18MovieProviderStateV", ""]
+provides-dynamic-lookup:
+- "findMovie"
+- "movieService"
+- "request"
+- "state"
+depends-top-level:
+- !private "!"
+- "AnyCancellable"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CurrentValueSubject"
+- "Error"
+- "Movie"
+- "MovieProvider"
+- "MovieProviderImpl"
+- "MovieProviderState"
+- "MovieService"
+- "Never"
+- "Self"
+depends-member:
+- !private ["7Combine12AnyPublisherV", "sink"]
+- !private ["7Combine11SubscribersO10CompletionO", "failure"]
+- ["7Combine19CurrentValueSubjectC", "init"]
+- !private ["7Combine19CurrentValueSubjectC", "value"]
+- !private ["s34CustomPlaygroundDisplayConvertibleP", "sink"]
+- !private ["s23CustomStringConvertibleP", "sink"]
+- ["Se", "Id"]
+- !private ["Se", "failure"]
+- !private ["SE", "failure"]
+- !private ["SQ", "failure"]
+- !private ["SH", "failure"]
+- ["13ThemoviedbOne5MovieV", "Id"]
+- ["13ThemoviedbOne13MovieProviderP", "CurrentValueSubject"]
+- ["13ThemoviedbOne13MovieProviderP", "Movie"]
+- ["13ThemoviedbOne13MovieProviderP", "MovieProviderState"]
+- ["13ThemoviedbOne13MovieProviderP", "Never"]
+- ["13ThemoviedbOne13MovieProviderP", ""]
+- ["13ThemoviedbOne13MovieProviderP", "findMovie"]
+- !private ["13ThemoviedbOne13MovieProviderP", "movieService"]
+- !private ["13ThemoviedbOne13MovieProviderP", "request"]
+- ["13ThemoviedbOne13MovieProviderP", "state"]
+- ["13ThemoviedbOne17MovieProviderImplC", "AnyCancellable"]
+- ["13ThemoviedbOne17MovieProviderImplC", "CurrentValueSubject"]
+- ["13ThemoviedbOne17MovieProviderImplC", "Movie"]
+- ["13ThemoviedbOne17MovieProviderImplC", "MovieProviderState"]
+- ["13ThemoviedbOne17MovieProviderImplC", "MovieService"]
+- ["13ThemoviedbOne17MovieProviderImplC", "Never"]
+- ["13ThemoviedbOne17MovieProviderImplC", "deinit"]
+- ["13ThemoviedbOne17MovieProviderImplC", "findMovie"]
+- ["13ThemoviedbOne17MovieProviderImplC", "init"]
+- !private ["13ThemoviedbOne17MovieProviderImplC", "movieService"]
+- !private ["13ThemoviedbOne17MovieProviderImplC", "request"]
+- ["13ThemoviedbOne17MovieProviderImplC", "state"]
+- ["13ThemoviedbOne18MovieProviderStateV", "Bool"]
+- ["13ThemoviedbOne18MovieProviderStateV", "Error"]
+- ["13ThemoviedbOne18MovieProviderStateV", "Movie"]
+- ["13ThemoviedbOne18MovieProviderStateV", "MovieProviderState"]
+- ["13ThemoviedbOne18MovieProviderStateV", "Self"]
+- ["13ThemoviedbOne18MovieProviderStateV", "error"]
+- ["13ThemoviedbOne18MovieProviderStateV", "init"]
+- ["13ThemoviedbOne18MovieProviderStateV", "initial"]
+- ["13ThemoviedbOne18MovieProviderStateV", "isLoadProgress"]
+- ["13ThemoviedbOne18MovieProviderStateV", "movie"]
+- ["13ThemoviedbOne18MovieProviderStateV", "with"]
+- !private ["13ThemoviedbOne12MovieServiceP", "movie"]
+- ["7Combine9PublisherP", "init"]
+- !private ["7Combine9PublisherP", "sink"]
+- !private ["7Combine9PublisherP", "value"]
+- ["7Combine7SubjectP", "init"]
+- !private ["7Combine7SubjectP", "value"]
+depends-nominal:
+- !private "7Combine12AnyPublisherV"
+- !private "7Combine11SubscribersO10CompletionO"
+- "7Combine19CurrentValueSubjectC"
+- !private "s34CustomPlaygroundDisplayConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- !private "SE"
+- !private "SQ"
+- !private "SH"
+- "13ThemoviedbOne5MovieV"
+- "13ThemoviedbOne13MovieProviderP"
+- "13ThemoviedbOne17MovieProviderImplC"
+- "13ThemoviedbOne18MovieProviderStateV"
+- !private "13ThemoviedbOne12MovieServiceP"
+- "7Combine9PublisherP"
+- "7Combine7SubjectP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/SnapKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Headers/SnapKit.h"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jonfir/develop/lessons_gb/ThemoviedbOne/Carthage/Build/iOS/SnapKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.6.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "10219833846f5a2c3611e362842eebba"

@@ -23,7 +23,7 @@ final class MoviesScreenVCTests: BaseTestCase {
             alertData = $0
             expect.fulfill()
         }
-        moviesScreenVC.rootView.onUpdate = { $0.movies.first?.onFavoriteToogle() }
+        moviesScreenVC.rootView.onUpdate = { $0.movies.first?.onFavoriteToggle() }
         let movies = [ Movie(id: 1, title: "", posterPath: "", overview: "", releaseDate: "") ]
         let state = MoviesPagerProviderState(movies: movies, nextPage: 1, isLoadProgress: false, error: nil)
         
