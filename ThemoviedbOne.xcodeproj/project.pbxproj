@@ -38,6 +38,7 @@
 		DC1325CB24800B26002929D6 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1325CA24800B26002929D6 /* ApplicationCoordinator.swift */; };
 		DC1325CD24800CAC002929D6 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1325CC24800CAC002929D6 /* LoginCoordinator.swift */; };
 		DC1325D0248024D0002929D6 /* SessionRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1325CF248024D0002929D6 /* SessionRepositoryImpl.swift */; };
+		DC249B3524F367F600681B91 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBD73FC24F3673300644F99 /* SnapKit.framework */; };
 		DC77322D2480EBF0006AAEF7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77322C2480EBF0006AAEF7 /* Functions.swift */; };
 		DC7732302480EFFC006AAEF7 /* MoviesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77322F2480EFFC006AAEF7 /* MoviesCoordinator.swift */; };
 		DC7732342480F3F3006AAEF7 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7732332480F3F3006AAEF7 /* MoviesView.swift */; };
@@ -75,8 +76,6 @@
 		DCA1BADF247FB761000CED5E /* AuthenticatorServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BADE247FB761000CED5E /* AuthenticatorServiceImpl.swift */; };
 		DCA1BAE5247FBAF6000CED5E /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BAE3247FBAF6000CED5E /* MovieViewCell.swift */; };
 		DCA1BAE6247FBAF6000CED5E /* MovieViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA1BAE4247FBAF6000CED5E /* MovieViewCell.xib */; };
-		DCA1BB28247FC117000CED5E /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		DCA1BB2B247FC4FF000CED5E /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		DCA1BB2E247FC57C000CED5E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB2D247FC57C000CED5E /* ApiClient.swift */; };
 		DCA1BB30247FC60D000CED5E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB2F247FC60D000CED5E /* Configuration.swift */; };
 		DCA1BB32247FC689000CED5E /* ProductionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB31247FC689000CED5E /* ProductionConfiguration.swift */; };
@@ -99,6 +98,7 @@
 		DCB1111C24C3504B008DDFD6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111924C3504B008DDFD6 /* Alamofire.framework */; };
 		DCB1112024C3519D008DDFD6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111924C3504B008DDFD6 /* Alamofire.framework */; };
 		DCB1112124C3519D008DDFD6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */; };
+		DCBD73FD24F3673300644F99 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBD73FC24F3673300644F99 /* SnapKit.framework */; };
 		DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */; };
 /* End PBXBuildFile section */
 
@@ -205,6 +205,7 @@
 		DCA6194E249B398E001D8B83 /* KeychainWrapperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapperMock.swift; sourceTree = "<group>"; };
 		DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		DCB1111924C3504B008DDFD6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		DCBD73FC24F3673300644F99 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviewWithSameSize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -214,9 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCB1111A24C3504B008DDFD6 /* AlamofireImage.framework in Frameworks */,
-				DCA1BB28247FC117000CED5E /* (null) in Frameworks */,
-				DCA1BB2B247FC4FF000CED5E /* (null) in Frameworks */,
 				DCB1111C24C3504B008DDFD6 /* Alamofire.framework in Frameworks */,
+				DCBD73FD24F3673300644F99 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +226,7 @@
 			files = (
 				DCB1112024C3519D008DDFD6 /* Alamofire.framework in Frameworks */,
 				DCB1112124C3519D008DDFD6 /* AlamofireImage.framework in Frameworks */,
+				DC249B3524F367F600681B91 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,6 +742,7 @@
 		DCB1111724C3504B008DDFD6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCBD73FC24F3673300644F99 /* SnapKit.framework */,
 				DCB1111924C3504B008DDFD6 /* Alamofire.framework */,
 				DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */,
 			);
@@ -877,6 +879,7 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (
@@ -884,6 +887,7 @@
 			outputPaths = (
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/AlamofireImage.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
