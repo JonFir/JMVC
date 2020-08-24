@@ -67,7 +67,6 @@
 		DCA0332624A883E500E1993D /* UIAlertControllerCommonInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0332524A883E500E1993D /* UIAlertControllerCommonInputData.swift */; };
 		DCA0332824A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0332724A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift */; };
 		DCA1BAD0247F76C2000CED5E /* LoginScreenViewImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BACF247F76C2000CED5E /* LoginScreenViewImpl.swift */; };
-		DCA1BAD2247F76E4000CED5E /* LoginScreenViewImpl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA1BAD1247F76E4000CED5E /* LoginScreenViewImpl.xib */; };
 		DCA1BAD4247F7ADB000CED5E /* Optional+Execute.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BAD3247F7ADB000CED5E /* Optional+Execute.swift */; };
 		DCA1BAD6247F7C25000CED5E /* Optional+Apply.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BAD5247F7C25000CED5E /* Optional+Apply.swift */; };
 		DCA1BADA247F8147000CED5E /* LoginScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BAD9247F8147000CED5E /* LoginScreenVC.swift */; };
@@ -175,7 +174,6 @@
 		DCA0332524A883E500E1993D /* UIAlertControllerCommonInputData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertControllerCommonInputData.swift; sourceTree = "<group>"; };
 		DCA0332724A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+InitFromCommonInputData.swift"; sourceTree = "<group>"; };
 		DCA1BACF247F76C2000CED5E /* LoginScreenViewImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewImpl.swift; sourceTree = "<group>"; };
-		DCA1BAD1247F76E4000CED5E /* LoginScreenViewImpl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginScreenViewImpl.xib; sourceTree = "<group>"; };
 		DCA1BAD3247F7ADB000CED5E /* Optional+Execute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Execute.swift"; sourceTree = "<group>"; };
 		DCA1BAD5247F7C25000CED5E /* Optional+Apply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Apply.swift"; sourceTree = "<group>"; };
 		DCA1BAD9247F8147000CED5E /* LoginScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenVC.swift; sourceTree = "<group>"; };
@@ -622,7 +620,6 @@
 			isa = PBXGroup;
 			children = (
 				DCA1BACF247F76C2000CED5E /* LoginScreenViewImpl.swift */,
-				DCA1BAD1247F76E4000CED5E /* LoginScreenViewImpl.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -844,7 +841,6 @@
 				DC1325BB247FED0D002929D6 /* MovieListMock.json in Resources */,
 				DC00564D247E939B00D1C318 /* Assets.xcassets in Resources */,
 				DC1325BF247FED51002929D6 /* SearchMovieMock.json in Resources */,
-				DCA1BAD2247F76E4000CED5E /* LoginScreenViewImpl.xib in Resources */,
 				DC8F935D24810C88009F03E4 /* MoviesScreenViewImp.xib in Resources */,
 				DC1325B5247FECB1002929D6 /* MakeTokenMock.json in Resources */,
 				DC8F938324828E2D009F03E4 /* ErrorView.xib in Resources */,
