@@ -41,7 +41,6 @@
 		DC77322D2480EBF0006AAEF7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77322C2480EBF0006AAEF7 /* Functions.swift */; };
 		DC7732302480EFFC006AAEF7 /* MoviesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77322F2480EFFC006AAEF7 /* MoviesCoordinator.swift */; };
 		DC7732342480F3F3006AAEF7 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7732332480F3F3006AAEF7 /* MoviesView.swift */; };
-		DC7732362480F409006AAEF7 /* MoviesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7732352480F409006AAEF7 /* MoviesView.xib */; };
 		DC77323B2480F51F006AAEF7 /* MoviesScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77323A2480F51F006AAEF7 /* MoviesScreenVC.swift */; };
 		DC77323E2480FA6E006AAEF7 /* UITableView + dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC77323D2480FA6E006AAEF7 /* UITableView + dequeue.swift */; };
 		DC897A4524A888990030BC5A /* MoviesScreenVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC897A4424A888990030BC5A /* MoviesScreenVCTests.swift */; };
@@ -145,7 +144,6 @@
 		DC77322C2480EBF0006AAEF7 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		DC77322F2480EFFC006AAEF7 /* MoviesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCoordinator.swift; sourceTree = "<group>"; };
 		DC7732332480F3F3006AAEF7 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
-		DC7732352480F409006AAEF7 /* MoviesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesView.xib; sourceTree = "<group>"; };
 		DC77323A2480F51F006AAEF7 /* MoviesScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreenVC.swift; sourceTree = "<group>"; };
 		DC77323D2480FA6E006AAEF7 /* UITableView + dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + dequeue.swift"; sourceTree = "<group>"; };
 		DC897A4424A888990030BC5A /* MoviesScreenVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreenVCTests.swift; sourceTree = "<group>"; };
@@ -508,7 +506,6 @@
 			isa = PBXGroup;
 			children = (
 				DC7732332480F3F3006AAEF7 /* MoviesView.swift */,
-				DC7732352480F409006AAEF7 /* MoviesView.xib */,
 			);
 			path = MovieView;
 			sourceTree = "<group>";
@@ -823,7 +820,6 @@
 				DC1325C3247FEDF2002929D6 /* GetFavoriteMock.json in Resources */,
 				DC1325B7247FECDA002929D6 /* ValidateUserMock.json in Resources */,
 				DC005650247E939B00D1C318 /* LaunchScreen.storyboard in Resources */,
-				DC7732362480F409006AAEF7 /* MoviesView.xib in Resources */,
 				DCA1BAE6247FBAF6000CED5E /* MovieViewCell.xib in Resources */,
 				DC1325B9247FECF8002929D6 /* MakeSessionMock.json in Resources */,
 				DC1325C1247FEDBB002929D6 /* UpdateFavoriteMock.json in Resources */,

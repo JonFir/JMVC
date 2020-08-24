@@ -15,9 +15,9 @@ final class MoviesScreenViewImp: UIView, MoviesScreenView {
     
     let events = PassthroughSubject<MoviesScreenViewEvent, Never>()
     
-    private let moviesView = MoviesView.loadFromNib()
+    private let moviesView = MoviesView()
     private let zeroView = ZeroView.loadFromNib()
-    private let errorView = ErrorView.loadFromNib()
+    private let errorView = ErrorView()
     
     private let containerView =  UIStackView()
     

@@ -13,7 +13,7 @@ final class MovieScreenViewImpl: UIView, MovieScreenView {
     private let placeholderImage = UIImage(systemName: "photo")
     
     private let zeroView = ZeroView.loadFromNib()
-    private let errorView = ErrorView.loadFromNib()
+    private let errorView = ErrorView()
     
     private let scrollView = UIScrollView()
     private let stackContainer = UIStackView()

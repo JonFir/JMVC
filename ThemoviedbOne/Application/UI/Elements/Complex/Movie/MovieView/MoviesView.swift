@@ -10,9 +10,21 @@ final class MoviesView: UITableView {
     
     private var diffableDataSource: UITableViewDiffableDataSource<Section, MovieViewCellInputData>?
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    override init(frame: CGRect, style: UITableView.Style) {
+        super.init(frame: frame, style: style)
         
+        setup()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        setup()
+    }
+    
+    private func setup() {
+        backgroundColor = .white
+        rowHeight = 110
         delegate = self
         
         register(nibType: MovieViewCell.self)
