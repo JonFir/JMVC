@@ -1,5 +1,6 @@
 import UIKit
 import Combine
+import SnapKit
 
 protocol MoviesScreenView: UIView {
     
@@ -18,13 +19,18 @@ final class MoviesScreenViewImp: UIView, MoviesScreenView {
     private let zeroView = ZeroView.loadFromNib()
     private let errorView = ErrorView.loadFromNib()
     
-    @IBOutlet private var containerView: UIStackView!
+    private let containerView =  UIStackView()
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         
-        moviesView.onScrollAtEnd = { [weak self] in self?.events.send(.scrollAtEnd) }
-        [moviesView, zeroView, errorView].forEach(containerView.addArrangedSubview)
+        setup()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        setup()
     }
     
     @discardableResult
@@ -48,6 +54,28 @@ final class MoviesScreenViewImp: UIView, MoviesScreenView {
         }
         
         return self
+    }
+    
+    private func setupContainerView() {
+        containerView.axis = .vertical
+        containerView.distribution = .fill
+        containerView.alignment = .fill
+        containerView.spacing = 0
+        
+        addSubview(containerView)
+        
+        containerView.snp.makeConstraints {
+            $0.leading.top.trailing.equalTo(safeAreaLayoutGuide)
+            $0.bottom.equalToSuperview()
+        }
+    }
+    
+    private func setup() {
+        backgroundColor = .white
+        setupContainerView()
+        
+        moviesView.onScrollAtEnd = { [weak self] in self?.events.send(.scrollAtEnd) }
+        [moviesView, zeroView, errorView].forEach(containerView.addArrangedSubview)
     }
     
 }

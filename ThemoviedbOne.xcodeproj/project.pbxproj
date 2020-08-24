@@ -48,7 +48,6 @@
 		DC897A4724A889340030BC5A /* MoviesScreenViewMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC897A4624A889340030BC5A /* MoviesScreenViewMock.swift */; };
 		DC897A4924A88A690030BC5A /* MoviesPagerProviderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC897A4824A88A690030BC5A /* MoviesPagerProviderMock.swift */; };
 		DC8F935B24810B07009F03E4 /* MoviesScreenViewImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F935A24810B07009F03E4 /* MoviesScreenViewImp.swift */; };
-		DC8F935D24810C88009F03E4 /* MoviesScreenViewImp.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F935C24810C88009F03E4 /* MoviesScreenViewImp.xib */; };
 		DC8F935F24811232009F03E4 /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F935E24811232009F03E4 /* MovieService.swift */; };
 		DC8F9362248114AC009F03E4 /* MoviesPagerProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F9361248114AC009F03E4 /* MoviesPagerProviderImpl.swift */; };
 		DC8F93662481268C009F03E4 /* UIView+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F93652481268C009F03E4 /* UIView+hide.swift */; };
@@ -155,7 +154,6 @@
 		DC897A4624A889340030BC5A /* MoviesScreenViewMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreenViewMock.swift; sourceTree = "<group>"; };
 		DC897A4824A88A690030BC5A /* MoviesPagerProviderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPagerProviderMock.swift; sourceTree = "<group>"; };
 		DC8F935A24810B07009F03E4 /* MoviesScreenViewImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesScreenViewImp.swift; sourceTree = "<group>"; };
-		DC8F935C24810C88009F03E4 /* MoviesScreenViewImp.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesScreenViewImp.xib; sourceTree = "<group>"; };
 		DC8F935E24811232009F03E4 /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		DC8F9361248114AC009F03E4 /* MoviesPagerProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesPagerProviderImpl.swift; sourceTree = "<group>"; };
 		DC8F93652481268C009F03E4 /* UIView+hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+hide.swift"; sourceTree = "<group>"; };
@@ -523,7 +521,6 @@
 			isa = PBXGroup;
 			children = (
 				DC8F935A24810B07009F03E4 /* MoviesScreenViewImp.swift */,
-				DC8F935C24810C88009F03E4 /* MoviesScreenViewImp.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -841,7 +838,6 @@
 				DC1325BB247FED0D002929D6 /* MovieListMock.json in Resources */,
 				DC00564D247E939B00D1C318 /* Assets.xcassets in Resources */,
 				DC1325BF247FED51002929D6 /* SearchMovieMock.json in Resources */,
-				DC8F935D24810C88009F03E4 /* MoviesScreenViewImp.xib in Resources */,
 				DC1325B5247FECB1002929D6 /* MakeTokenMock.json in Resources */,
 				DC8F938324828E2D009F03E4 /* ErrorView.xib in Resources */,
 				DC005685247EB68500D1C318 /* ZeroView.xib in Resources */,
