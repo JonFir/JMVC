@@ -18,7 +18,6 @@
 		DC005687247EB88100D1C318 /* ZeroViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC005686247EB88100D1C318 /* ZeroViewData.swift */; };
 		DC00568B247EBD7E00D1C318 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC00568A247EBD7E00D1C318 /* Types.swift */; };
 		DC005692247EBF7400D1C318 /* SplashScreenViewImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC005691247EBF7400D1C318 /* SplashScreenViewImpl.swift */; };
-		DC005694247EBF8A00D1C318 /* SplashScreenViewImpl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC005693247EBF8A00D1C318 /* SplashScreenViewImpl.xib */; };
 		DC005697247EC01900D1C318 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC005696247EC01900D1C318 /* ContainerViewController.swift */; };
 		DC1325A9247FE10B002929D6 /* RequestBuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1325A8247FE10B002929D6 /* RequestBuilderImpl.swift */; };
 		DC1325AB247FE5A3002929D6 /* AccountApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1325AA247FE5A3002929D6 /* AccountApiClient.swift */; };
@@ -128,7 +127,6 @@
 		DC005686247EB88100D1C318 /* ZeroViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroViewData.swift; sourceTree = "<group>"; };
 		DC00568A247EBD7E00D1C318 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
 		DC005691247EBF7400D1C318 /* SplashScreenViewImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewImpl.swift; sourceTree = "<group>"; };
-		DC005693247EBF8A00D1C318 /* SplashScreenViewImpl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreenViewImpl.xib; sourceTree = "<group>"; };
 		DC005696247EC01900D1C318 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		DC1325A8247FE10B002929D6 /* RequestBuilderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilderImpl.swift; sourceTree = "<group>"; };
 		DC1325AA247FE5A3002929D6 /* AccountApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountApiClient.swift; sourceTree = "<group>"; };
@@ -441,7 +439,6 @@
 			isa = PBXGroup;
 			children = (
 				DC005691247EBF7400D1C318 /* SplashScreenViewImpl.swift */,
-				DC005693247EBF8A00D1C318 /* SplashScreenViewImpl.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -852,7 +849,6 @@
 				DC1325B5247FECB1002929D6 /* MakeTokenMock.json in Resources */,
 				DC8F938324828E2D009F03E4 /* ErrorView.xib in Resources */,
 				DC005685247EB68500D1C318 /* ZeroView.xib in Resources */,
-				DC005694247EBF8A00D1C318 /* SplashScreenViewImpl.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
