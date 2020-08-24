@@ -27,10 +27,10 @@ final class MoviesView: UITableView {
         rowHeight = 110
         delegate = self
         
-        register(nibType: MovieViewCell.self)
+        register(type: MovieViewCell.self)
         
         diffableDataSource = UITableViewDiffableDataSource<Section, MovieViewCellInputData>(tableView: self) { table, index, data in
-            table.dequeueReusableCell(withType: MovieViewCell.self, for: index).udapte(with: data)
+            table.dequeueReusableCell(withType: MovieViewCell.self, for: index).update(with: data)
         }
     }
     

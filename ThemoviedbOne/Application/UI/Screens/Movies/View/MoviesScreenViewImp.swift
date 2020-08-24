@@ -90,20 +90,3 @@ struct MoviesScreenViewInputData {
 enum MoviesScreenViewEvent {
     case scrollAtEnd
 }
-
-#if DEBUG
-
-import SwiftUI
-
-struct MoviesScreenViewImp_Previews: PreviewProvider {
-    static let data = MoviesScreenViewInputData(
-        movies: [],
-        zeroError: nil,
-        errorMessage: ErrorInputData.applicationError
-    )
-    static var previews: some View {
-        PreviewContainer(view: MoviesScreenViewImp.loadFromNib().udapte(with: Self.data))
-    }
-}
-
-#endif

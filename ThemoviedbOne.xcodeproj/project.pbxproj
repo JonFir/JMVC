@@ -69,7 +69,6 @@
 		DCA1BADC247F865B000CED5E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BADB247F865B000CED5E /* BaseViewController.swift */; };
 		DCA1BADF247FB761000CED5E /* AuthenticatorServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BADE247FB761000CED5E /* AuthenticatorServiceImpl.swift */; };
 		DCA1BAE5247FBAF6000CED5E /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BAE3247FBAF6000CED5E /* MovieViewCell.swift */; };
-		DCA1BAE6247FBAF6000CED5E /* MovieViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCA1BAE4247FBAF6000CED5E /* MovieViewCell.xib */; };
 		DCA1BB2E247FC57C000CED5E /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB2D247FC57C000CED5E /* ApiClient.swift */; };
 		DCA1BB30247FC60D000CED5E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB2F247FC60D000CED5E /* Configuration.swift */; };
 		DCA1BB32247FC689000CED5E /* ProductionConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1BB31247FC689000CED5E /* ProductionConfiguration.swift */; };
@@ -172,7 +171,6 @@
 		DCA1BADB247F865B000CED5E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		DCA1BADE247FB761000CED5E /* AuthenticatorServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorServiceImpl.swift; sourceTree = "<group>"; };
 		DCA1BAE3247FBAF6000CED5E /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
-		DCA1BAE4247FBAF6000CED5E /* MovieViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieViewCell.xib; sourceTree = "<group>"; };
 		DCA1BB2D247FC57C000CED5E /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		DCA1BB2F247FC60D000CED5E /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		DCA1BB31247FC689000CED5E /* ProductionConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionConfiguration.swift; sourceTree = "<group>"; };
@@ -497,7 +495,6 @@
 			isa = PBXGroup;
 			children = (
 				DCA1BAE3247FBAF6000CED5E /* MovieViewCell.swift */,
-				DCA1BAE4247FBAF6000CED5E /* MovieViewCell.xib */,
 			);
 			path = MovieViewCell;
 			sourceTree = "<group>";
@@ -820,7 +817,6 @@
 				DC1325C3247FEDF2002929D6 /* GetFavoriteMock.json in Resources */,
 				DC1325B7247FECDA002929D6 /* ValidateUserMock.json in Resources */,
 				DC005650247E939B00D1C318 /* LaunchScreen.storyboard in Resources */,
-				DCA1BAE6247FBAF6000CED5E /* MovieViewCell.xib in Resources */,
 				DC1325B9247FECF8002929D6 /* MakeSessionMock.json in Resources */,
 				DC1325C1247FEDBB002929D6 /* UpdateFavoriteMock.json in Resources */,
 				DC1325BD247FED32002929D6 /* MoviewMock.json in Resources */,

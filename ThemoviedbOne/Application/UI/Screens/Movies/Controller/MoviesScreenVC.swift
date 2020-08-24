@@ -73,7 +73,7 @@ final class MoviesScreenVC<View: MoviesScreenView>: BaseViewController<View> {
             description: movie.overview,
             isFavorite: false,
             onSelect: { [weak self] in self?.onSelectMovie?(movie.id) },
-            onFavoriteToogle: { [weak self] in self?.showShowFavoriteAlert() }
+            onFavoriteToggle: { [weak self] in self?.showShowFavoriteAlert() }
         )
     }
     

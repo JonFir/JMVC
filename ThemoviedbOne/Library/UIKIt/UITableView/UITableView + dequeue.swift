@@ -7,10 +7,8 @@ extension UITableView {
         return cell
     }
     
-    func register<View: UITableViewCell>(nibType: View.Type) {
-        let identifier = String(describing: nibType)
-        let bundle = Bundle(for: nibType)
-        let nib = UINib(nibName: identifier, bundle: bundle)
-        self.register(nib, forCellReuseIdentifier: identifier)
+    func register<View: UITableViewCell>(type: View.Type) {
+        let identifier = String(describing: type)
+        self.register(type, forCellReuseIdentifier: identifier)
     }
 }
