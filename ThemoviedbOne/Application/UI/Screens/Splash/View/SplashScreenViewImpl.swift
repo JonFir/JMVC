@@ -26,6 +26,8 @@ final class SplashScreenViewImpl: UIView, SplashScreenView {
     // MARK: - Private Methods
     
     private func setup() {
+        backgroundColor = .white
+        
         imageView.image = UIImage(systemName: "clock")
         addSubview(imageView)
         
