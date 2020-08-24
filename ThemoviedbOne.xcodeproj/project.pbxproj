@@ -57,7 +57,6 @@
 		DC8F937C248260FE009F03E4 /* MovieScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F937B248260FE009F03E4 /* MovieScreenVC.swift */; };
 		DC8F937E24827068009F03E4 /* MovieProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F937D24827068009F03E4 /* MovieProviderImpl.swift */; };
 		DC8F938124828E0F009F03E4 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F938024828E0F009F03E4 /* ErrorView.swift */; };
-		DC8F938324828E2D009F03E4 /* ErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F938224828E2D009F03E4 /* ErrorView.xib */; };
 		DC9CD9D9249BCDA300153784 /* authentication_token_validate_with_login_post.json in Resources */ = {isa = PBXBuildFile; fileRef = DC9CD9D8249BCDA300153784 /* authentication_token_validate_with_login_post.json */; };
 		DC9CD9DB249BD02500153784 /* authentication_session_new_post.json in Resources */ = {isa = PBXBuildFile; fileRef = DC9CD9DA249BD02500153784 /* authentication_session_new_post.json */; };
 		DC9CD9DD249BD11D00153784 /* AuthenticatorServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9CD9DC249BD11D00153784 /* AuthenticatorServiceTests.swift */; };
@@ -162,7 +161,6 @@
 		DC8F937B248260FE009F03E4 /* MovieScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScreenVC.swift; sourceTree = "<group>"; };
 		DC8F937D24827068009F03E4 /* MovieProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProviderImpl.swift; sourceTree = "<group>"; };
 		DC8F938024828E0F009F03E4 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
-		DC8F938224828E2D009F03E4 /* ErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorView.xib; sourceTree = "<group>"; };
 		DC9CD9D8249BCDA300153784 /* authentication_token_validate_with_login_post.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authentication_token_validate_with_login_post.json; sourceTree = "<group>"; };
 		DC9CD9DA249BD02500153784 /* authentication_session_new_post.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = authentication_session_new_post.json; sourceTree = "<group>"; };
 		DC9CD9DC249BD11D00153784 /* AuthenticatorServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatorServiceTests.swift; sourceTree = "<group>"; };
@@ -576,7 +574,6 @@
 			isa = PBXGroup;
 			children = (
 				DC8F938024828E0F009F03E4 /* ErrorView.swift */,
-				DC8F938224828E2D009F03E4 /* ErrorView.xib */,
 			);
 			path = ErrorView;
 			sourceTree = "<group>";
@@ -835,7 +832,6 @@
 				DC00564D247E939B00D1C318 /* Assets.xcassets in Resources */,
 				DC1325BF247FED51002929D6 /* SearchMovieMock.json in Resources */,
 				DC1325B5247FECB1002929D6 /* MakeTokenMock.json in Resources */,
-				DC8F938324828E2D009F03E4 /* ErrorView.xib in Resources */,
 				DC005685247EB68500D1C318 /* ZeroView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
