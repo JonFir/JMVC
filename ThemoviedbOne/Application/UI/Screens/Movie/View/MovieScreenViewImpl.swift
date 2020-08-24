@@ -1,4 +1,5 @@
 import UIKit
+import SnapKit
 
 protocol MovieScreenView: UIView {
     
@@ -14,9 +15,24 @@ final class MovieScreenViewImpl: UIView, MovieScreenView {
     private let zeroView = ZeroView.loadFromNib()
     private let errorView = ErrorView.loadFromNib()
     
-    @IBOutlet private var posterView: UIImageView!
-    @IBOutlet private var dateView: UILabel!
-    @IBOutlet private var descriptionView: UILabel!
+    private let scrollView = UIScrollView()
+    private let stackContainer = UIStackView()
+    private let posterView = UIImageView()
+    private let infoContainerView = UIStackView()
+    private let dateView = UILabel()
+    private let descriptionView = UILabel()
+
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        setup()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        
+        setup()
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -55,6 +71,80 @@ final class MovieScreenViewImpl: UIView, MovieScreenView {
         
         dateView.text = movie.date
         descriptionView.text = movie.description
+    }
+    
+    private func setupScrollView() {
+        addSubview(scrollView)
+        
+        scrollView.snp.makeConstraints {
+            $0.leading.trailing.equalToSuperview()
+            $0.top.bottom.equalTo(safeAreaLayoutGuide)
+        }
+    }
+    
+    private func setupStackContainer() {
+        stackContainer.axis = .vertical
+        stackContainer.distribution = .fill
+        stackContainer.alignment = .fill
+        stackContainer.spacing = 20
+        
+        scrollView.addSubview(stackContainer)
+        
+        stackContainer.snp.makeConstraints {
+            $0.edges.width.equalToSuperview()
+        }
+    }
+    
+    private func setupPosterView() {
+        posterView.backgroundColor = .black
+        posterView.contentMode = .scaleAspectFit
+        posterView.clipsToBounds = true
+        
+        stackContainer.addArrangedSubview(posterView)
+        
+        posterView.snp.makeConstraints {
+            $0.width.equalTo(posterView.snp.height)
+        }
+    }
+    
+    private func setupInfoContainerView() {
+        infoContainerView.axis = .vertical
+        infoContainerView.distribution = .fill
+        infoContainerView.alignment = .fill
+        infoContainerView.spacing = 20
+        infoContainerView.isLayoutMarginsRelativeArrangement = true
+        infoContainerView.directionalLayoutMargins = NSDirectionalEdgeInsets(
+            top: 0,
+            leading: 16,
+            bottom: 34,
+            trailing: 16
+        )
+        
+        stackContainer.addArrangedSubview(infoContainerView)
+    }
+    
+    private func setupDateView() {
+        dateView.textColor = .systemGray2
+        dateView.font = .preferredFont(forTextStyle: .subheadline)
+        
+        infoContainerView.addArrangedSubview(dateView)
+    }
+    
+    private func setupDescriptionView() {
+        descriptionView.font = .preferredFont(forTextStyle: .body)
+        descriptionView.numberOfLines = .zero
+        
+        infoContainerView.addArrangedSubview(descriptionView)
+    }
+    
+    private func setup() {
+        backgroundColor = .white
+        setupScrollView()
+        setupStackContainer()
+        setupPosterView()
+        setupInfoContainerView()
+        setupDateView()
+        setupDescriptionView()
     }
 }
 

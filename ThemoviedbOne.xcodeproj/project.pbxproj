@@ -53,7 +53,6 @@
 		DC8F93662481268C009F03E4 /* UIView+hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F93652481268C009F03E4 /* UIView+hide.swift */; };
 		DC8F936A248128C1009F03E4 /* LoginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F9369248128C1009F03E4 /* LoginProvider.swift */; };
 		DC8F937524825846009F03E4 /* MovieScreenViewImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F937424825846009F03E4 /* MovieScreenViewImpl.swift */; };
-		DC8F93772482586C009F03E4 /* MovieScreenViewImpl.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8F93762482586C009F03E4 /* MovieScreenViewImpl.xib */; };
 		DC8F937A248258DD009F03E4 /* PreviewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F9379248258DD009F03E4 /* PreviewContainer.swift */; };
 		DC8F937C248260FE009F03E4 /* MovieScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F937B248260FE009F03E4 /* MovieScreenVC.swift */; };
 		DC8F937E24827068009F03E4 /* MovieProviderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8F937D24827068009F03E4 /* MovieProviderImpl.swift */; };
@@ -159,7 +158,6 @@
 		DC8F93652481268C009F03E4 /* UIView+hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+hide.swift"; sourceTree = "<group>"; };
 		DC8F9369248128C1009F03E4 /* LoginProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProvider.swift; sourceTree = "<group>"; };
 		DC8F937424825846009F03E4 /* MovieScreenViewImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScreenViewImpl.swift; sourceTree = "<group>"; };
-		DC8F93762482586C009F03E4 /* MovieScreenViewImpl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieScreenViewImpl.xib; sourceTree = "<group>"; };
 		DC8F9379248258DD009F03E4 /* PreviewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewContainer.swift; sourceTree = "<group>"; };
 		DC8F937B248260FE009F03E4 /* MovieScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieScreenVC.swift; sourceTree = "<group>"; };
 		DC8F937D24827068009F03E4 /* MovieProviderImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProviderImpl.swift; sourceTree = "<group>"; };
@@ -554,7 +552,6 @@
 			isa = PBXGroup;
 			children = (
 				DC8F937424825846009F03E4 /* MovieScreenViewImpl.swift */,
-				DC8F93762482586C009F03E4 /* MovieScreenViewImpl.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -830,7 +827,6 @@
 				DC1325B7247FECDA002929D6 /* ValidateUserMock.json in Resources */,
 				DC005650247E939B00D1C318 /* LaunchScreen.storyboard in Resources */,
 				DC7732362480F409006AAEF7 /* MoviesView.xib in Resources */,
-				DC8F93772482586C009F03E4 /* MovieScreenViewImpl.xib in Resources */,
 				DCA1BAE6247FBAF6000CED5E /* MovieViewCell.xib in Resources */,
 				DC1325B9247FECF8002929D6 /* MakeSessionMock.json in Resources */,
 				DC1325C1247FEDBB002929D6 /* UpdateFavoriteMock.json in Resources */,
