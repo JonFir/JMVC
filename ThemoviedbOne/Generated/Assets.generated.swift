@@ -18,6 +18,22 @@
 
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 internal enum Asset {
+  internal static let back = ImageAsset(name: "Back")
+  internal static let calendar = ImageAsset(name: "Calendar")
+  internal static let close = ImageAsset(name: "Close")
+  internal static let diary = ImageAsset(name: "Diary")
+  internal static let downSmall = ImageAsset(name: "Down Small")
+  internal static let down = ImageAsset(name: "Down")
+  internal static let edit = ImageAsset(name: "Edit")
+  internal static let minus = ImageAsset(name: "Minus")
+  internal static let more = ImageAsset(name: "More")
+  internal static let plus = ImageAsset(name: "Plus")
+  internal static let profile = ImageAsset(name: "Profile")
+  internal static let question = ImageAsset(name: "Question")
+  internal static let statistics = ImageAsset(name: "Statistics")
+  internal static let trash = ImageAsset(name: "Trash")
+  internal static let upSmall = ImageAsset(name: "Up Small")
+  internal static let up = ImageAsset(name: "Up")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
 

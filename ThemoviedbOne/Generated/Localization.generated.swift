@@ -13,6 +13,11 @@ import Foundation
 internal enum Localizations {
   private static var englishBundle = Bundle(url: Bundle(for: BundleToken.self)
     .url(forResource: "en", withExtension: "lproj")!)!
+
+  internal enum SplashScreen {
+    /// Splash
+    internal static let title = Localizations.tr("Localizations", "SplashScreen.title")
+  }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:enable nesting type_body_length type_name

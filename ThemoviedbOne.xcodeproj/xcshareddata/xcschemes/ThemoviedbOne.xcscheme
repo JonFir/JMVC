@@ -73,13 +73,13 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "isTesting"
-            isEnabled = "YES">
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "startFlow"
-            value = "splash"
+            value = "loginNotInternet"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

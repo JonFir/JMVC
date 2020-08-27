@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>97186E11-751E-4BF4-9A2B-14716F71C164</key>
+		<key>21A946B0-436B-4AE9-9A90-88900553DDBB</key>
 		<dict>
 			<key>className</key>
 			<string>IDESchemeActionsInvocationRecord</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Test-ScreenshotsTests-2020.08.24_16-17-45-+0700.xcresult</string>
+			<string>Test-ScreenshotsTests-2020.08.27_00-51-05-+0700.xcresult</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,13 @@
 			<key>signature</key>
 			<string>Test ScreenshotsTests</string>
 			<key>timeStartedRecording</key>
-			<real>619953465.44213903</real>
+			<real>620157065.48127496</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Test ScreenshotsTests</string>
 			<key>uniqueIdentifier</key>
-			<string>97186E11-751E-4BF4-9A2B-14716F71C164</string>
+			<string>21A946B0-436B-4AE9-9A90-88900553DDBB</string>
 		</dict>
 	</dict>
 </dict>

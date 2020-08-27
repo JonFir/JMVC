@@ -277,11 +277,21 @@ SWIFT_CLASS("_TtC13ThemoviedbOne10MoviesView")
 @end
 
 
+
+
 SWIFT_CLASS("_TtC13ThemoviedbOne20SplashScreenViewImpl")
 @interface SplashScreenViewImpl : UIView
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+
+
+
+
 
 
 

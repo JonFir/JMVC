@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		DDwToW2XR9RgyrOT5VKTQCuWR/U=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
 		7FI0ruOVUM0sdQswADHY8+AyhIY=
@@ -58,7 +62,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		h5sw16G+1wo58mZKZoGNZrjtRyc=
+		07Godrc5TST6baURxHCOxrGmBPo=
 		</data>
 		<key>MakeSessionMock.json</key>
 		<data>
@@ -84,6 +88,10 @@
 		<data>
 		UabtUetm4ackt+swukJPGuheuGU=
 		</data>
+		<key>Ubuntu-Regular.ttf</key>
+		<data>
+		MbZEk4TD/o0QpIOBT+aDAtwFSF8=
+		</data>
 		<key>UpdateFavoriteMock.json</key>
 		<data>
 		YinIV3c6DaCJEKKCXOjCNdvFNV8=
@@ -100,7 +108,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zmV6UqBSo6r1NOz798vd5O4zTBA=
+			gcMjQikzorDS7ommsK8TmaK2KOA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -108,6 +116,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Zej9wcCBhqe1p9xO7v2tdT6ZQTtjTicUK8TMqLBSly4=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -234,6 +249,13 @@
 			OvrQe5CCXOLU99E5CrLPJfb4UFydaFzmpM17F21cubQ=
 			</data>
 		</dict>
+		<key>Ubuntu-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			usZGH+s0iOXTMOfpQ0/I4MUTqjwee1dZjqsWVOEFWhQ=
+			</data>
+		</dict>
 		<key>UpdateFavoriteMock.json</key>
 		<dict>
 			<key>hash2</key>
@@ -259,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kmHsztpgjvF0JW5f3HdMHm49z1M0CcG8OT1JDQHHE/E=
+			+P62asQsshg2JGEB3fBTUP6Xpi+0jbezTPjeurE4U78=
 			</data>
 			<key>optional</key>
 			<true/>

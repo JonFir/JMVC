@@ -5,6 +5,7 @@
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/Model/Provider/MovieProviderImpl.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/UI/Coordinators/StartCoordinator.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/UI/Coordinators/LoginCoordinator.swift
+/Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/UI/Elements/Basic/Colors/Colors+App.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/TestsSpecs/Environment/StartFlow.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/UI/Screens/Movie/Controller/MovieScreenVC.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Library/UIKIt/UIVIew/UIView+hide.swift
@@ -21,6 +22,7 @@
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/DI/Di.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Library/UIKIt/UIViewController/BaseViewController.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/Model/ApiClient/FavoriteApiClient.swift
+/Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Generated/Fonts.generated.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/UI/Elements/Complex/ZeroView/ZeroViewData.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Library/UIKIt/UIViewController/ContainerViewController.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Library/Coordinator/Router.swift
@@ -31,6 +33,7 @@
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/UI/Coordinators/ApplicationCoordinator.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Library/Foundation/Keychain/KeychainItemAccessibility.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Library/UIKIt/UIAlertController/UIAlertController+InitFromCommonInputData.swift
+/Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Generated/Localization.generated.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/UI/Elements/Complex/ZeroView/ZeroView.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/TestsSpecs/Mocks/DiScreenshotMock.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/Model/Entity/Movie.swift
@@ -44,6 +47,7 @@
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/Model/ApiClient/BaseJsonDecoder.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Library/UIKIt/UIVIew/UIView+addSubviewWithSameSize.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/UI/Screens/Movie/View/MovieScreenViewImpl.swift
+/Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Generated/Assets.generated.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/UI/Elements/Complex/ErrorView/ErrorView.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/Model/ApiClient/AccountApiClient.swift
 /Users/jonfir/develop/lessons_gb/ThemoviedbOne/ThemoviedbOne/Application/Model/AppDelegate/AppDelegate.swift

@@ -16,7 +16,7 @@ final class ApplicationCoordinatorScreenshotMock: Coordinator {
         switch TestConfiguration.shared.startFlow {
         case .splash:
             showSplash()
-        case .login, .loginWrongLogin, .loginNotInternet:
+        case .loginWrongLogin, .login, .loginNotInternet:
             showLogin()
         }
     }

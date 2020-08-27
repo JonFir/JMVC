@@ -21,9 +21,15 @@ final class SplashScreenVC<View: SplashScreenView>: BaseViewController<View> {
         checkLoginStatus()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        rootView.showCrown()
+    }
+    
     private func checkLoginStatus() {
         let isLogin = loginStatusProvider.isLogin
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
             self.onCheck?(isLogin)
         }
         

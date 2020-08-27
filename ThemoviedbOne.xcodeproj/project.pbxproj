@@ -92,6 +92,11 @@
 		DCB1111C24C3504B008DDFD6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111924C3504B008DDFD6 /* Alamofire.framework */; };
 		DCB1112024C3519D008DDFD6 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111924C3504B008DDFD6 /* Alamofire.framework */; };
 		DCB1112124C3519D008DDFD6 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */; };
+		DCBBC45C24F6BC6C002580CE /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCBBC45B24F6BC6C002580CE /* Ubuntu-Regular.ttf */; };
+		DCBBC46024F6BCA0002580CE /* Localization.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBC45D24F6BCA0002580CE /* Localization.generated.swift */; };
+		DCBBC46124F6BCA0002580CE /* Assets.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBC45E24F6BCA0002580CE /* Assets.generated.swift */; };
+		DCBBC46224F6BCA0002580CE /* Fonts.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBC45F24F6BCA0002580CE /* Fonts.generated.swift */; };
+		DCBBC46624F6CBFE002580CE /* Colors+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBBC46524F6CBFE002580CE /* Colors+App.swift */; };
 		DCBD73FD24F3673300644F99 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBD73FC24F3673300644F99 /* SnapKit.framework */; };
 		DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */; };
 		DCC4E48A24F3846700C82798 /* Localizations.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCC4E48C24F3846700C82798 /* Localizations.strings */; };
@@ -104,17 +109,17 @@
 		DCC4E4BD24F388B500C82798 /* MovieProviderScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4BC24F388B500C82798 /* MovieProviderScreenshotMock.swift */; };
 		DCC4E4BF24F3891000C82798 /* LoginStatusProviderScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4BE24F3891000C82798 /* LoginStatusProviderScreenshotMock.swift */; };
 		DCC4E4C124F38F2300C82798 /* ApplicationCoordinatorScreenshotMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4C024F38F2300C82798 /* ApplicationCoordinatorScreenshotMock.swift */; };
-		DCC4E4D624F3949300C82798 /* SplashScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4D524F3949300C82798 /* SplashScreenTests.swift */; };
 		DCC4E4D924F3950000C82798 /* StartFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4A324F3856D00C82798 /* StartFlow.swift */; };
 		DCC4E4DA24F3950000C82798 /* TestConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4A424F3856D00C82798 /* TestConfiguration.swift */; };
 		DCC4E4DB24F3955100C82798 /* ProcessInfoEnvironmentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4A224F3856D00C82798 /* ProcessInfoEnvironmentProvider.swift */; };
 		DCC4E4F024F3988A00C82798 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC4E4EA24F3985F00C82798 /* Alamofire.framework */; };
 		DCC4E4F124F3988A00C82798 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC4E4EB24F3985F00C82798 /* AlamofireImage.framework */; };
 		DCC4E4F224F3988A00C82798 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC4E4EC24F3985F00C82798 /* SnapKit.framework */; };
-		DCC4E4F424F398D600C82798 /* LoginScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC4E4F324F398D600C82798 /* LoginScreenTests.swift */; };
 		DCC4E4F524F3991300C82798 /* Alamofire.framework in Carthage */ = {isa = PBXBuildFile; fileRef = DCC4E4EA24F3985F00C82798 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DCC4E4F624F3991300C82798 /* AlamofireImage.framework in Carthage */ = {isa = PBXBuildFile; fileRef = DCC4E4EB24F3985F00C82798 /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DCC4E4F724F3991300C82798 /* SnapKit.framework in Carthage */ = {isa = PBXBuildFile; fileRef = DCC4E4EC24F3985F00C82798 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DCF082E924F6D78B00FA9FE4 /* SplashScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF082E724F6D78B00FA9FE4 /* SplashScreenTests.swift */; };
+		DCF082EA24F6D78B00FA9FE4 /* LoginScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF082E824F6D78B00FA9FE4 /* LoginScreenTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -237,6 +242,11 @@
 		DCA6194E249B398E001D8B83 /* KeychainWrapperMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapperMock.swift; sourceTree = "<group>"; };
 		DCB1111824C3504B008DDFD6 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
 		DCB1111924C3504B008DDFD6 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		DCBBC45B24F6BC6C002580CE /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		DCBBC45D24F6BCA0002580CE /* Localization.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.generated.swift; sourceTree = "<group>"; };
+		DCBBC45E24F6BCA0002580CE /* Assets.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.generated.swift; sourceTree = "<group>"; };
+		DCBBC45F24F6BCA0002580CE /* Fonts.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.generated.swift; sourceTree = "<group>"; };
+		DCBBC46524F6CBFE002580CE /* Colors+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+App.swift"; sourceTree = "<group>"; };
 		DCBD73FC24F3673300644F99 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		DCBE544A2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviewWithSameSize.swift"; sourceTree = "<group>"; };
 		DCC4E48B24F3846700C82798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizations.strings; sourceTree = "<group>"; };
@@ -251,11 +261,11 @@
 		DCC4E4C024F38F2300C82798 /* ApplicationCoordinatorScreenshotMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinatorScreenshotMock.swift; sourceTree = "<group>"; };
 		DCC4E4C624F393EE00C82798 /* ThemoviedbOneScreenshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThemoviedbOneScreenshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC4E4CA24F393EE00C82798 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCC4E4D524F3949300C82798 /* SplashScreenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenTests.swift; sourceTree = "<group>"; };
 		DCC4E4EA24F3985F00C82798 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
 		DCC4E4EB24F3985F00C82798 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = SOURCE_ROOT; };
 		DCC4E4EC24F3985F00C82798 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
-		DCC4E4F324F398D600C82798 /* LoginScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenTests.swift; sourceTree = "<group>"; };
+		DCF082E724F6D78B00FA9FE4 /* SplashScreenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenTests.swift; sourceTree = "<group>"; };
+		DCF082E824F6D78B00FA9FE4 /* LoginScreenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreenTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -445,6 +455,7 @@
 		DC00567E247EB5E000D1C318 /* Elements */ = {
 			isa = PBXGroup;
 			children = (
+				DCBBC46324F6CBE6002580CE /* Basic */,
 				DC00567F247EB60200D1C318 /* Complex */,
 			);
 			path = Elements;
@@ -807,6 +818,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DCBBC46324F6CBE6002580CE /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				DCBBC46424F6CBEF002580CE /* Colors */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		DCBBC46424F6CBEF002580CE /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				DCBBC46524F6CBFE002580CE /* Colors+App.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
 		DCC4E48724F3842A00C82798 /* Localizations */ = {
 			isa = PBXGroup;
 			children = (
@@ -818,6 +845,9 @@
 		DCC4E48D24F3846F00C82798 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				DCBBC45E24F6BCA0002580CE /* Assets.generated.swift */,
+				DCBBC45F24F6BCA0002580CE /* Fonts.generated.swift */,
+				DCBBC45D24F6BCA0002580CE /* Localization.generated.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -825,6 +855,7 @@
 		DCC4E49024F3849A00C82798 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				DCBBC45B24F6BC6C002580CE /* Ubuntu-Regular.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -883,8 +914,8 @@
 		DCC4E4D424F3947E00C82798 /* ScreenshotTests */ = {
 			isa = PBXGroup;
 			children = (
-				DCC4E4D524F3949300C82798 /* SplashScreenTests.swift */,
-				DCC4E4F324F398D600C82798 /* LoginScreenTests.swift */,
+				DCF082E724F6D78B00FA9FE4 /* SplashScreenTests.swift */,
+				DCF082E824F6D78B00FA9FE4 /* LoginScreenTests.swift */,
 			);
 			path = ScreenshotTests;
 			sourceTree = "<group>";
@@ -1022,6 +1053,7 @@
 				DC1325BF247FED51002929D6 /* SearchMovieMock.json in Resources */,
 				DC1325B5247FECB1002929D6 /* MakeTokenMock.json in Resources */,
 				DC005685247EB68500D1C318 /* ZeroView.xib in Resources */,
+				DCBBC45C24F6BC6C002580CE /* Ubuntu-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1101,6 +1133,7 @@
 				DC8F937E24827068009F03E4 /* MovieProviderImpl.swift in Sources */,
 				DCA618C024969318001D8B83 /* StartCoordinator.swift in Sources */,
 				DC1325CD24800CAC002929D6 /* LoginCoordinator.swift in Sources */,
+				DCBBC46624F6CBFE002580CE /* Colors+App.swift in Sources */,
 				DCC4E4B324F3856D00C82798 /* StartFlow.swift in Sources */,
 				DC8F937C248260FE009F03E4 /* MovieScreenVC.swift in Sources */,
 				DC8F93662481268C009F03E4 /* UIView+hide.swift in Sources */,
@@ -1117,6 +1150,7 @@
 				DC005675247E98D300D1C318 /* Di.swift in Sources */,
 				DCA1BADC247F865B000CED5E /* BaseViewController.swift in Sources */,
 				DC1325AF247FE5E9002929D6 /* FavoriteApiClient.swift in Sources */,
+				DCBBC46224F6BCA0002580CE /* Fonts.generated.swift in Sources */,
 				DC005687247EB88100D1C318 /* ZeroViewData.swift in Sources */,
 				DC005697247EC01900D1C318 /* ContainerViewController.swift in Sources */,
 				DC1325C924800A1A002929D6 /* Router.swift in Sources */,
@@ -1127,6 +1161,7 @@
 				DC1325CB24800B26002929D6 /* ApplicationCoordinator.swift in Sources */,
 				DCA618B824968C44001D8B83 /* KeychainItemAccessibility.swift in Sources */,
 				DCA0332824A8861B00E1993D /* UIAlertController+InitFromCommonInputData.swift in Sources */,
+				DCBBC46024F6BCA0002580CE /* Localization.generated.swift in Sources */,
 				DC005683247EB67800D1C318 /* ZeroView.swift in Sources */,
 				DCC4E4B724F385F400C82798 /* DiScreenshotMock.swift in Sources */,
 				DC1325B2247FE66A002929D6 /* Movie.swift in Sources */,
@@ -1140,6 +1175,7 @@
 				DCA6194D249B3358001D8B83 /* BaseJsonDecoder.swift in Sources */,
 				DCBE544B2482ACEF0028337B /* UIView+addSubviewWithSameSize.swift in Sources */,
 				DC8F937524825846009F03E4 /* MovieScreenViewImpl.swift in Sources */,
+				DCBBC46124F6BCA0002580CE /* Assets.generated.swift in Sources */,
 				DC8F938124828E0F009F03E4 /* ErrorView.swift in Sources */,
 				DC1325AB247FE5A3002929D6 /* AccountApiClient.swift in Sources */,
 				DC005644247E939A00D1C318 /* AppDelegate.swift in Sources */,
@@ -1185,9 +1221,9 @@
 			files = (
 				DCC4E4D924F3950000C82798 /* StartFlow.swift in Sources */,
 				DCC4E4DA24F3950000C82798 /* TestConfiguration.swift in Sources */,
-				DCC4E4F424F398D600C82798 /* LoginScreenTests.swift in Sources */,
 				DCC4E4DB24F3955100C82798 /* ProcessInfoEnvironmentProvider.swift in Sources */,
-				DCC4E4D624F3949300C82798 /* SplashScreenTests.swift in Sources */,
+				DCF082EA24F6D78B00FA9FE4 /* LoginScreenTests.swift in Sources */,
+				DCF082E924F6D78B00FA9FE4 /* SplashScreenTests.swift in Sources */,
 				DC2AC0EC24F3A51600D50E0F /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -35,6 +35,12 @@ class LoginScreenTests: XCTestCase {
         app.launchEnvironment = [TestConfiguration.Key.startFlow.rawValue: StartFlow.loginNotInternet.rawValue]
         app.launch()
         
+        (app.textFields["loginInput"] as! UITextField).text = "TestTest"
+        (app.textFields["loginInput"] as! UITextField).sendActions(for: .editingChanged)
+        (app.textFields["passwordInput"] as! UITextField).text = "TestTest"
+        (app.textFields["passwordInput"] as! UITextField).sendActions(for: .editingChanged)
+
+        
         snapshot("LoginScreen_notInternet_02")
         app.buttons["authButton"].tap()
         snapshot("LoginScreen_notInternet_03")

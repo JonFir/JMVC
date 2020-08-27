@@ -4,7 +4,7 @@ import Foundation
 enum StartFlow: String {
     case splash
     case login
-    case loginWrongLogin
     case loginNotInternet
+    case loginWrongLogin
 }
 #endif
